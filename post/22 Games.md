@@ -2,21 +2,19 @@
 permalink: "/year-in-videogames-22"
 ---
 
+## Year in Videogames 2022
+
 Benvenuti nella seconda edizione della rubrica **Year in Videogames**, un recap annuale dei titoli giocati nel corso dell'anno per ricordare i punti più alti (e bassi) della mia carriera videoludica.
 
 <div class="highlight" id="highlight-grey"> Come sempre, ricordatevi di leggere il <a href="https://kiritokitto.bearblog.dev/awardrules/">regolamento delle premiazioni</a></div>
 
 ---
 
-**Emotional Award:** titoli che hanno avuto per me un forte impatto emotivo o di cui riconosco l'alto valore qualitativo.
+**Great Game Award:** titoli che rientrano tra i titoli più memorabili dell'anno per la loro qualità o impatto emotivo.
 * Death Stranding
 * Elden Ring
 * Superliminal
 * Xenoblade Chronicles: DE
-  
----
-
-**Great Game Award:** titoli che non hanno vinto il premio "Emotional Award" ma sono tra i titoli più memorabili dell'anno per la loro qualità o per esperienza personale.
 * Xenoblade Chronicles 3
 * Marvel's Spiderman
 * Kirby and the Forgotten Land
@@ -78,7 +76,7 @@ Benvenuti nella seconda edizione della rubrica **Year in Videogames**, un recap 
 
 **Honorable Mention:** titoli che non sono riusciti a vincere un premio.
 
-<h4 class="opacity"> Tripla A </h1>
+Tripla A
 
 * Dark Souls
 * Metroid Dread
@@ -89,7 +87,7 @@ Benvenuti nella seconda edizione della rubrica **Year in Videogames**, un recap 
 * God of War
 * Portal 2
 
-<h4 class="opacity"> Indie </h1>
+Indie
 
 * Exo One
 * Cuphead
@@ -104,6 +102,4 @@ Benvenuti nella seconda edizione della rubrica **Year in Videogames**, un recap 
   
 ---
 
-<span class="opacity"> Other games I played: Abzu, Solar Ash, Journey, Assassin's Creed, EuroTruck Simulator 2, Battlefield: Bad Company 2, Brawlhalla, Bus Simulator 21, Cult of the Lamb, Dicey Dungeon, Fall Guys, Finding Paradise, Getting Over It, Ghostrunner, Impostor Factory, Mario Kart 7, Minecraft, Mini Motorways, Myst, Narita Boy, OneShot, Portal, Recompile, Riders Republic, Road 96, Rocket League, Shovel Knight, Sid Meier's Pirates!, SteelRising, The Long Dark, The Pedestrian, Thomas was Alone, Tower of Fantasy, Townscape, Train Sim World 2, Unpacking </span>
-
----
+***Other games I played:*** *Abzu, Solar Ash, Journey, Assassin's Creed, EuroTruck Simulator 2, Battlefield: Bad Company 2, Brawlhalla, Bus Simulator 21, Cult of the Lamb, Dicey Dungeon, Fall Guys, Finding Paradise, Getting Over It, Ghostrunner, Impostor Factory, Mario Kart 7, Minecraft, Mini Motorways, Myst, Narita Boy, OneShot, Portal, Recompile, Riders Republic, Road 96, Rocket League, Shovel Knight, Sid Meier's Pirates!, SteelRising, The Long Dark, The Pedestrian, Thomas was Alone, Tower of Fantasy, Townscape, Train Sim World 2, Unpacking.*

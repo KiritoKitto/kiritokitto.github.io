@@ -2,7 +2,7 @@
 permalink: "/year-in-videogames-21"
 ---
 
-## 
+## Year in Videogames 2021
 
 Benvenuti nella prima edizione della rubrica **Year in Videogames**, un recap annuale dei titoli giocati nel corso dell'anno per ricordare i punti più alti (e bassi) della mia carriera videoludica.
 
@@ -11,20 +11,16 @@ Benvenuti nella prima edizione della rubrica **Year in Videogames**, un recap an
 
 ---
 
-**Emotional Award:** titoli che hanno avuto per me un forte impatto emotivo o di cui riconosco l'alto valore qualitativo.
+**Great Game Award:** titoli che rientrano tra i titoli più memorabili dell'anno per la loro qualità o impatto emotivo.
 * What Remains of Edith Finch
 * Xenoblade Chronicles 2
 * NieR Automata
 * To the Moon
 * A Short Hike
 * Steep
-
----
-
-**Great Game Award:** titoli che non hanno vinto il premio "Emotional Award" ma sono tra i titoli più memorabili dell'anno per la loro qualità o per esperienza personale.
 * Yakuza 0
-* It Takes Two
 * Hollow Knight
+* It Takes Two
 * Sky: Children of the Light
 
 ---
@@ -71,16 +67,11 @@ Benvenuti nella prima edizione della rubrica **Year in Videogames**, un recap an
 
 **Multiplayer and Co-Op Award**
 
-##### Co-op
-
 * A Way Out
 * It Takes Two
 * Overcoocked 2
 * PES 2021
 * F1 2019
-
-####  Multiplayer
-
 * Fortnite
 * Genshin Impact
 * RL Sideswipe
@@ -104,4 +95,4 @@ Benvenuti nella prima edizione della rubrica **Year in Videogames**, un recap an
 
 ---
 
-***Other games I played:*** *Super Mario 3D World, Star Wars Jedi: Fallen Order, The Messenger, Control, Battlefield 1, Battlefield Hardline, Call of the Sea, Carto, Donut County, Haven, Fractured Minds, Gang Beasts, Katamari Damacy Reroll, Olympic Games Tokyo 2020, Rain on Your Parade, Sea of Solitude, , Super Animal Royale, The Gardens Between, The Walking Dead, Train Sim World 2020, Unravel Two, Visage, Unto The End*
+***Other games I played:*** *Super Mario 3D World, Star Wars Jedi: Fallen Order, The Messenger, Control, Battlefield 1, Battlefield Hardline, Call of the Sea, Carto, Donut County, Haven, Fractured Minds, Gang Beasts, Katamari Damacy Reroll, Olympic Games Tokyo 2020, Rain on Your Parade, Sea of Solitude, Super Animal Royale, The Gardens Between, The Walking Dead, Train Sim World 2020, Unravel Two, Visage, Unto The End.*

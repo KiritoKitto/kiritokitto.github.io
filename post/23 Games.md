@@ -2,6 +2,8 @@
 permalink: "/year-in-videogames-23"
 ---
 
+## Year in Videogames 2023
+
 Benvenuti nella terza edizione della rubrica **Year in Videogames**, un recap annuale dei titoli giocati nel corso dell'anno per ricordare i punti più alti (e bassi) della mia carriera videoludica.
 
 
@@ -11,8 +13,7 @@ Benvenuti nella terza edizione della rubrica **Year in Videogames**, un recap an
 
 ![2023 Banner](https://pbs.twimg.com/media/GCbPcA-WMAATbfQ?format=jpg&name=large)
 
-**Core Memory Award:** titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
-
+**Great Game Award:** titoli che rientrano tra i titoli più memorabili dell'anno per la loro qualità o impatto emotivo.
 * Tears of the Kingdom
 * The Last of Us
 * Starfield
@@ -20,11 +21,6 @@ Benvenuti nella terza edizione della rubrica **Year in Videogames**, un recap an
 * Jusant
 * Resident Evil 4
 * AI The Somnium Files
-
----
-
-**Great Game Award:** titoli che non hanno vinto il premio "Core Memory Award" ma che ritengo memorabili per una o più qualità realizzative.
-
 * Super Mario Bros Wonder
 * Spider Man Miles Morales
 * Mars First Logistic
