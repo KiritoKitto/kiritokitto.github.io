@@ -10,14 +10,16 @@ Benvenuti nella seconda edizione della rubrica **Year in Videogames**, un recap 
 
 ---
 
-**Great Game Award:** titoli che rientrano tra i titoli più memorabili dell'anno per la loro qualità o impatto emotivo.
-* Death Stranding
+**Game of the Year Award:** titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
 * Elden Ring
-* Superliminal
-* Xenoblade Chronicles: DE
+* Death Stranding
 * Xenoblade Chronicles 3
+
+**Great Experience Award:** titoli che non hanno vinto il premio "Game of the Year" ma che ritengo memorabili per qualità realizzative o impatto emotivo.
+* Superliminal
 * Marvel's Spiderman
 * Kirby and the Forgotten Land
+* Xenoblade Chronicles: DE
 
 ---
 

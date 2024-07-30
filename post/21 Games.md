@@ -14,12 +14,16 @@ Benvenuti nella prima edizione della rubrica **Year in Videogames**, un recap an
 **Great Game Award:** titoli che rientrano tra i titoli più memorabili dell'anno per la loro qualità o impatto emotivo.
 * What Remains of Edith Finch
 * Xenoblade Chronicles 2
-* NieR Automata
 * To the Moon
-* A Short Hike
 * Steep
+
+---
+
+**Great Experience Award:** titoli che non hanno vinto il premio "Game of the Year" ma che ritengo memorabili per qualità realizzative o impatto emotivo.
 * Yakuza 0
+* A Short Hike
 * Hollow Knight
+* NieR Automata
 * It Takes Two
 * Sky: Children of the Light
 

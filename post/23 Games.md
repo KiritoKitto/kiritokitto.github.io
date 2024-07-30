@@ -13,11 +13,17 @@ Benvenuti nella terza edizione della rubrica **Year in Videogames**, un recap an
 
 ![2023 Banner](https://pbs.twimg.com/media/GCbPcA-WMAATbfQ?format=jpg&name=large)
 
-**Great Game Award:** titoli che rientrano tra i titoli più memorabili dell'anno per la loro qualità o impatto emotivo.
+---
+
+**Game of the Year Award:** titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
 * Tears of the Kingdom
 * The Last of Us
-* Starfield
+
+---
+
+**Great Experience Award:** titoli che non hanno vinto il premio "Game of the Year" ma che ritengo memorabili per qualità realizzative o impatto emotivo.
 * Outward
+* Starfield
 * Jusant
 * Resident Evil 4
 * AI The Somnium Files
@@ -30,7 +36,6 @@ Benvenuti nella terza edizione della rubrica **Year in Videogames**, un recap an
 
 **Soundtrack Award:** titoli con una colonna sonora nel complesso eccellente, con diverse OST memorabili.
 * Jusant
-* Tears of the Kingdom
 * Xenoblade Future Redeemed
 
 ---
@@ -39,6 +44,7 @@ Benvenuti nella terza edizione della rubrica **Year in Videogames**, un recap an
 * Outward
 * Ace Combat 7
 * AI The Somnium Files
+* Tears of the Kingdom
 
 ---
 
@@ -86,7 +92,7 @@ Benvenuti nella terza edizione della rubrica **Year in Videogames**, un recap an
 
 **Honorable Mention:** titoli che non sono riusciti a vincere un premio, comunque meritevoli di una mezione.
 
-<h4 class="opacity"> Tripla A </h1>
+Tripla A
 
 * Resident Evil 3
 * Resident Evil 2
@@ -96,7 +102,7 @@ Benvenuti nella terza edizione della rubrica **Year in Videogames**, un recap an
 * Super Mario Bros 3
 * Uncharted The Lost Legacy
 
-<h4 class="opacity"> Indie </h1>
+Indie
 
 * Viewfinder
 * Only Up
@@ -107,8 +113,6 @@ Benvenuti nella terza edizione della rubrica **Year in Videogames**, un recap an
 
 ---
 
-<span class="opacity"><b>Titoli che non ho finito e con valutazione rimandata:</b> Mario + Rabbids: Sparks of Hope, Baldur's Gate 3, Atomic Heart, Thymesia</span>
+***Titoli che non ho finito e con valutazione rimandata:*** *Mario + Rabbids: Sparks of Hope, Baldur's Gate 3, Atomic Heart, Thymesia.*
 
-<span class="opacity"><b>Altri titoli che ho giocato ma che non hanno vinto un premio:</b> Tunic, Venba, F-Zero, Trek to Yomi, Vampire Survivors, Abriss Build to Destroy, Word Factori, Superflight, BackfireWall, Blind Drive, Card Shark, Hi-Fi Rush</span>
-
----
+***Altri titoli che ho giocato ma che non hanno vinto un premio:*** *Tunic, Venba, F-Zero, Trek to Yomi, Vampire Survivors, Abriss Build to Destroy, Word Factori, Superflight, BackfireWall, Blind Drive, Card Shark, Hi-Fi Rush.*
