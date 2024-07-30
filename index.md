@@ -19,4 +19,4 @@ Attualmente lavoro come Data Analyst; per maggiori informazioni su tutti i miei 
 
 ---
 
-<p class="opacity">Con affetto, Kirito Kitto.</p>
+*Con affetto, Kirito Kitto.*
