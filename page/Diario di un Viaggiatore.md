@@ -1,0 +1,212 @@
+![Banner](https://pbs.twimg.com/media/GHftTs4WkAAs45W?format=jpg&name=medium)
+
+Il **Diario di Viaggiatore**, serie nata nel corso del 2022, è una raccolta di pensieri diareschi scritti durante o subito dopo un viaggio.
+
+È divisa in stagioni, ognuna diversa dalla precedente. Potete leggere i post passati e commentare le future avventure nel [Diario di Kirito Kitto](https://t.me/+eYDpkG161AY4YzI0).
+
+---
+
+- <a href="#3">S3 - TBA</a>
+- <a href="#s2-into-the-wilds">S2 - Into the Wilds</a>
+- <a href="#s1-oltre-il-firmamento">S1 - Oltre il Firmamento</a>
+
+---
+
+### S3 - TBA
+
+La terza stagione è iniziata a Febbraio 2024 e non ha ancora un nome.
+
+<details> <summary> Monte della Scoperta </summary>
+  <span class="opacity"> Giugno | Montepiano </span> <hr>
+  <div class="grid-images">
+    <img src="https://pbs.twimg.com/media/GRoOxzAW4AEL9XB?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GRoOxy-WgAEv36L?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GRoOxzJXkAAfWjD?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GRoO9GOXYAEEFpY?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GRoO30_XwAALZqz?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GRoO9GKW4AEvOX2?format=jpg&name=small">
+  </div>
+</details>
+
+<details> <summary> Regno dei Cavalli </summary>
+  <span class="opacity"> Aprile | Sofignano </span><hr>  
+  <div class="grid-images">
+    <img src="https://pbs.twimg.com/media/GKoNcoJXQAEOp5a?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GKoNcwCWcAAIJad?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GKoNiFGW0AAEoyC?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GKoNoD_XMAAyb_4?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GKoNoH2XoAAxHmZ?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GKoNu9WWsAAGuOB?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GKoNoQEXEAA5jJc?format=jpg&name=small">  
+    <img src="https://pbs.twimg.com/media/GKoNu2XW0AAk0c5?format=jpg&name=small">
+  </div>
+</details>
+
+<details> <summary> Croce di Cantagrilli </summary>
+  <span class="opacity"> Febbraio | Prato </span> <hr> 
+  <div class="grid-images">
+    <img src="https://pbs.twimg.com/media/GGke3m-WsAAgfyu?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GGke3kRXQAA1wP1?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GGkexrMXsAA5yez?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GGkexhwX0AAm3K9?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GGkexliWEAExViV?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/GGkex9gWMAAZHY0?format=jpg&name=small">
+  </div>
+</details>
+
+---
+
+### S2 - Into the Wilds
+
+La seconda stagione comprende 9 episodi in solitaria e si è conclusa nel corso di Settembre 2023.
+
+#### Estate 2023
+
+<details> <summary> Punta Sofia </summary>
+<span class="opacity"> Settembre | Pistoia </span> 
+  <hr> <div class="grid-images">
+    <img src="https://pbs.twimg.com/media/F_3fZ04XYAAXLhO?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3fZH6WMAAp4HK?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3flDOWkAApNlH?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3fl15XsAASMOR?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3fukEXsAA5VMD?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3fukEXUAAP-v0?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3fuj9WQAA6BLk?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3fuktXIAAG414?format=jpg&name=small">
+  </div>
+</details>
+
+<details> <summary> Monte Iavello </summary>
+<span class="opacity"> Luglio | Figline </span> 
+  <hr> <div class="grid-images">
+    <img src="https://pbs.twimg.com/media/F_3mkt4WMAA1oz-?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3mk8DXYAAEjdj?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3ml4OWAAAohdQ?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3mmFaWwAAGfQj?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3mwkFXIAE1ko2?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3mwkEWcAAISGA?format=jpg&name=small">
+    <img src="https://pbs.twimg.com/media/F_3mwjAWMAAcZZF?format=jpg&name=small">
+  </div>
+</details>
+
+<details> <summary> Verghereto </summary>
+<span class="opacity"> Luglio | Carmignano </span> 
+  <hr> <div class="grid-images">
+  <img src="https://pbs.twimg.com/media/F_4SqxVWkAAGHx5?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4SrJDWUAAdQoy?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4Sr_GXUAAqd1I?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4T2YSWkAA1GSo?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4T2X_XsAAppDS?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4SzhtWAAATG2f?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4T2XxXEAA0JF7?format=jpg&name=small">
+</div> </details>
+
+<details> <summary> Gardens of Florence </summary>
+<span class="opacity"> Luglio | Firenze </span> 
+  <hr> <div class="grid-images">
+  <img src="https://pbs.twimg.com/media/F_4WXJbW4AABRnW?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4WXJXWEAAKfAG?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4WXJZXoAACSuT?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4WaqAW0AAT3Lr?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4WaqKXsAATjhv?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4WaqjWUAApGwd?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4WaqfXUAE7XHX?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4WiPuXQAA_dmH?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4WiQeWEAAh5TO?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4WiQaXcAAP4l_?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_4WiQjWYAAxpDW?format=jpg&name=small">
+</div> </details>
+
+#### Primavera 2023
+
+<details> <summary> Rifugio di Spedaletto </summary>
+<span class="opacity"> Giugno | Tobbiana </span> 
+  <hr> <div class="grid-images">
+  <img src="https://pbs.twimg.com/media/F_-QNZLWQAAOa9k?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-QNZIWgAAkTTs?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-QNZKX0AAYdvb?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-QNZNWwAAoLcI?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-QO10WQAA56Pl?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-QO1TWAAE7pJQ?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-QO1VW0AAENiJ?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-QO1LXUAAkSuK?format=jpg&name=small">
+</div> </details>
+
+<details> <summary> Monte Maggiore </summary>
+<span class="opacity"> Aprile | Vaiano </span> 
+  <hr> <div class="grid-images">
+  <img src="https://pbs.twimg.com/media/F_-NvXEWYAAe6EZ?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-Nvg-WEAAwDBY?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-NvwCWcAAzTzT?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-NwS1WAAAUerv?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-NyQxWUAAkgBv?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-NyP4XwAAVOU4?format=jpg&name=small">
+</div> </details>
+
+<details> <summary> Giardini di Boboli </summary>
+<span class="opacity"> Aprile | Firenze </span> 
+  <hr> <div class="grid-images">
+  <img src="https://pbs.twimg.com/media/F_-Kpf6X0AAGbSi?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-KpgIWsAAHdoh?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-Kt5vXAAA_WiZ?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-Kt7AXkAAe0Nd?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-Kt5kW0AAxXyx?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-LB7bXcAA255y?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-LB7KW8AAGOd_?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-LB68XIAAC65G?format=jpg&name=small">
+</div> </details>
+
+<details> <summary> Poggio dell'Aia </summary>
+<span class="opacity"> Marzo | Sesto Fiorentino </span> 
+  <hr> <div class="grid-images">
+  <img src="https://pbs.twimg.com/media/F_-IzkFW8AATKps?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-I2zKXQAA8sUS?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-I336XoAAVBzF?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-I4UzWgAAxT04?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-I_RyW0AAyK31?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-I_SwWMAAWu-y?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-I_SWWoAEIrRN?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-I_ShWQAAO1nV?format=jpg&name=small">
+</div> </details>
+
+<details> <summary> Croce della Retaia </summary>
+<span class="opacity"> Marzo | Prato </span> 
+  <hr> <div class="grid-images">
+  <img src="https://pbs.twimg.com/media/F_-HZjxWEAAflfc?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-HZj4XsAAp_Zu?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-HZjyWAAA-HXz?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/F_-HZjzX0AAjeih?format=jpg&name=small">
+</div> </details>
+
+---
+
+### S1 - Oltre il Firmamento
+
+La prima stagione comprende 7 episodi in compagnia ed è in corso dal 2022.
+
+#### 2024
+
+<details> <summary> La dualità della Sacra Città Celeste</summary>
+<span class="opacity"> Aprile | Siena </span>  <hr>
+  <div class="grid-images">
+  <img src="https://pbs.twimg.com/media/GLwZVGIXcAAZ8DK?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/GLwZSHnWkAEqOer?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/GLwZSA-XcAAixKP?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/GLwZR9cX0AAcoEG?format=jpg&name=small">
+  <img src="https://pbs.twimg.com/media/GLwZR0VXgAAkyg5?format=jpg&name=small">
+  </div>
+</details>
+
+#### 2023
+
+<details> <summary> L'Esotica Città dell'Oro </summary><span class="opacity"> Aprile | Arezzo </span></details>
+<details> <summary> Le 7 + 2 Meraviglie di Cavour </summary><span class="opacity"> Gennaio | Bologna </span></details>
+
+#### 2022
+
+<details> <summary> Il Tragitto con Attesa </summary><span class="opacity"> Aprile | Arezzo </span></details>
+<details> <summary> La Via della Salvezza </summary><span class="opacity"> Agosto | Chiusi </span></details>
+<details> <summary> Il Viaggio della Speranza </summary><span class="opacity"> Agosto | Prato </span></details>
+<details> <summary> Il Cammino senza Fermate </summary><span class="opacity"> Luglio | Firenze </span></details>
+
+---

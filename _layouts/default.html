@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Kirito Kitto">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/times-new-roman" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ '/css/dark.css' | relative_url }}">
+
+</head>
+<body>
+  <header>
+    <nav><p>
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/job">Lavoro</a>
+        <a href="https://t.me/kiritokitto">Contact</a>
+      </p></nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
