@@ -2,6 +2,8 @@
 permalink: "/year-in-videogames-21"
 ---
 
+## 
+
 Benvenuti nella prima edizione della rubrica **Year in Videogames**, un recap annuale dei titoli giocati nel corso dell'anno per ricordare i punti più alti (e bassi) della mia carriera videoludica.
 
 
