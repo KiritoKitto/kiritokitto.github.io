@@ -6,7 +6,7 @@ permalink: "/year-in-videogames-22"
 
 Benvenuti nella seconda edizione della rubrica **Year in Videogames**, un recap annuale dei titoli giocati nel corso dell'anno per ricordare i punti più alti (e bassi) della mia carriera videoludica.
 
-<div class="highlight" id="highlight-grey"> Come sempre, ricordatevi di leggere il <a href="https://kiritokitto.bearblog.dev/awardrules/">regolamento delle premiazioni</a></div>
+> Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-videogames).
 
 ---
 
