@@ -136,7 +136,12 @@
   
   a { color: var(--color-link-primary); cursor: pointer; text-decoration: none; }
   a:hover { text-decoration: underline; }
+
+
+
+
   b strong { font-weight: 600; } 
+  em { color: var(--color-tertiary); }
   
   p i { display: none; }
   table { width: 100%; }
