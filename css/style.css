@@ -141,7 +141,10 @@
 
 
   b strong { font-weight: 600; } 
-  em { color: var(--color-tertiary); font-style:normal !important; }
+  em { 
+    color: var(--color-tertiary); 
+    font-style: normal;
+  }
   
   p i { display: none; }
   table { width: 100%; }
