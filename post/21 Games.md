@@ -69,7 +69,7 @@ Benvenuti nella prima edizione della rubrica **Year in Videogames**, un recap an
 
 **Multiplayer and Co-Op Award**
 
-#### Co-op
+##### Co-op
 
 * A Way Out
 * It Takes Two
@@ -102,4 +102,4 @@ Benvenuti nella prima edizione della rubrica **Year in Videogames**, un recap an
 
 ---
 
-*Other games I played: Super Mario 3D World, Star Wars Jedi: Fallen Order, The Messenger, Control, Battlefield 1, Battlefield Hardline, Call of the Sea, Carto, Donut County, Haven, Fractured Minds, Gang Beasts, Katamari Damacy Reroll, Olympic Games Tokyo 2020, Rain on Your Parade, Sea of Solitude, , Super Animal Royale, The Gardens Between, The Walking Dead, Train Sim World 2020, Unravel Two, Visage, Unto The End*
+* **Other games I played:** Super Mario 3D World, Star Wars Jedi: Fallen Order, The Messenger, Control, Battlefield 1, Battlefield Hardline, Call of the Sea, Carto, Donut County, Haven, Fractured Minds, Gang Beasts, Katamari Damacy Reroll, Olympic Games Tokyo 2020, Rain on Your Parade, Sea of Solitude, , Super Animal Royale, The Gardens Between, The Walking Dead, Train Sim World 2020, Unravel Two, Visage, Unto The End*
