@@ -15,28 +15,22 @@ Tutte le edizioni della rubrica seguono e seguiranno questo regolamento:
 ---
 
 <details><summary>Quali sono i titoli candidabili?</summary>
-<hr>Tutti i titoli che ho giocato nel corso dell'anno, indistintamente dall'anno di uscita.
-</details>
+<hr>Tutti i titoli che ho giocato nel corso dell'anno, indistintamente dall'anno di uscita.</details>
 
 <details><summary>Quanti titoli possono vincere lo stesso premio?</summary>
-<hr>Fino a 10 titoli, le liste non sono in ordine di gradimento.
-</details>
+<hr>Fino a 10 titoli, le liste non sono in ordine di gradimento.</details>
 
 <details><summary>Quanti premi può vincere un titolo?</summary>
-<hr>Non è presente un numero massimo di premi che può vincere un titolo.
-</details>
+<hr>Non è presente un numero massimo di premi che può vincere un titolo.</details>
 
 <details><summary>Un titolo può vincere lo stesso premio in più edizioni diverse?</summary>
-<hr>Solo i titoli multiplayer online possono vincere il relativo premio più volte.
-</details>
+<hr>Solo i titoli multiplayer online possono vincere il relativo premio più volte.</details>
 
 <details><summary>Cosa succede se un titolo lo inizi in un anno ma lo finisci in quello successivo?</summary>
-<hr>Dipende da quanto tempo ho giocato il titolo nell'anno precedente. Se poco: il titolo diventa candidabile per l'anno successivo e viene rimosso da quello precedente.
-</details>
+<hr>Dipende da quanto tempo ho giocato il titolo nell'anno precedente. Se poco: il titolo diventa candidabile per l'anno successivo e viene rimosso da quello precedente. </details>
 
 <details><summary>Vincere una categoria ne preclude la vincita in altre?</summary>
-<hr>Esistono casi per cui un titolo che vince un determinato premio non può vincerne un altro, questi casi sono citati nella descrizione del premio.
-</details>
+<hr>Esistono casi per cui un titolo che vince un determinato premio non può vincerne un altro, questi casi sono citati nella descrizione del premio.</details>
 
 ---
 
