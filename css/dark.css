@@ -1,8 +1,10 @@
 @import url('style.css');
 
 :root {
-    --font-title: 'Inter Tight', system-ui;
-    --font: 'Inter', system-ui;
+    /*--font-title: 'Inter Tight', system-ui;
+    --font: 'Inter', system-ui;*/
+    --font: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    --font-title: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 
     --color-background: rgb(18, 18, 18);
     --color-background-secondary: rgba(80, 80, 85, 0.2);
