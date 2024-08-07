@@ -1,7 +1,7 @@
 @import url('instagram.css');
 
 :root {
-    --width: 640px;
+    --width: 600px;
   
     --font-size: 18px;
     --font-line: 1.6;
@@ -26,6 +26,7 @@
     max-width: var(--width);
   
     font-family: var(--font);
+    font-weight: 300;
     font-size: var(--font-size);
     line-height: var(--font-line);
     color: var(--color-secondary);
