@@ -1,3 +1,7 @@
+---
+permalink: "/into-the-wilds"
+---
+
 ![Banner](https://pbs.twimg.com/media/GHftTs4WkAAs45W?format=jpg&name=medium)
 
 Il **Diario di Viaggiatore**, serie nata nel corso del 2022, è una raccolta di pensieri diareschi scritti durante o subito dopo un viaggio.

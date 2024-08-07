@@ -1,6 +1,6 @@
 ## Homepage
 
-Questo sito è nato per puro divertimento e non ho ancora deciso per cosa usarlo. Per ora lo userò per condividere i post troppo lunghi per un messaggio Telegram. Qui potete leggere la [storia di questo blog](/blog-creation/).
+Questo sito è nato per puro divertimento e non ho ancora deciso per cosa usarlo. Per ora lo userò per condividere i post troppo lunghi per un messaggio Telegram. Qui potete leggere la [storia di questo blog](/blog-creation).
 
 ---
 
