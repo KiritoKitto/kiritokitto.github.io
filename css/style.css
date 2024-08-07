@@ -4,7 +4,7 @@
     --width: 600px;
   
     --font-size: 18px;
-    --font-line: 1.6;
+    --font-line: 1.15;
     --font-line-title: 1.1;
   
     --margin: 24px;
@@ -26,7 +26,6 @@
     max-width: var(--width);
   
     font-family: var(--font);
-    font-weight: 300;
     font-size: var(--font-size);
     line-height: var(--font-line);
     color: var(--color-secondary);
