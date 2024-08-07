@@ -2,6 +2,8 @@
 permalink: "/blog-creation"
 ---
 
+# Genesi della creazione di un blog personale
+
 È da anni che mi incuriosisce l'idea di avere un piccolo blog personale. Questo sito è infatti solo uno dei tanti tentativi di avere un posto dove raccontare e raccogliere vari aneddoti.
 
 Il primo game-changer è stato il **[Diario di Kirito Kitto](https://t.me/+eYDpkG161AY4YzI0)**, un canale Telegram aperto nel Giugno 2022 e che uso tuttora come diario. All'inizio parlavo solo di videogiochi, ma con il tempo ho iniziato a scrivere anche di altro (anche se il focus è rimasto quello originale).
