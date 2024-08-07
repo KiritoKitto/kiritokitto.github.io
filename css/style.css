@@ -1,157 +1,241 @@
 @import url('instagram.css');
 
 :root {
-    --width: 600px;
-  
-    --font-size: 18px;
-    --font-line: 1.55;
-    --font-line-title: 1.15;
-  
-    --margin: 24px;
-    --margin-light: 16px;
-  
-    --padding: 10px;
-  
-    --screen-margin: 20px;
+  --width: 600px;
+
+  --font-size: 18px;
+  --font-line: 1.55;
+  --font-line-title: 1.15;
+
+  --margin: 24px;
+  --margin-light: 16px;
+
+  --padding: 10px;
+
+  --screen-margin: 20px;
 }
-  
-  /* Line Height determina quanto spazio c'è tra le varie linee */
-  main { line-height: var(--font-line); }
-  
-  /* Margine della linea divisoria. Piena in verticale, 0 in orizzontale */
-  hr { margin: var(--margin) 0px; opacity: 50%; border: 0px; border-top: 1px solid var(--color-tertiary);}
-  details hr { margin: var(--margin-light) 0px; }
-  
-  body {
-    max-width: var(--width);
-  
-    font-family: var(--font);
-    font-size: var(--font-size);
-    line-height: var(--font-line);
-    color: var(--color-secondary);
-    
-    padding: var(--screen-margin);
-    background: var(--color-background);
-    margin: auto;
-    text-align: left;  
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-  }
-  
-  p { 
-    margin-bottom: var(--margin);
-    margin-top: var(--margin-light);
-  }
-  
-  h1, h2, h3, h4, h5, h6 { 
-    color: var(--color-primary); 
-    margin: 0px;
-    line-height: var(--font-line-title)
-  }
-  
-  h1 { font-size: calc(var(--font-size)*1.8); font-weight: 700; font-family: var(--font-title);}
-  h2 { font-size: calc(var(--font-size)*1.5); font-weight: 700; font-family: var(--font-title);}
-  h3 { font-size: calc(var(--font-size)*1.3); font-weight: 600; font-family: var(--font-title);}
-  h4 { font-size: calc(var(--font-size)*1.2); font-weight: 600; color: var(--color-tertiary)}
-  
-  /* Testo Esplicativo */
-  h6 { 
-    font-size: calc(var(--font-size)*1.0);
-    margin-top: var(--margin-light);
-    margin-bottom: calc(var(--margin-light)*1.5);
-    font-weight: 300;
-    color: var(--color-tertiary);
-  }
-  
-  details {
-    border-radius: var(--highlight-radius);
-    border: 1px;
-    border-color: var(--color-tertiary);
-    border-style: solid;
-    background-color: var(--color-background-secondary);
-    line-height: 1.3;
-    padding: calc(var(--padding)*1.5) calc(var(--padding)*2);
-    color: var(--color-secondary);
-    margin: var(--margin-light) 0px;
-  }
-  
-  /*
+
+/* Line Height determina quanto spazio c'è tra le varie linee */
+main {
+  line-height: var(--font-line);
+}
+
+/* Margine della linea divisoria. Piena in verticale, 0 in orizzontale */
+hr {
+  margin: var(--margin) 0px;
+  opacity: 50%;
+  border: 0px;
+  border-top: 1px solid var(--color-tertiary);
+}
+
+details hr {
+  margin: var(--margin-light) 0px;
+}
+
+body {
+  max-width: var(--width);
+
+  font-family: var(--font);
+  font-size: var(--font-size);
+  line-height: var(--font-line);
+  color: var(--color-secondary);
+
+  padding: var(--screen-margin);
+  background: var(--color-background);
+  margin: auto;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+p {
+  margin-bottom: var(--margin);
+  margin-top: var(--margin-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-primary);
+  margin: 0px;
+  line-height: var(--font-line-title)
+}
+
+h1 {
+  font-size: calc(var(--font-size)*1.8);
+  font-weight: 700;
+  font-family: var(--font-title);
+}
+
+h2 {
+  font-size: calc(var(--font-size)*1.5);
+  font-weight: 700;
+  font-family: var(--font-title);
+}
+
+h3 {
+  font-size: calc(var(--font-size)*1.3);
+  font-weight: 600;
+  font-family: var(--font-title);
+}
+
+h4 {
+  font-size: calc(var(--font-size)*1.2);
+  font-weight: 600;
+  color: var(--color-tertiary)
+}
+
+/* Testo Esplicativo */
+h6 {
+  font-size: calc(var(--font-size)*1.0);
+  margin-top: var(--margin-light);
+  margin-bottom: calc(var(--margin-light)*1.5);
+  font-weight: 300;
+  color: var(--color-tertiary);
+}
+
+details {
+  border-radius: var(--highlight-radius);
+  border: 1px;
+  border-color: var(--color-tertiary);
+  border-style: solid;
+  background-color: var(--color-background-secondary);
+  line-height: 1.3;
+  padding: calc(var(--padding)*1.5) calc(var(--padding)*2);
+  color: var(--color-secondary);
+  margin: var(--margin-light) 0px;
+}
+
+/*
   details>summary { list-style: none; }
   summary::-webkit-details-marker { display: none }
   summary::after { content: ' ▶'; }
   details[open] summary:after { content: "  ▼";}
   */
-  
-  summary {
-    font-weight: bold;
-    color: var(--color-primary);
-  }
-  
-  mark {
-    color: var(--color-link-secondary);
-    background-color: transparent ;
-  }
-  
-  
-  /* ---------------------------------- */
-  /* ---------------------------------- */
-  /* ---------------------------------- */
-  
-  .icon { height: 1em; clear: both; width: auto; }
-  .square { height: auto; width: 100%; border: 1px solid var(--color-lite); aspect-ratio: 1/1; object-fit:cover; filter:saturate(1.2); transition: 0.3s;}
-  
-  blockquote {
-    border: 0px;
-    border-left-width: 3px;
-    border-color: var(--color-link-primary);
-    background-color: var(--color-background-secondary);
-    border-style: solid;
-    
-    line-height: 1.2;
-    padding: calc(var(--padding)*1.5) calc(var(--padding)*2);
-    color: var(--color-secondary);
-    margin: var(--margin-light) 0px;
-    font-size: var(--font-size-light);
-  }
-  
-  blockquote p { margin: 0px; }
-  
-  .highlight {
-    border-radius: var(--highlight-radius);
-    border: var(--highlight-border);
-    padding: var(--padding-light);
-    margin: var(--margin-light) 0px;
-    font-size: var(--font-size-light);
-    line-height: var(--font-line-light);
-    border-style: solid;
-  
-    background-color: var(--color-background-grey);
-    color: var(--color-secondary);
-  }
-  
-  img { width: 100%; height: auto; object-fit:contain; margin-top: 8px; border-radius: var(--img-radius);} 
-  
-  nav a { margin-right: 8px; }
-  div.tags { display: none; }
-  
-  a { color: var(--color-link-primary); cursor: pointer; text-decoration: none; }
-  a:hover { text-decoration: underline; }
+
+summary {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+mark {
+  color: var(--color-link-secondary);
+  background-color: transparent;
+}
 
 
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+.icon {
+  height: 1em;
+  clear: both;
+  width: auto;
+}
+
+.square {
+  height: auto;
+  width: 100%;
+  border: 1px solid var(--color-lite);
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  filter: saturate(1.2);
+  transition: 0.3s;
+}
+
+blockquote {
+  border: 0px;
+  border-left-width: 3px;
+  border-color: var(--color-link-primary);
+  background-color: var(--color-background-secondary);
+  border-style: solid;
+
+  line-height: 1.2;
+  padding: calc(var(--padding)*1.5) calc(var(--padding)*2);
+  color: var(--color-secondary);
+  margin: var(--margin-light) 0px;
+  font-size: var(--font-size-light);
+}
+
+blockquote p {
+  margin: 0px;
+}
+
+.highlight {
+  border-radius: var(--highlight-radius);
+  border: var(--highlight-border);
+  padding: var(--padding-light);
+  margin: var(--margin-light) 0px;
+  font-size: var(--font-size-light);
+  line-height: var(--font-line-light);
+  border-style: solid;
+
+  background-color: var(--color-background-grey);
+  color: var(--color-secondary);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 8px;
+  border-radius: var(--img-radius);
+}
+
+nav a {
+  margin-right: 8px;
+}
+
+div.tags {
+  display: none;
+}
+
+a {
+  color: var(--color-link-primary);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 
-  b strong { font-weight: 500; } 
-  em { 
-    color: var(--color-tertiary); 
-    font-style: normal;
+strong {
+  font-weight: 500;
+}
+
+b strong {
+  font-weight: 500;
+}
+
+em {
+  color: var(--color-tertiary);
+  font-style: normal;
+}
+
+p i {
+  display: none;
+}
+
+table {
+  width: 100%;
+}
+
+.inline {
+  width: auto;
+}
+
+section p {
+  margin: var(--margin-light) 0px;
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --font-size: 18px;
   }
-  
-  p i { display: none; }
-  table { width: 100%; }
-  .inline { width: auto; }
-  
-  section p { margin: var(--margin-light) 0px; }
-  
-  @media screen and (max-width: 600px) { 
-    :root {--font-size: 18px;}
-  }
+}
