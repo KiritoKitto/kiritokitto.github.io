@@ -19,4 +19,11 @@ Attualmente lavoro come Data Analyst; per maggiori informazioni su tutti i miei 
 
 ---
 
+* [Into the Wilds](/into-the-wilds)
+* [Year in Videogames](/year-in-videogames)
+* [Lavoro](/jobs)
+
+---
+
+
 *Con affetto, Kirito Kitto.*

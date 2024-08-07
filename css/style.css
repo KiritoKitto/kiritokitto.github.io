@@ -117,7 +117,8 @@ details {
   */
 
 summary {
-  font-weight: bold;
+  font-size: var(--font-size);
+  font-weight: 500;
   color: var(--color-primary);
 }
 
