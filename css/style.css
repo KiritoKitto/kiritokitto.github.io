@@ -205,8 +205,8 @@ a:hover {
 }
 
 
-strong {
-  font-weight: 500;
+body strong {
+  font-weight: 500 !important;
 }
 
 b strong {
