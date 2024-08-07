@@ -140,7 +140,7 @@
 
 
 
-  b strong { font-weight: 600; } 
+  b strong { font-weight: 500; } 
   em { 
     color: var(--color-tertiary); 
     font-style: normal;
