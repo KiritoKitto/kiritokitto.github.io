@@ -1,7 +1,7 @@
 @import url('instagram.css');
 
 :root {
-    --width: 800px;
+    --width: 640px;
   
     --font-size: 18px;
     --font-line: 1.6;
@@ -153,5 +153,5 @@
   section p { margin: var(--margin-light) 0px; }
   
   @media screen and (max-width: 600px) { 
-    :root {--font-size: 17px; }
+    :root {--font-size: 18px;}
   }
