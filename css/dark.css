@@ -1,7 +1,5 @@
-@import url('style.css');
-
 :root {
-    --font: "Fira Code", monospace;
+    --font: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
     --font-title: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 
     --color-background: rgb(18, 18, 18);
@@ -14,12 +12,3 @@
     --color-link-primary: rgb(98,158,251);
     --color-link-secondary: rgb(255, 214, 10);
 }
-
-
-    /*OLD FONT TYPE
-    --font-title: 'Inter Tight', system-ui;
-    --font: 'Inter', system-ui;
-    
-    --font: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
-    --font-title: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
-    */

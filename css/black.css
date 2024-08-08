@@ -1,0 +1,14 @@
+:root {
+    --font: "Fira Code", monospace;
+    --font-title: "Fira Code", monospace;
+
+    --color-background: rgb(0, 0, 0);
+    --color-background-secondary: rgb(23, 23, 23);
+  
+    --color-primary: rgba(245, 245, 247,1);
+    --color-secondary: rgba(247, 247, 247, 0.8);
+    --color-tertiary: rgb(166, 166, 166);
+    
+    --color-link-primary: rgb(98,158,251);
+    --color-link-secondary: rgb(255, 214, 10);
+}
