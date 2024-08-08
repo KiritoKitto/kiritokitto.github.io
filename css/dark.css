@@ -1,7 +1,7 @@
 @import url('style.css');
 
 :root {
-    --font: "Pixelify Sans", sans-serif;;
+    --font: "VT323", monospace;
     --font-title: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 
     --color-background: rgb(18, 18, 18);
