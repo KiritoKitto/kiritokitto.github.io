@@ -110,12 +110,10 @@ details {
   margin: var(--margin-light) 0px;
 }
 
-/*
   details>summary { list-style: none; }
   summary::-webkit-details-marker { display: none }
-  summary::after { content: ' ▶'; }
-  details[open] summary:after { content: "  ▼";}
-  */
+  /*summary::after { content: ' ▶'; }
+  details[open] summary:after { content: "  ▼";}*/
 
 summary {
   font-size: var(--font-size);
@@ -234,10 +232,4 @@ table {
 
 section p {
   margin: var(--margin-light) 0px;
-}
-
-@media screen and (max-width: 600px) {
-  :root {
-    --font-size: 18px;
-  }
 }
