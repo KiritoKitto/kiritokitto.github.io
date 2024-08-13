@@ -166,14 +166,8 @@ nav a {
   margin-right: 8px;
 }
 
-strong {
+strong b {
   font-weight: 500;
-  color: var(--color-primary); 
-}
-
-b {
-  font-weight: 500;
-  color: var(--color-primary);
 }
 
 a {
