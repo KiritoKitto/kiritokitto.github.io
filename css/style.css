@@ -8,8 +8,8 @@
   --font-line: 1.55;
   --font-line-title: 1.15;
 
-  --margin: 24px;
-  --margin-light: 16px;
+  --margin: 20px;
+  --margin-light: 8px;
 
   --padding: 10px;
   --screen-margin: 10px;
@@ -62,7 +62,7 @@ h6 {
   color: var(--color-primary);
   margin: 0px;
   line-height: var(--font-line-title);
-  margin-bottom: calc(var(--margin-light)*0.5);
+  margin-bottom: var(--margin-light);
   margin-top: var(--margin);
 }
 
