@@ -1,5 +1,5 @@
 @import url('instagram.css');
-@import url('light.css');
+@import url('dark.css');
 
 :root {
   --width: 600px;
