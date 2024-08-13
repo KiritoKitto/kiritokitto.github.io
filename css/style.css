@@ -199,6 +199,7 @@ a:hover {
 
 b strong {
   font-weight: 500;
+  color: var(--color-primary);
 }
 
 em {
