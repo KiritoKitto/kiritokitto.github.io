@@ -62,7 +62,7 @@ h6 {
   color: var(--color-primary);
   margin: 0px;
   line-height: var(--font-line-title);
-  margin-bottom: var(--margin-light);
+  margin-bottom: calc(var(--margin-light)*0.5);
   margin-top: var(--margin);
 }
 
