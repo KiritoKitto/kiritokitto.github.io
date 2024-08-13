@@ -16,4 +16,4 @@ Ho ideato questa grafica cercando di rimanere sul minimal e lanciato il sito in 
 
 As always, grazie per essere arrivato/a fino a qui. Spero che uscirai da questa pagina più ispirato/a di prima!
 
-<p class="opacity">Con affetto, Kirito Kitto</p>
+*Con affetto, Kirito Kitto*
