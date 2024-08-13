@@ -197,7 +197,12 @@ a:hover {
   text-decoration: underline;
 }
 
-b strong {
+strong {
+  font-weight: 500;
+  color: var(--color-primary) !important; 
+}
+
+b {
   font-weight: 500;
   color: var(--color-primary);
 }
