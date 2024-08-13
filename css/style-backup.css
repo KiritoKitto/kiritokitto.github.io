@@ -50,7 +50,7 @@ body {
 }
 
 p {
-  margin-bottom: var(--margin-light);
+  margin-bottom: var(--margin);
   margin-top: var(--margin-light);
 }
 
@@ -58,13 +58,10 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   color: var(--color-primary);
   margin: 0px;
-  line-height: var(--font-line-title);
-  margin-bottom: var(--margin-light);
-  margin-top: var(--margin);
+  line-height: var(--font-line-title)
 }
 
 h1 {
@@ -101,6 +98,8 @@ h5 {
 /* Testo Esplicativo */
 h6 {
   font-size: calc(var(--font-size)*1.0);
+  margin-top: var(--margin-light);
+  margin-bottom: calc(var(--margin-light)*1.5);
   font-weight: 300;
   color: var(--color-tertiary);
 }
