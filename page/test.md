@@ -14,7 +14,7 @@ I'll miss having my team here, but I know Joey and Tris have a promising future,
 
 ---
 
-###### Questo è un paragrafo di tipo 6
+**Questo è un paragrafo di tipo 6**
 
 I’m saddened to say that due to softening revenue, it’s become impossible to continue to sufficiently provide for my full-time team members. I tried everything imaginable to avoid this for as long as possible, including forgoing any payment myself for more than two years and reinvesting 100% of the revenue back into the company, but sadly, these efforts weren’t enough.
 
