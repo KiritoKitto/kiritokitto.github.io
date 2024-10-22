@@ -5,9 +5,9 @@
     --color-background: #212121;
     --color-background-secondary: #2F2F2F;
   
-    --color-primary: rgba(245, 245, 247, 1);
-    --color-secondary: rgba(227, 227, 227, 1);
-    --color-tertiary: rgba(245, 245, 247,0.5);
+    --color-primary: #ececec;
+    --color-secondary: #BDC0C2;
+    --color-tertiary: #676767;
     
     --color-link-primary: rgb(98,158,251);
     --color-link-secondary: rgb(255, 214, 10);
