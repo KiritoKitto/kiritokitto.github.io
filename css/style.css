@@ -2,7 +2,7 @@
 @import url('dark.css');
 
 :root {
-  --width: 600px;
+  --width: 700px;
 
   --font-size: 18px;
   --font-line: 1.55;
@@ -12,7 +12,7 @@
   --margin-light: 12px;
 
   --padding: 15px;
-  --screen-margin: 30px;
+  --screen-margin: 10px;
 }
 
 /* Line Height determina quanto spazio c'è tra le varie linee */
