@@ -64,42 +64,37 @@ h6 {
   line-height: var(--font-line-title);
   margin-bottom: var(--margin-light);
   margin-top: var(--margin);
+  font-weight: 700;
 }
 
 h1 {
   font-size: calc(var(--font-size)*1.8);
-  font-weight: 700;
   font-family: var(--font-title);
 }
 
 h2 {
   font-size: calc(var(--font-size)*1.5);
-  font-weight: 700;
   font-family: var(--font-title);
 }
 
 h3 {
   font-size: calc(var(--font-size)*1.3);
-  font-weight: 600;
   font-family: var(--font-title);
 }
 
 h4 {
   font-size: calc(var(--font-size)*1.2);
-  font-weight: 600;
   color: var(--color-tertiary)
 }
 
 /* basic bold */
 h5 {
   font-size: calc(var(--font-size)*1.0);
-  font-weight: bold;
 }
 
 /* Testo Esplicativo */
 h6 {
   font-size: calc(var(--font-size)*1.0);
-  font-weight: bold;
   color: var(--color-tertiary);
 }
 
