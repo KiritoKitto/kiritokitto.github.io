@@ -2,6 +2,21 @@
 @import url('dark.css');
 
 :root {
+  --font: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  --font-title: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+
+  --color-background: rgb(18, 18, 18);
+  --color-background-secondary: rgba(80, 80, 85, 0.2);
+
+  --color-primary: rgba(245, 245, 247, 1);
+  --color-secondary: rgba(245, 245, 247,0.85);
+  --color-tertiary: rgba(245, 245, 247,0.5);
+  
+  --color-link-primary: rgb(98,158,251);
+  --color-link-secondary: rgb(255, 214, 10);
+}
+
+:root {
   --width: 600px;
 
   --font-size: 18px;
