@@ -1,14 +1,14 @@
 :root {
-    --font: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    --font-title: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+    --font-title: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
 
     --color-background: rgb(255, 255, 255);
     --color-background-secondary: rgb(230, 230, 230);
   
     --color-primary: rgb(0, 0, 4);
-    --color-secondary: rgb(70, 74, 76);
+    --color-secondary: rgb(34, 34, 32);
     --color-tertiary: rgb(90, 94, 96);
     
-    --color-link-primary: rgb(0, 95, 135);
+    --color-link-primary: #d3425a;
     --color-link-secondary: rgb(200, 150, 10);
 }
