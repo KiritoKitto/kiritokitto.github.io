@@ -27,7 +27,6 @@
 
 /*---------------------------------*/
 
-
 .carousel {
   position: relative;
   overflow: hidden; /* Nasconde le immagini in eccesso */
@@ -62,10 +61,13 @@ button {
   color: grey;
   border: none;
   padding: 10px;
-  height: 10px;
-  width: 10px;
+  height: 40px; /* Aumentato per un bottone circolare più grande */
+  width: 40px; /* Aumentato per un bottone circolare più grande */
+  border-radius: 50%; /* Rende il bottone circolare */
   cursor: pointer;
-  border-radius: 100px;
+  display: flex;
+  align-items: center; /* Centra verticalmente il contenuto */
+  justify-content: center; /* Centra orizzontalmente il contenuto */
 }
 
 .prev {

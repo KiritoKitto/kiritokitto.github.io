@@ -19,8 +19,8 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
         carouselInner.style.transform = `translateX(${currentOffset}%)`;
 
         // Nascondi i pulsanti se siamo all'inizio o alla fine
-        const backButton = carousel.querySelector('.backButton');
-        const nextButton = carousel.querySelector('.nextButton');
+        const backButton = carousel.querySelector('.prev');
+        const nextButton = carousel.querySelector('.next');
 
         backButton.style.display = currentIndex === 0 ? 'none' : 'block'; // Nascondi il pulsante "Indietro"
         nextButton.style.display = currentIndex === totalImages - 1 ? 'none' : 'block'; // Nascondi il pulsante "Avanti"
@@ -45,8 +45,8 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
     }
 
     // Aggiungi gli event listener ai pulsanti
-    carousel.querySelector('.nextButton').addEventListener('click', nextImage);
-    carousel.querySelector('.backButton').addEventListener('click', prevImage);
+    carousel.querySelector('.next').addEventListener('click', nextImage);
+    carousel.querySelector('.prev').addEventListener('click', prevImage);
 
     // Funzionalità di trascinamento
     const touchStart = (event) => {
@@ -95,16 +95,4 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
             setTimeout(() => {
                 translateX = 0; // Reset dell'offset
                 updateImageDisplay(); // Torna alla posizione originale
-            }, 300); // Tempo del rimbalzo
-        }
-    };
-
-    // Aggiungi gli event listener per il trascinamento
-    carousel.addEventListener('touchstart', touchStart);
-    carousel.addEventListener('touchmove', touchMove);
-    carousel.addEventListener('touchend', touchEnd);
-    document.addEventListener('touchcancel', () => isDragging = false); // Termina il trascinamento se annullato
-
-    // Inizializza la visualizzazione dell'immagine
-    updateImageDisplay();
-});
+            }, 300); // Tempo

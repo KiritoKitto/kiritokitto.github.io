@@ -29,15 +29,15 @@ La quarta stagione
     <hr>
     <div class="carousel" id="carousel1">
         <div class="carousel-inner">
-            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg"></div>
-            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma04.jpg"></div>
-            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg"></div>
-            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg"></div>
-            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma06.jpg"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg" alt="Roma03"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma04.jpg" alt="Roma04"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg" alt="Roma01"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg" alt="Roma02"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma06.jpg" alt="Roma06"></div>
             <!-- Altre immagini -->
         </div>
-        <button class="prev" id="backButton">&#10094;</button>
-        <button class="next" id="nextButton">&#10095;</button>
+        <button class="prev">&#10094;</button> <!-- Pulsante Indietro -->
+        <button class="next">&#10095;</button> <!-- Pulsante Avanti -->
     </div>
 </details>
 
@@ -47,15 +47,14 @@ La quarta stagione
     <hr>
     <div class="carousel" id="carousel2">
         <div class="carousel-inner">
-            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg"></div>
-            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg"></div>
-            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg" alt="Roma01"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg" alt="Roma02"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg" alt="Roma03"></div>
             <!-- Altre immagini -->
         </div>
-        <button class="prev" id="backButton">&#10094;</button>
-        <button class="next" id="nextButton">&#10095;</button>
+        <button class="prev">&#10094;</button> <!-- Pulsante Indietro -->
+        <button class="next">&#10095;</button> <!-- Pulsante Avanti -->
     </div>
-</details>
 
 <hr id="s3">
 
