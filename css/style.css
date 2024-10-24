@@ -153,13 +153,12 @@ img {
   margin-top: 8px;
 }
 
-nav {
-  position: fixed;
+/*nav {
   z-index: 1000;
   padding: 10px;
   background-color: var(--color-background); 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+}*/
 
 nav a {
   margin-right: 8px;
