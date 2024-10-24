@@ -1,24 +1,62 @@
-let currentSlide = 0;
+const carousels = {};
 
-function showSlide(index) {
-    const slides = document.querySelectorAll('.carousel-item');
-    if (index >= slides.length) {
-        currentSlide = 0;
-    } else if (index < 0) {
-        currentSlide = slides.length - 1;
-    } else {
-        currentSlide = index;
+function initCarousel(carouselId) {
+    const slides = document.querySelectorAll(`#${carouselId} .carousel-item`);
+    carousels[carouselId] = {
+        currentSlide: 0,
+        totalSlides: slides.length,
+        inner: document.querySelector(`#${carouselId} .carousel-inner`),
+    };
+    showSlide(carouselId);
+}
+
+function showSlide(carouselId) {
+    const slides = document.querySelectorAll(`#${carouselId} .carousel-item`);
+    const carousel = carousels[carouselId];
+
+    if (carousel.currentSlide >= slides.length) {
+        carousel.currentSlide = 0;
+    } else if (carousel.currentSlide < 0) {
+        carousel.currentSlide = slides.length - 1;
     }
 
-    const offset = -currentSlide * 100;
-    document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+    const offset = -carousel.currentSlide * 100;
+    carousel.inner.style.transform = `translateX(${offset}%)`;
 }
 
-function moveSlide(direction) {
-    showSlide(currentSlide + direction);
+function moveSlide(carouselId, direction) {
+    const carousel = carousels[carouselId];
+    carousel.currentSlide += direction;
+
+    showSlide(carouselId);
 }
 
-// Opzionale: Auto-advance ogni 5 secondi
-setInterval(() => {
-    moveSlide(1);
-}, 5000);
+// Gestione degli eventi touch
+let startX = 0;
+let endX = 0;
+
+function handleTouchStart(event, carouselId) {
+    startX = event.touches[0].clientX;
+}
+
+function handleTouchMove(event) {
+    endX = event.touches[0].clientX;
+}
+
+function handleTouchEnd(carouselId) {
+    if (startX > endX + 50) {
+        moveSlide(carouselId, 1);
+    } else if (startX + 50 < endX) {
+        moveSlide(carouselId, -1);
+    }
+}
+
+// Aggiungere gli eventi touch per ogni carosello
+document.querySelectorAll('.carousel').forEach(carousel => {
+    const carouselId = carousel.id;
+    initCarousel(carouselId);
+    
+    carousel.addEventListener('touchstart', (event) => handleTouchStart(event, carouselId));
+    carousel.addEventListener('touchmove', handleTouchMove);
+    carousel.addEventListener('touchend', () => handleTouchEnd(carouselId));
+});
