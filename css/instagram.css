@@ -31,7 +31,7 @@
   position: relative;
   overflow: hidden; /* Nasconde le immagini in eccesso */
   width: 100%;
-  margin: 0;
+  margin: 0 auto; /* Centra il carosello orizzontalmente */
   aspect-ratio: 3/4;
   border-radius: var(--radius);
   max-width: 400px;
