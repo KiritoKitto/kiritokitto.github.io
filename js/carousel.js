@@ -7,10 +7,10 @@ let isDragging = false; // Stato del trascinamento
 let translateX = 0; // Traslazione attuale
 
 // Funzione per aggiornare l'immagine visualizzata
-function updateImageDisplay() {
+function updateImageDisplay(offset = 0) {
     // Applica la traslazione in base all'indice corrente e all'offset
-    const offset = -currentIndex * 100 + translateX; // Sposta le immagini di 100% per ogni cambio di immagine
-    document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`; // Applica la traslazione
+    const currentOffset = -currentIndex * 100 + offset; // Sposta le immagini di 100% per ogni cambio di immagine
+    document.querySelector('.carousel-inner').style.transform = `translateX(${currentOffset}%)`; // Applica la traslazione
 }
 
 // Funzione per andare avanti
@@ -49,7 +49,7 @@ const touchMove = (event) => {
     translateX = (currentX - startX) / window.innerWidth * 100; // Calcola l'offset in percentuale
 
     // Aggiorna la visualizzazione mentre si trascina
-    updateImageDisplay();
+    updateImageDisplay(translateX); // Passa l'offset alla funzione di aggiornamento
 };
 
 const touchEnd = () => {
@@ -65,7 +65,7 @@ const touchEnd = () => {
     } else {
         // Torna alla posizione originale
         translateX = 0; // Reset dell'offset
-        updateImageDisplay();
+        updateImageDisplay(); // Ritorna alla posizione originale
     }
 };
 

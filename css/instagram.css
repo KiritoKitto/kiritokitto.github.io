@@ -39,7 +39,7 @@
 
 .carousel-inner {
   display: flex; /* Flexbox per disporre le immagini in una riga */
-  transition: transform 0.5s ease; /* Aggiungi una transizione per il movimento */
+  transition: transform 0.1s ease; /* Aggiungi una transizione per il movimento */
 }
 
 .carousel-item {
