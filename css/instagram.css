@@ -30,6 +30,7 @@
 
 .carousel {
   position: relative;
+  overflow: hidden;
   width: 100%;
   width: auto; 
   margin: 0px;
