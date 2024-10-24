@@ -1,24 +1,30 @@
 let currentIndex = 0; // Indice dell'immagine corrente
-const images = document.querySelectorAll('#carousel1 .carousel-item img'); // Seleziona tutte le immagini nel carosello
+const images = document.querySelectorAll('#carousel1 .carousel-item'); // Seleziona tutti i contenitori delle immagini nel carosello
 const totalImages = images.length;
 
 // Funzione per aggiornare l'immagine visualizzata
 function updateImageDisplay() {
-    images.forEach((img, index) => {
-        img.parentElement.style.display = index === currentIndex ? 'block' : 'none'; // Mostra solo il contenitore dell'immagine attiva
+    // Calcola la posizione in base all'indice corrente
+    const offset = -currentIndex * 100; // Sposta le immagini di 100% per ogni cambio di immagine
+    images.forEach((img) => {
+        img.style.transform = `translateX(${offset}%)`; // Applica la traslazione
     });
 }
 
 // Funzione per andare avanti
 function nextImage() {
-    currentIndex = (currentIndex + 1) % totalImages;
-    updateImageDisplay();
+    if (currentIndex < totalImages - 1) { // Controlla se non è l'ultima immagine
+        currentIndex++;
+        updateImageDisplay();
+    }
 }
 
 // Funzione per andare indietro
 function prevImage() {
-    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-    updateImageDisplay();
+    if (currentIndex > 0) { // Controlla se non è la prima immagine
+        currentIndex--;
+        updateImageDisplay();
+    }
 }
 
 // Aggiungi gli event listener ai pulsanti
@@ -41,10 +47,10 @@ const touchMove = (event) => {
     const diffX = currentX - startX; // Differenza tra posizione attuale e iniziale
 
     // Se il trascinamento è sufficiente, naviga tra le immagini
-    if (diffX > 50) { // Scorrimento verso destra
+    if (diffX > 50 && currentIndex > 0) { // Scorrimento verso destra e non è la prima immagine
         prevImage();
         isDragging = false; // Termina il trascinamento
-    } else if (diffX < -50) { // Scorrimento verso sinistra
+    } else if (diffX < -50 && currentIndex < totalImages - 1) { // Scorrimento verso sinistra e non è l'ultima immagine
         nextImage();
         isDragging = false; // Termina il trascinamento
     }

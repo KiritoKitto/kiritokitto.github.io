@@ -48,10 +48,10 @@
 }
 
 .carousel img {
-  width: 100%;
-  height: auto;
   aspect-ratio: 3/4;
   background-repeat: no-repeat;
+  min-width: 100%; /* Ogni immagine occupa il 100% della larghezza del carosello */
+  height: auto; /* Altezza automatica */
   object-fit: cover;
   overflow: hidden; 
   margin: 0;
