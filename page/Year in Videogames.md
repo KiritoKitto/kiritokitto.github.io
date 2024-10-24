@@ -2,7 +2,7 @@
 permalink: "/year-in-videogames"
 ---
 
-# Year in Videogames 2021
+# Year in Videogames
 
 La rubrica Year in Videogames nasce per celebrare il medium e i punti più alti (e bassi) della mia carriera videoludica.
 
