@@ -34,16 +34,18 @@ La quarta stagione
             <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg"></div>
             <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg"></div>
             <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma06.jpg"></div>
+            <!-- Altre immagini -->
         </div>
         <button class="prev" id="backButton">&#10094;</button>
         <button class="next" id="nextButton">&#10095;</button>
-        <div class="carousel-indicators">
-            <span class="indicator"></span>
-            <span class="indicator"></span>
-            <span class="indicator"></span>
-            <span class="indicator"></span>
-            <span class="indicator"></span>
-        </div>
+    </div>
+    <div class="indicators">
+        <!-- Aggiungi i puntini qui, la classe 'indicator' sarà utilizzata per attivarli -->
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
     </div>
 </details>
 
@@ -51,19 +53,19 @@ La quarta stagione
     <summary>Roma</summary>
     <span class="opacity">Città Eterna</span>
     <hr>
-    <div class="carousel" id="carousel2">
+    <div class="carousel" id="carousel1">
         <div class="carousel-inner">
-            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg"></div>
             <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg"></div>
-            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma06.jpg"></div>
+            <!-- Altre immagini -->
         </div>
         <button class="prev" id="backButton">&#10094;</button>
         <button class="next" id="nextButton">&#10095;</button>
-        <div class="carousel-indicators">
-            <span class="indicator"></span>
-            <span class="indicator"></span>
-            <span class="indicator"></span>
-        </div>
+    </div>
+    <div class="indicators">
+        <!-- Aggiungi i puntini qui, la classe 'indicator' sarà utilizzata per attivarli -->
+        <span class="indicator"></span>
+        <span class="indicator"></span>
     </div>
 </details>
 
