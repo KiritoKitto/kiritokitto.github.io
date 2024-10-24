@@ -63,7 +63,7 @@ La terza stagione è iniziata a Febbraio 2024 e non ha ancora un nome.
 
 ---
 
-<h3 id="#s2"> S2 - Into the Wilds </h2>
+<h3 id="#s2"> S2 - Into the Wilds </h3>
 
 La seconda stagione comprende 9 episodi in solitaria e si è conclusa nel corso di Settembre 2023.
 

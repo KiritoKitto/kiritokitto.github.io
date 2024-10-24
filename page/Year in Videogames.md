@@ -30,7 +30,7 @@ Tutte le edizioni della rubrica seguono e seguiranno questo regolamento:
 <hr>Dipende da quanto tempo ho giocato il titolo nell'anno precedente. Se poco: il titolo diventa candidabile per l'anno successivo e viene rimosso da quello precedente. </details>
 
 <details><summary>Vincere una categoria ne preclude la vincita in altre?</summary>
-<hr>Esistono casi per cui un titolo che vince un determinato premio non può vincerne un altro, questi casi sono citati nella descrizione del premio.</details>
+<hr>In alcuni casi sì.<br><br>Questi casi sono citati nella descrizione del premio.</details>
 
 ---
 
@@ -40,4 +40,4 @@ Il regolamento, le categorie e i singoli premi potrebbero cambiare nel tempo. Le
 
 ---
 
-<span class="opacity"> Ultimo aggiornamento: Luglio 2024 </span>
+*Ultimo aggiornamento: Luglio 2024*

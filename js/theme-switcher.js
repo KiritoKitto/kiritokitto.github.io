@@ -1,5 +1,7 @@
 // Funzione per cambiare il tema
-function switchTheme() {
+function switchTheme(event) {
+    event.preventDefault();  // Evita che il link faccia il comportamento predefinito
+
     const themeLink = document.getElementById("theme-link");
     const currentTheme = themeLink.getAttribute("href");
 
@@ -19,7 +21,7 @@ window.addEventListener("load", function() {
 
     if (savedTheme) {
         // Se c'è un tema salvato, applicalo
-        document.getElementById("theme-link").setAttribute("href", "css/" + savedTheme + ".css");
+        document.getElementById("theme-link").setAttribute("href", savedTheme + ".css");
     }
 });
 
