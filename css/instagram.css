@@ -51,6 +51,7 @@
   height: auto; /* Altezza automatica */
   object-fit: cover; /* Copre l'area senza distorcere l'immagine */
   margin: 0; /* Rimuovi eventuali margini */
+  max-width: 400px;
 }
 
 button {
