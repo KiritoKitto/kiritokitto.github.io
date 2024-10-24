@@ -25,14 +25,18 @@ La quarta stagione
 
 <details> <summary> Roma<br>
   <span class="opacity"> Città Eterna </span></summary> <hr>
-  <div class="grid-images">
-    <img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg">
-    <img src="docs/assets/images/intothewilds/s4/roma/Roma04.jpg">
-    <img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg">
-    <img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg">
-    <img src="docs/assets/images/intothewilds/s4/roma/Roma05.jpg">
-    <img src="docs/assets/images/intothewilds/s4/roma/Roma06.jpg">
-  </div>
+  <div class="carousel" id="carousel1">
+    <div class="carousel-inner">
+        <div class="carousel-item active"><img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg"></div>
+        <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma04.jpg"></div>
+        <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg"></div>
+        <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg"></div>
+        <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma06.jpg"></div>
+        <!-- Altre immagini -->
+    </div>
+    <button class="prev" onclick="moveSlide('carousel1', -1)">&#10094;</button>
+    <button class="next" onclick="moveSlide('carousel1', 1)">&#10095;</button>
+</div>
 </details>
 
 <hr id="s3">
