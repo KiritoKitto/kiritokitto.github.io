@@ -1,8 +1,10 @@
 let currentIndex = 0; // Indice dell'immagine corrente
 const images = document.querySelectorAll('#carousel1 .carousel-item'); // Seleziona tutti i contenitori delle immagini nel carosello
 const totalImages = images.length;
-let isDragging = false; // Flag per il trascinamento
+const threshold = 10; // Soglia per il cambiamento dell'immagine
 let startX; // Posizione iniziale del tocco
+let isDragging = false; // Stato del trascinamento
+let translateX = 0; // Traslazione attuale
 
 // Funzione per aggiornare l'immagine visualizzata
 function updateImageDisplay(offset = 0) {
@@ -19,15 +21,25 @@ function updateImageDisplay(offset = 0) {
     const backButton = document.getElementById('backButton');
     const nextButton = document.getElementById('nextButton');
 
-    backButton.style.display = currentIndex === 0 ? 'none' : 'block'; // Nascondi il pulsante "Indietro" se alla prima immagine
-    nextButton.style.display = currentIndex === totalImages - 1 ? 'none' : 'block'; // Nascondi il pulsante "Avanti" se all'ultima immagine
+    if (currentIndex === 0) {
+        backButton.style.display = 'none'; // Nascondi il pulsante "Indietro"
+    } else {
+        backButton.style.display = 'block'; // Mostra il pulsante "Indietro"
+    }
+
+    if (currentIndex === totalImages - 1) {
+        nextButton.style.display = 'none'; // Nascondi il pulsante "Avanti"
+    } else {
+        nextButton.style.display = 'block'; // Mostra il pulsante "Avanti"
+    }
 }
 
 // Funzione per andare avanti
 function nextImage() {
     if (currentIndex < totalImages - 1) { // Controlla se non è l'ultima immagine
         currentIndex++;
-        updateImageDisplay();
+        translateX = 0; // Reset dell'offset
+        updateImageDisplay(); // Aggiorna l'immagine
     }
 }
 
@@ -35,7 +47,8 @@ function nextImage() {
 function prevImage() {
     if (currentIndex > 0) { // Controlla se non è la prima immagine
         currentIndex--;
-        updateImageDisplay();
+        translateX = 0; // Reset dell'offset
+        updateImageDisplay(); // Aggiorna l'immagine
     }
 }
 
@@ -47,35 +60,59 @@ document.getElementById('backButton').addEventListener('click', prevImage);
 const touchStart = (event) => {
     startX = event.touches[0].clientX; // Prendi la posizione iniziale del tocco
     isDragging = true; // Inizia il trascinamento
+    translateX = 0; // Reset dell'offset
 };
 
 const touchMove = (event) => {
     if (!isDragging) return; // Non fare nulla se non si sta trascinando
 
     const currentX = event.touches[0].clientX; // Posizione attuale del tocco
-    const diffX = currentX - startX; // Differenza tra posizione attuale e iniziale
+    translateX = (currentX - startX) / window.innerWidth * 100; // Calcola l'offset in percentuale
 
-    // Trasla il carosello in base al movimento del tocco
-    const carouselInner = document.querySelector('.carousel-inner');
-    carouselInner.style.transform = `translateX(${-currentIndex * 100 + (diffX / window.innerWidth) * 100}%)`; // Traslazione responsiva
+    // Aggiorna la visualizzazione mentre si trascina
+    updateImageDisplay(translateX); // Passa l'offset alla funzione di aggiornamento
+};
 
-    // Se il trascinamento supera la soglia, naviga tra le immagini
-    if (diffX > 50) { // Scorrimento verso destra
-        prevImage();
-        isDragging = false; // Termina il trascinamento
-    } else if (diffX < -50) { // Scorrimento verso sinistra
-        nextImage();
-        isDragging = false; // Termina il trascinamento
+const touchEnd = () => {
+    isDragging = false; // Termina il trascinamento
+
+    // Controlla se l'offset supera la soglia
+    if (Math.abs(translateX) > threshold) {
+        if (translateX > 0 && currentIndex > 0) {
+            prevImage(); // Scorrimento verso destra, torna indietro
+        } else if (translateX < 0 && currentIndex < totalImages - 1) {
+            nextImage(); // Scorrimento verso sinistra, vai avanti
+        }
+    } else {
+        // Torna alla posizione originale
+        translateX = 0; // Reset dell'offset
+        updateImageDisplay(); // Ritorna alla posizione originale
+    }
+
+    // Gestione del rimbalzo oltre i limiti
+    if (currentIndex === 0 && translateX > 0) {
+        // Rimbalza se sei alla prima immagine
+        translateX = Math.min(translateX, 30); // Limita l'offset a un massimo di 50%
+        updateImageDisplay(translateX); // Aggiorna per il rimbalzo
+        setTimeout(() => {
+            translateX = 0; // Reset dell'offset
+            updateImageDisplay(); // Torna alla posizione originale
+        }, 300); // Tempo del rimbalzo
+    } else if (currentIndex === totalImages - 1 && translateX < 0) {
+        // Rimbalza se sei all'ultima immagine
+        translateX = Math.max(translateX, -30); // Limita l'offset a un minimo di -50%
+        updateImageDisplay(translateX); // Aggiorna per il rimbalzo
+        setTimeout(() => {
+            translateX = 0; // Reset dell'offset
+            updateImageDisplay(); // Torna alla posizione originale
+        }, 300); // Tempo del rimbalzo
     }
 };
 
 // Aggiungi gli event listener per il trascinamento
 document.getElementById('carousel1').addEventListener('touchstart', touchStart);
 document.getElementById('carousel1').addEventListener('touchmove', touchMove);
-document.addEventListener('touchend', () => {
-    isDragging = false; // Termina il trascinamento
-    updateImageDisplay(); // Riporta l'immagine corrente
-});
+document.getElementById('carousel1').addEventListener('touchend', touchEnd);
 document.addEventListener('touchcancel', () => isDragging = false); // Termina il trascinamento se annullato
 
 // Inizializza la visualizzazione dell'immagine
