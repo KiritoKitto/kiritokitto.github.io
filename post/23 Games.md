@@ -4,7 +4,7 @@ permalink: "/year-in-videogames-23"
 
 ## Year in Videogames 2023
 
-Benvenuti nella terza edizione della rubrica **Year in Videogames**, un recap annuale dei titoli giocati nel corso dell'anno per ricordare i punti più alti (e bassi) della mia carriera videoludica.
+Benvenuti nella terza edizione della rubrica <b>Year in Videogames</b>, un recap annuale dei titoli giocati nel corso dell'anno per ricordare i punti più alti (e bassi) della mia carriera videoludica.
 
 
 > Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-videogames).

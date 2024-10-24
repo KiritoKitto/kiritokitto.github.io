@@ -1,7 +1,6 @@
 // Funzione per cambiare il tema
 function switchTheme(event) {
     event.preventDefault();  // Evita il comportamento predefinito del link
-
     const themeLink = document.getElementById("theme-link");
     const currentTheme = themeLink.getAttribute("href");
 
@@ -19,12 +18,14 @@ function switchTheme(event) {
 window.addEventListener("load", function() {
     const savedTheme = localStorage.getItem("theme");
 
-    // Se c'è un tema salvato, applicalo; altrimenti imposta il tema di default (dark.css)
+    // Se c'è un tema salvato
     if (savedTheme === "dark") {
         document.getElementById("theme-link").setAttribute("href", "css/dark.css");
-    } else {
+    } else if (savedTheme === "light") {
         document.getElementById("theme-link").setAttribute("href", "css/light.css");
-        localStorage.setItem("theme", "light"); // Imposta light come default per i nuovi visitatori
+    } else {
+        document.getElementById("theme-link").setAttribute("href", "css/dark.css");
+        localStorage.setItem("theme", "dark"); // Imposta light come default per i nuovi visitatori
     }
 });
 

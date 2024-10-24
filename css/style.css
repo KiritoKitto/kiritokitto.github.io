@@ -157,20 +157,12 @@ nav a {
   margin-right: 8px;
 }
 
-strong, b, a {
-  font-weight: 500;
-  color: var(--color-link-primary);
-}
+strong, a, b { font-weight: 500; }
+strong, a { color: var(--color-link-primary); }
+b { font-weight: 500;}
 
-a {
-  color: var(--color-link-primary);
-  cursor: pointer;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+a { cursor: pointer; text-decoration: none; }
+a:hover { text-decoration: underline; }
 
 em {
   color: var(--color-tertiary);
