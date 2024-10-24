@@ -41,6 +41,22 @@ La quarta stagione
     </div>
 </details>
 
+<details>
+    <summary> Roma</summary>
+    <span class="opacity"> Città Eterna </span>
+    <hr>
+    <div class="carousel" id="carousel1">
+        <div class="carousel-inner">
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg"></div>
+            <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg"></div>
+            <!-- Altre immagini -->
+        </div>
+        <button class="prev" id="backButton">&#10094;</button>
+        <button class="next" id="nextButton">&#10095;</button>
+    </div>
+</details>
+
 <hr id="s3">
 
 ### S3 - Into the Wilds, the Sequel
@@ -58,6 +74,8 @@ La terza stagione è iniziata a Febbraio 2024 e non ha ancora un nome.
     <img src="https://pbs.twimg.com/media/GRoO9GKW4AEvOX2?format=jpg&name=small">
   </div>
 </details>
+
+
 
 <details> <summary> Regno dei Cavalli </summary>
   <span class="opacity"> Aprile | Sofignano </span><hr>  
