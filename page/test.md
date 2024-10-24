@@ -1,3 +1,7 @@
+---
+permalink: "/test"
+---
+
 <div class="carousel" id="carousel1">
     <div class="carousel-inner">
         <div class="carousel-item active">
