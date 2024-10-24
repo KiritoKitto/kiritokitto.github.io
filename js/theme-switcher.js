@@ -1,5 +1,6 @@
 // Funzione per cambiare il tema
 function switchTheme(event) {
+    event.preventDefault();  // Evita il comportamento predefinito del link
 
     const themeLink = document.getElementById("theme-link");
     const currentTheme = themeLink.getAttribute("href");
@@ -9,8 +10,8 @@ function switchTheme(event) {
         themeLink.setAttribute("href", "css/dark.css");
         localStorage.setItem("theme", "dark");
     } else {
-        themeLink.setAttribute("href", "css/light.css");
-        localStorage.setItem("theme", "light");
+        themeLink.setAttribute("href", "light.css");
+        localStorage.setItem("theme", "css/light");
     }
 }
 
@@ -18,9 +19,11 @@ function switchTheme(event) {
 window.addEventListener("load", function() {
     const savedTheme = localStorage.getItem("theme");
 
+    // Se c'è un tema salvato, applicalo; altrimenti imposta il tema di default (dark.css)
     if (savedTheme) {
-        // Se c'è un tema salvato, applicalo
-        document.getElementById("theme-link").setAttribute("href", savedTheme + ".css");
+        document.getElementById("theme-link").setAttribute("href", "css/" + savedTheme + ".css");
+    } else {
+        document.getElementById("theme-link").setAttribute("href", "css/dark.css");
     }
 });
 
