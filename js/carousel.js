@@ -6,9 +6,7 @@ const totalImages = images.length;
 function updateImageDisplay() {
     // Calcola la posizione in base all'indice corrente
     const offset = -currentIndex * 100; // Sposta le immagini di 100% per ogni cambio di immagine
-    images.forEach((img) => {
-        img.style.transform = `translateX(${offset}%)`; // Applica la traslazione
-    });
+    document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`; // Applica la traslazione
 }
 
 // Funzione per andare avanti
