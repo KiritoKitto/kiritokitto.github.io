@@ -17,9 +17,9 @@ Il **Diario di Viaggiatore**, serie nata nel corso del 2022, è una raccolta di 
 - <a href="#s2">S2 - Into the Wilds</a>
 - <a href="#s1">S1 - Oltre il Firmamento</a>
 
----
+<hr id="s3">
 
-<h3 id="#s3"> S3 - Into the Wilds, the Sequel </h3>
+### S3 - Into the Wilds, the Sequel
 
 La terza stagione è iniziata a Febbraio 2024 e non ha ancora un nome.
 
@@ -61,9 +61,9 @@ La terza stagione è iniziata a Febbraio 2024 e non ha ancora un nome.
   </div>
 </details>
 
----
+<hr id="s2">
 
-<h3 id="#s2"> S2 - Into the Wilds </h3>
+### S2 - Into the Wilds
 
 La seconda stagione comprende 9 episodi in solitaria e si è conclusa nel corso di Settembre 2023.
 
@@ -186,6 +186,8 @@ La seconda stagione comprende 9 episodi in solitaria e si è conclusa nel corso 
 </div> </details>
 
 ---
+
+<hr id="s1">
 
 ### S1 - Oltre il Firmamento
 
