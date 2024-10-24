@@ -23,6 +23,8 @@
 @media screen and (max-width: 600px) { 
     .grid-news { grid-template-columns: 1fr; row-gap: 20px; }
     .grid-images { grid-template-columns: 1fr 1fr; }
+    .prev { display: none; }
+    .next { display: none; }
 }
 
 /*---------------------------------*/
@@ -62,15 +64,15 @@ button {
   background-color: rgba(255, 255, 255, 0.5);
   color: grey;
   border: none;
-  padding: 5px; /* Riduci il padding per un bottone più piccolo */
-  height: 30px; /* Riduci l'altezza del bottone */
-  width: 30px;  /* Riduci la larghezza del bottone */
+  padding: 1px; /* Riduci il padding per un bottone più piccolo */
+  height: 15px; /* Riduci l'altezza del bottone */
+  width: 15px;  /* Riduci la larghezza del bottone */
   border-radius: 50%; /* Mantieni il bottone circolare */
   cursor: pointer;
   display: flex;
   align-items: center; /* Centra verticalmente il contenuto */
   justify-content: center; /* Centra orizzontalmente il contenuto */
-  font-size: 10px; /* Riduci la dimensione del testo o dell'icona all'interno del bottone */
+  font-size: 7px; /* Riduci la dimensione del testo o dell'icona all'interno del bottone */
 }
 
 .prev {
