@@ -3,11 +3,11 @@
     --font-title: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
 
     --color-background: #FFFFFF;
-    --color-background-secondary: #FFFFF6;
+    --color-background-secondary: #e1e1e1;
   
     --color-primary: rgb(0, 0, 4);
-    --color-secondary: rgb(34, 34, 32);
-    --color-tertiary: rgb(90, 94, 96);
+    --color-secondary: rgb(39, 39, 39);
+    --color-tertiary: rgb(143, 143, 143);
     
     --color-link-primary: #d3425a;
     --color-link-secondary: #d3425a; 

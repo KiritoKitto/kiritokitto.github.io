@@ -6,12 +6,12 @@ function switchTheme(event) {
     const currentTheme = themeLink.getAttribute("href");
 
     // Cambia il tema e salva la scelta nel localStorage
-    if (currentTheme === "css/light.css") {
-        themeLink.setAttribute("href", "css/dark.css");
-        localStorage.setItem("theme", "dark");
-    } else {
+    if (currentTheme === "css/dark.css") {
         themeLink.setAttribute("href", "css/light.css");
         localStorage.setItem("theme", "light");
+    } else {
+        themeLink.setAttribute("href", "css/dark.css");
+        localStorage.setItem("theme", "dark");
     }
 }
 
@@ -19,11 +19,12 @@ function switchTheme(event) {
 window.addEventListener("load", function() {
     const savedTheme = localStorage.getItem("theme");
 
-    // Se c'è un tema salvato, applicalo; altrimenti imposta il tema di default (light.css)
+    // Se c'è un tema salvato, applicalo; altrimenti imposta il tema di default (dark.css)
     if (savedTheme === "dark") {
         document.getElementById("theme-link").setAttribute("href", "css/dark.css");
     } else {
         document.getElementById("theme-link").setAttribute("href", "css/light.css");
+        localStorage.setItem("theme", "light"); // Imposta light come default per i nuovi visitatori
     }
 });
 
