@@ -2,13 +2,18 @@
     --font: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
     --font-title: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
 
-    --color-background: rgb(255, 255, 255);
-    --color-background-secondary: rgb(230, 230, 230);
+    --color-background: #FFFFF6;
+    --color-background-secondary: rgb(233, 230, 186);
   
     --color-primary: rgb(0, 0, 4);
     --color-secondary: rgb(34, 34, 32);
     --color-tertiary: rgb(90, 94, 96);
     
     --color-link-primary: #d3425a;
-    --color-link-secondary: rgb(200, 150, 10);
+    --color-link-secondary: rgb(189, 151, 47); 
+}
+
+a strong b {
+    font-weight: 500 !important;
+    color: var(--color-link-primary) !important;
 }
