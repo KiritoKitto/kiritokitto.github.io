@@ -1,75 +1,60 @@
-const carousels = {};
+let currentIndex = 0; // Indice dell'immagine corrente
+const images = document.querySelectorAll('.image'); // Seleziona tutte le immagini
+const totalImages = images.length;
 
-function initCarousel(carouselId) {
-    const slides = document.querySelectorAll(`#${carouselId} .carousel-item`);
-    carousels[carouselId] = {
-        currentSlide: 0,
-        totalSlides: slides.length,
-        inner: document.querySelector(`#${carouselId} .carousel-inner`),
-        startX: 0,
-        currentTranslate: 0,
-        isDragging: false
-    };
-    showSlide(carouselId);
+// Funzione per aggiornare l'immagine visualizzata
+function updateImageDisplay() {
+    images.forEach((img, index) => {
+        img.style.display = index === currentIndex ? 'block' : 'none';
+    });
 }
 
-function showSlide(carouselId) {
-    const carousel = carousels[carouselId];
-    const offset = -carousel.currentSlide * 100;
-    carousel.inner.style.transform = `translateX(${offset}%)`;
+// Funzione per andare avanti
+function nextImage() {
+    currentIndex = (currentIndex + 1) % totalImages;
+    updateImageDisplay();
 }
 
-function moveSlide(carouselId, direction) {
-    const carousel = carousels[carouselId];
-    carousel.currentSlide += direction;
+// Funzione per andare indietro
+function prevImage() {
+    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+    updateImageDisplay();
+}
 
-    if (carousel.currentSlide >= carousel.totalSlides) {
-        carousel.currentSlide = 0;
-    } else if (carousel.currentSlide < 0) {
-        carousel.currentSlide = carousel.totalSlides - 1;
+// Aggiungi gli event listener ai pulsanti
+document.getElementById('nextButton').addEventListener('click', nextImage);
+document.getElementById('backButton').addEventListener('click', prevImage);
+
+// Funzionalità di trascinamento
+let startX;
+let isDragging = false;
+
+const touchStart = (event) => {
+    startX = event.touches[0].clientX; // Prendi la posizione iniziale del tocco
+    isDragging = true; // Inizia il trascinamento
+};
+
+const touchMove = (event) => {
+    if (!isDragging) return; // Non fare nulla se non si sta trascinando
+
+    const currentX = event.touches[0].clientX; // Posizione attuale del tocco
+    const diffX = currentX - startX; // Differenza tra posizione attuale e iniziale
+
+    // Se il trascinamento è sufficiente, naviga tra le immagini
+    if (diffX > 50) { // Scorrimento verso destra
+        prevImage();
+        isDragging = false; // Termina il trascinamento
+    } else if (diffX < -50) { // Scorrimento verso sinistra
+        nextImage();
+        isDragging = false; // Termina il trascinamento
     }
+};
 
-    showSlide(carouselId);
-}
+// Aggiungi gli event listener per il trascinamento
+document.addEventListener('touchstart', touchStart);
+document.addEventListener('touchmove', touchMove);
+document.addEventListener('touchend', () => isDragging = false); // Termina il trascinamento
+document.addEventListener('touchcancel', () => isDragging = false); // Termina il trascinamento se annullato
 
-function handleTouchStart(event, carouselId) {
-    const carousel = carousels[carouselId];
-    carousel.startX = event.touches[0].clientX;
-    carousel.isDragging = true;
-}
-
-function handleTouchMove(event, carouselId) {
-    if (!carousels[carouselId].isDragging) return;
-
-    const carousel = carousels[carouselId];
-    const currentX = event.touches[0].clientX;
-    const diffX = carousel.startX - currentX;
-
-    carousel.currentTranslate = -carousel.currentSlide * 100 + (diffX / window.innerWidth * 100);
-    carousel.inner.style.transform = `translateX(${carousel.currentTranslate}%)`;
-}
-
-function handleTouchEnd(carouselId) {
-    const carousel = carousels[carouselId];
-    carousel.isDragging = false;
-
-    const threshold = 50; // soglia per determinare lo scorrimento
-
-    if (carousel.startX - carousel.currentTranslate / 100 * window.innerWidth > threshold) {
-        moveSlide(carouselId, 1); // Sposta a sinistra
-    } else if (carousel.startX - carousel.currentTranslate / 100 * window.innerWidth < -threshold) {
-        moveSlide(carouselId, -1); // Sposta a destra
-    } else {
-        showSlide(carouselId); // Ritorna alla slide corrente
-    }
-}
-
-// Aggiungere gli eventi touch per ogni carosello
-document.querySelectorAll('.carousel').forEach(carousel => {
-    const carouselId = carousel.id;
-    initCarousel(carouselId);
-
-    carousel.addEventListener('touchstart', (event) => handleTouchStart(event, carouselId));
-    carousel.addEventListener('touchmove', (event) => handleTouchMove(event, carouselId));
-    carousel.addEventListener('touchend', () => handleTouchEnd(carouselId));
-});
+// Inizializza la visualizzazione dell'immagine
+updateImageDisplay();
