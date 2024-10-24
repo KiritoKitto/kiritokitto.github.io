@@ -5,10 +5,10 @@ permalink: "/test"
 <div class="carousel" id="carousel1">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg"> alt="Immagine 1">
+            <img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg" alt="Immagine 1">
         </div>
         <div class="carousel-item">
-            <img src="docs/assets/images/intothewilds/s4/roma/Roma04.jpg"> alt="Immagine 2">
+            <img src="docs/assets/images/intothewilds/s4/roma/Roma04.jpg" alt="Immagine 2">
         </div>
         <!-- Altre immagini -->
     </div>
@@ -19,10 +19,10 @@ permalink: "/test"
 <div class="carousel" id="carousel2">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg"> alt="Immagine A">
+            <img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg" alt="Immagine A">
         </div>
         <div class="carousel-item">
-            <img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg"> alt="Immagine B">
+            <img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg" alt="Immagine B">
         </div>
         <!-- Altre immagini -->
     </div>
