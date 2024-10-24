@@ -1,7 +1,7 @@
 let currentIndex = 0; // Indice dell'immagine corrente
 const images = document.querySelectorAll('#carousel1 .carousel-item'); // Seleziona tutti i contenitori delle immagini nel carosello
 const totalImages = images.length;
-const threshold = 30; // Soglia per il cambiamento dell'immagine
+const threshold = 10; // Soglia per il cambiamento dell'immagine
 let startX; // Posizione iniziale del tocco
 let isDragging = false; // Stato del trascinamento
 let translateX = 0; // Traslazione attuale
@@ -77,7 +77,7 @@ const touchEnd = () => {
     // Gestione del rimbalzo oltre i limiti
     if (currentIndex === 0 && translateX > 0) {
         // Rimbalza se sei alla prima immagine
-        translateX = Math.min(translateX, 50); // Limita l'offset a un massimo di 50%
+        translateX = Math.min(translateX, 30); // Limita l'offset a un massimo di 50%
         updateImageDisplay(translateX); // Aggiorna per il rimbalzo
         setTimeout(() => {
             translateX = 0; // Reset dell'offset
@@ -85,7 +85,7 @@ const touchEnd = () => {
         }, 300); // Tempo del rimbalzo
     } else if (currentIndex === totalImages - 1 && translateX < 0) {
         // Rimbalza se sei all'ultima immagine
-        translateX = Math.max(translateX, -50); // Limita l'offset a un minimo di -50%
+        translateX = Math.max(translateX, -30); // Limita l'offset a un minimo di -50%
         updateImageDisplay(translateX); // Aggiorna per il rimbalzo
         setTimeout(() => {
             translateX = 0; // Reset dell'offset

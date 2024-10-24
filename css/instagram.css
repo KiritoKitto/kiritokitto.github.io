@@ -39,12 +39,13 @@
 
 .carousel-inner {
   display: flex; /* Flexbox per disporre le immagini in una riga */
-  transition: transform 0.1s ease; /* Aggiungi una transizione per il movimento */
+  transition: transform 0.5s ease; /* Aggiungi una transizione per il movimento */
 }
 
 .carousel-item {
   min-width: 100%; /* Ogni immagine occupa il 100% della larghezza del carosello */
   box-sizing: border-box; /* Assicura che il padding non influisca sulla larghezza */
+  border-radius: var(--radius);
 }
 
 .carousel img {
