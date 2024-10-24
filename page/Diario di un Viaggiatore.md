@@ -43,13 +43,13 @@ La quarta stagione
 
 <details><summary>Barberino</summary><span class="opacity">Lago Bilancino</span><hr>
 <div class="carousel" id="carousel20"><div class="carousel-inner">
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Barberino (1).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Barberino (2).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Barberino (3).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Barberino (4).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Barberino (5).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Barberino (6).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Barberino (7).jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (1).jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (2).jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (3).jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (4).jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (5).jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (6).jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (7).jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
     <span class="indicator"></span>
@@ -60,6 +60,8 @@ La quarta stagione
     <span class="indicator"></span>
     <span class="indicator"></span>
 </div> </details>
+
+
 
 <hr id="s3">
 
