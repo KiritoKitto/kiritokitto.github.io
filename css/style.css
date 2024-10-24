@@ -111,7 +111,8 @@ details {
   margin: var(--margin-light) 0px;
 }
 
-details>summary { list-style: none;  }
+details>summary { list-style: none; }
+details>hr { margin: var(--padding) 0px;}
 summary::-webkit-details-marker { display: none }
 summary::after { content: ' >'; }
 details[open] summary:after { content: "  ˅";}
