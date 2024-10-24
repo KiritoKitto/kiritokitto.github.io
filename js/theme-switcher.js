@@ -19,11 +19,11 @@ function switchTheme(event) {
 window.addEventListener("load", function() {
     const savedTheme = localStorage.getItem("theme");
 
-    // Se c'è un tema salvato, applicalo; altrimenti imposta il tema di default (dark.css)
-    if (savedTheme) {
-        document.getElementById("theme-link").setAttribute("href", "css/" + savedTheme + ".css");
-    } else {
+    // Se c'è un tema salvato, applicalo; altrimenti imposta il tema di default (light.css)
+    if (savedTheme === "dark") {
         document.getElementById("theme-link").setAttribute("href", "css/dark.css");
+    } else {
+        document.getElementById("theme-link").setAttribute("href", "css/light.css");
     }
 });
 
