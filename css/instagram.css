@@ -55,6 +55,7 @@
   height: auto; /* Altezza automatica */
   object-fit: cover; /* Copre l'area senza distorcere l'immagine */
   margin: 0; /* Rimuovi eventuali margini */
+  object-position: center; /* Centra l'immagine verticalmente e orizzontalmente */
 }
 
 button {

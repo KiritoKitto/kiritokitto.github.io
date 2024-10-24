@@ -32,13 +32,9 @@ La quarta stagione
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m6.jpg"></div>
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m7.jpg"></div>
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m8.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m9.jpg"></div>
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m10.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m11.jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
-    <span class="indicator"></span>
-    <span class="indicator"></span>
     <span class="indicator"></span>
     <span class="indicator"></span>
     <span class="indicator"></span>
