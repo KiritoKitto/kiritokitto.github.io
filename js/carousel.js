@@ -2,7 +2,7 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
     let currentIndex = 0; // Indice dell'immagine corrente
     const images = carousel.querySelectorAll('.carousel-item'); // Seleziona tutti i contenitori delle immagini nel carosello
     const totalImages = images.length;
-    const indicators = carousel.querySelectorAll('.indicator'); // Seleziona tutti gli indicatori
+    const indicators = carousel.parentNode.querySelectorAll('.indicator'); // Seleziona gli indicatori esterni alla struttura del carosello
     const threshold = 10; // Soglia per il cambiamento dell'immagine
     let startX; // Posizione iniziale del tocco
     let isDragging = false; // Stato del trascinamento
