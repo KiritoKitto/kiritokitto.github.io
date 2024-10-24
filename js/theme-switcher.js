@@ -6,7 +6,7 @@ function switchTheme(event) {
     const currentTheme = themeLink.getAttribute("href");
 
     // Cambia il tema e salva la scelta nel localStorage
-    if (currentTheme === "css/light.css") {
+    if (currentTheme === "/css/light.css") {
         themeLink.setAttribute("href", "/css/dark.css");
         localStorage.setItem("theme", "dark");
     } else {
