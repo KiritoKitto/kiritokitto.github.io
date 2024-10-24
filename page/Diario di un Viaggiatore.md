@@ -17,6 +17,19 @@ Il **Diario di Viaggiatore**, serie nata nel corso del 2022, è una raccolta di 
 - <a href="#s2">S2 - Into the Wilds</a>
 - <a href="#s1">S1 - Oltre il Firmamento</a>
 
+<hr id="s4">
+
+### S4 - Tour
+
+La quarta stagione
+
+<details> <summary> Roma </summary>
+  <span class="opacity"> Città Eterna </span> <hr>
+  <div class="grid-images">
+    ![Book logo](/docs/assets/images/Roma01.jpg)
+  </div>
+</details>
+
 <hr id="s3">
 
 ### S3 - Into the Wilds, the Sequel
