@@ -62,14 +62,15 @@ button {
   background-color: rgba(255, 255, 255, 0.5);
   color: grey;
   border: none;
-  padding: 10px;
-  height: 40px; /* Aumentato per un bottone circolare più grande */
-  width: 40px; /* Aumentato per un bottone circolare più grande */
-  border-radius: 50%; /* Rende il bottone circolare */
+  padding: 5px; /* Riduci il padding per un bottone più piccolo */
+  height: 30px; /* Riduci l'altezza del bottone */
+  width: 30px;  /* Riduci la larghezza del bottone */
+  border-radius: 50%; /* Mantieni il bottone circolare */
   cursor: pointer;
   display: flex;
   align-items: center; /* Centra verticalmente il contenuto */
   justify-content: center; /* Centra orizzontalmente il contenuto */
+  font-size: 10px; /* Riduci la dimensione del testo o dell'icona all'interno del bottone */
 }
 
 .prev {
