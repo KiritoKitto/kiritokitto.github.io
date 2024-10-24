@@ -95,4 +95,15 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
             setTimeout(() => {
                 translateX = 0; // Reset dell'offset
                 updateImageDisplay(); // Torna alla posizione originale
-            }, 300); // Tempo
+            }, 300); // Tempo del rimbalzo
+        }
+    };
+
+    // Aggiungi gli eventi di tocco
+    carousel.addEventListener('touchstart', touchStart);
+    carousel.addEventListener('touchmove', touchMove);
+    carousel.addEventListener('touchend', touchEnd);
+
+    // Inizializza la visualizzazione dell'immagine
+    updateImageDisplay();
+});
