@@ -13,7 +13,7 @@
     --color-link-secondary: rgb(189, 151, 47); 
 }
 
-a strong b {
+a, strong, b {
     font-weight: 500 !important;
     color: var(--color-link-primary) !important;
 }
