@@ -1,7 +1,7 @@
 let currentIndex = 0; // Indice dell'immagine corrente
 const images = document.querySelectorAll('#carousel1 .carousel-item'); // Seleziona tutti i contenitori delle immagini nel carosello
 const totalImages = images.length;
-const threshold = 50; // Soglia per il cambiamento dell'immagine
+const threshold = 30; // Soglia per il cambiamento dell'immagine
 let startX; // Posizione iniziale del tocco
 let isDragging = false; // Stato del trascinamento
 let translateX = 0; // Traslazione attuale
@@ -10,7 +10,13 @@ let translateX = 0; // Traslazione attuale
 function updateImageDisplay(offset = 0) {
     // Applica la traslazione in base all'indice corrente e all'offset
     const currentOffset = -currentIndex * 100 + offset; // Sposta le immagini di 100% per ogni cambio di immagine
-    document.querySelector('.carousel-inner').style.transform = `translateX(${currentOffset}%)`; // Applica la traslazione
+    const carouselInner = document.querySelector('.carousel-inner');
+
+    // Rimuovi l'ease per lo scorrimento con il dito
+    carouselInner.style.transition = isDragging ? 'none' : 'transform 0.5s ease';
+    
+    // Applica la traslazione
+    carouselInner.style.transform = `translateX(${currentOffset}%)`;
 }
 
 // Funzione per andare avanti
@@ -55,17 +61,36 @@ const touchMove = (event) => {
 const touchEnd = () => {
     isDragging = false; // Termina il trascinamento
 
-    // Se l'offset supera la soglia, cambia immagine
+    // Controlla se l'offset supera la soglia
     if (Math.abs(translateX) > threshold) {
-        if (translateX > 0) {
+        if (translateX > 0 && currentIndex > 0) {
             prevImage(); // Scorrimento verso destra, torna indietro
-        } else {
+        } else if (translateX < 0 && currentIndex < totalImages - 1) {
             nextImage(); // Scorrimento verso sinistra, vai avanti
         }
     } else {
         // Torna alla posizione originale
         translateX = 0; // Reset dell'offset
         updateImageDisplay(); // Ritorna alla posizione originale
+    }
+
+    // Gestione del rimbalzo oltre i limiti
+    if (currentIndex === 0 && translateX > 0) {
+        // Rimbalza se sei alla prima immagine
+        translateX = Math.min(translateX, 50); // Limita l'offset a un massimo di 50%
+        updateImageDisplay(translateX); // Aggiorna per il rimbalzo
+        setTimeout(() => {
+            translateX = 0; // Reset dell'offset
+            updateImageDisplay(); // Torna alla posizione originale
+        }, 300); // Tempo del rimbalzo
+    } else if (currentIndex === totalImages - 1 && translateX < 0) {
+        // Rimbalza se sei all'ultima immagine
+        translateX = Math.max(translateX, -50); // Limita l'offset a un minimo di -50%
+        updateImageDisplay(translateX); // Aggiorna per il rimbalzo
+        setTimeout(() => {
+            translateX = 0; // Reset dell'offset
+            updateImageDisplay(); // Torna alla posizione originale
+        }, 300); // Tempo del rimbalzo
     }
 };
 
