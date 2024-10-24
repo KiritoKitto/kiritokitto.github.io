@@ -60,10 +60,10 @@ const touchMove = (event) => {
     carouselInner.style.transform = `translateX(${-currentIndex * 100 + (diffX / window.innerWidth) * 100}%)`; // Traslazione responsiva
 
     // Se il trascinamento supera la soglia, naviga tra le immagini
-    if (diffX > 50 && currentIndex > 0) { // Scorrimento verso destra e non è la prima immagine
+    if (diffX > 50) { // Scorrimento verso destra
         prevImage();
         isDragging = false; // Termina il trascinamento
-    } else if (diffX < -50 && currentIndex < totalImages - 1) { // Scorrimento verso sinistra e non è l'ultima immagine
+    } else if (diffX < -50) { // Scorrimento verso sinistra
         nextImage();
         isDragging = false; // Termina il trascinamento
     }
@@ -75,7 +75,7 @@ document.getElementById('carousel1').addEventListener('touchmove', touchMove);
 document.addEventListener('touchend', () => {
     isDragging = false; // Termina il trascinamento
     updateImageDisplay(); // Riporta l'immagine corrente
-}); // Riporta l'immagine corrente dopo il tocco
+});
 document.addEventListener('touchcancel', () => isDragging = false); // Termina il trascinamento se annullato
 
 // Inizializza la visualizzazione dell'immagine
