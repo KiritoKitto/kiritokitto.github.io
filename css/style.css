@@ -99,7 +99,7 @@ h6 {
   color: var(--color-tertiary);
 }
 
-details *:not(hr) {
+details {
   border-radius: var(--radius);
   border: 1px;
   border-color: var(--color-tertiary);
@@ -111,10 +111,10 @@ details *:not(hr) {
   margin: var(--margin-light) 0px;
 }
 
-  details>summary { list-style: none;  }
-  summary::-webkit-details-marker { display: none }
-  summary::after { content: ' >'; }
-  details[open] summary:after { content: "  ˅";}
+details>summary { list-style: none;  }
+summary::-webkit-details-marker { display: none }
+summary::after { content: ' >'; }
+details[open] summary:after { content: "  ˅";}
 
 summary {
   font-size: var(--font-size);
