@@ -1,6 +1,5 @@
 // Funzione per cambiare il tema
 function switchTheme(event) {
-    event.preventDefault();  // Evita che il link faccia il comportamento predefinito
 
     const themeLink = document.getElementById("theme-link");
     const currentTheme = themeLink.getAttribute("href");

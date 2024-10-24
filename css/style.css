@@ -162,8 +162,9 @@ nav a {
   margin-right: 8px;
 }
 
-strong b {
+strong, b, a {
   font-weight: 500;
+  color: var(--color-link-primary);
 }
 
 a {
