@@ -112,6 +112,8 @@ details {
 }
 
   details>summary { list-style: none; padding: var(--padding) calc(var(--padding)*1.5); }
+  details>#text { padding: var(--padding) calc(var(--padding)*1.5); }
+  details>hr { margin: 0px; }
   summary::-webkit-details-marker { display: none }
   summary::after { content: ' >'; }
   details[open] summary:after { content: "  ˅";}
