@@ -1,49 +1,27 @@
----
-permalink: "/test"
----
+<div class="carousel" id="carousel1">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg"> alt="Immagine 1">
+        </div>
+        <div class="carousel-item">
+            <img src="docs/assets/images/intothewilds/s4/roma/Roma04.jpg"> alt="Immagine 2">
+        </div>
+        <!-- Altre immagini -->
+    </div>
+    <button class="prev" onclick="moveSlide('carousel1', -1)">&#10094;</button>
+    <button class="next" onclick="moveSlide('carousel1', 1)">&#10095;</button>
+</div>
 
-# An announcement regarding the GX YouTube channel.
-
----
-
-I’m saddened to say that due to softening revenue, it’s become impossible to continue to sufficiently provide for my full-time team members. I tried everything imaginable to avoid this for as long as possible, including forgoing any payment myself for more than two years and reinvesting 100% of the revenue back into the company, but sadly, these efforts weren’t enough.
-
-I couldn’t be more proud of what my team has accomplished in the time I was fortunate enough to have them. They have created so many incredible video features that I believe are among the very best to be found on gaming YouTube.
-
-I'll miss having my team here, but I know Joey and Tris have a promising future, as they are both extremely talented all-star creators and would make an amazing addition to any team. And I know they will both continue to kick a ton of ass at whatever it is they do next.
-
----
-
-**Questo è un paragrafo di tipo 6**
-
-I’m saddened to say that due to softening revenue, it’s become impossible to continue to sufficiently provide for my full-time team members. I tried everything imaginable to avoid this for as long as possible, including forgoing any payment myself for more than two years and reinvesting 100% of the revenue back into the company, but sadly, these efforts weren’t enough.
-
----
-
-##### Questo è un paragrafo di tipo 5
-
-I’m saddened to say that due to softening revenue, it’s become impossible to continue to sufficiently provide for my full-time team members. I tried everything imaginable to avoid this for as long as possible, including forgoing any payment myself for more than two years and reinvesting 100% of the revenue back into the company, but sadly, these efforts weren’t enough.
-
----
-
-#### Questo è un paragrafo di tipo 4
-
-I’m saddened to say that due to softening revenue, it’s become impossible to continue to sufficiently provide for my full-time team members. I tried everything imaginable to avoid this for as long as possible, including forgoing any payment myself for more than two years and reinvesting 100% of the revenue back into the company, but sadly, these efforts weren’t enough.
-
----
-
-### Questo è un paragrafo di tipo 3
-
-I’m saddened to say that due to softening revenue, it’s become impossible to continue to sufficiently provide for my full-time team members. I tried everything imaginable to avoid this for as long as possible, including forgoing any payment myself for more than two years and reinvesting 100% of the revenue back into the company, but sadly, these efforts weren’t enough.
-
----
-
-## Questo è un paragrafo di tipo 2
-
-I’m saddened to say that due to softening revenue, it’s become impossible to continue to sufficiently provide for my full-time team members. I tried everything imaginable to avoid this for as long as possible, including forgoing any payment myself for more than two years and reinvesting 100% of the revenue back into the company, but sadly, these efforts weren’t enough.
-
----
-
-# Questo è un paragrafo di tipo 1
-
-I’m saddened to say that due to softening revenue, it’s become impossible to continue to sufficiently provide for my full-time team members. I tried everything imaginable to avoid this for as long as possible, including forgoing any payment myself for more than two years and reinvesting 100% of the revenue back into the company, but sadly, these efforts weren’t enough.
+<div class="carousel" id="carousel2">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg"> alt="Immagine A">
+        </div>
+        <div class="carousel-item">
+            <img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg"> alt="Immagine B">
+        </div>
+        <!-- Altre immagini -->
+    </div>
+    <button class="prev" onclick="moveSlide('carousel2', -1)">&#10094;</button>
+    <button class="next" onclick="moveSlide('carousel2', 1)">&#10095;</button>
+</div>
