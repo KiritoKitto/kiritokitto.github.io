@@ -99,7 +99,7 @@ h6 {
   color: var(--color-tertiary);
 }
 
-details {
+details *:not(hr) {
   border-radius: var(--radius);
   border: 1px;
   border-color: var(--color-tertiary);
@@ -112,7 +112,6 @@ details {
 }
 
   details>summary { list-style: none;  }
-  details>hr { margin: 0px; }
   summary::-webkit-details-marker { display: none }
   summary::after { content: ' >'; }
   details[open] summary:after { content: "  ˅";}
