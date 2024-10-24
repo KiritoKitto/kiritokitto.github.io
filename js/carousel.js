@@ -1,11 +1,11 @@
 let currentIndex = 0; // Indice dell'immagine corrente
-const images = document.querySelectorAll('.image'); // Seleziona tutte le immagini
+const images = document.querySelectorAll('#carousel1 .carousel-item img'); // Seleziona tutte le immagini nel carosello
 const totalImages = images.length;
 
 // Funzione per aggiornare l'immagine visualizzata
 function updateImageDisplay() {
     images.forEach((img, index) => {
-        img.style.display = index === currentIndex ? 'block' : 'none';
+        img.parentElement.style.display = index === currentIndex ? 'block' : 'none'; // Mostra solo il contenitore dell'immagine attiva
     });
 }
 
@@ -51,8 +51,8 @@ const touchMove = (event) => {
 };
 
 // Aggiungi gli event listener per il trascinamento
-document.addEventListener('touchstart', touchStart);
-document.addEventListener('touchmove', touchMove);
+document.getElementById('carousel1').addEventListener('touchstart', touchStart);
+document.getElementById('carousel1').addEventListener('touchmove', touchMove);
 document.addEventListener('touchend', () => isDragging = false); // Termina il trascinamento
 document.addEventListener('touchcancel', () => isDragging = false); // Termina il trascinamento se annullato
 
