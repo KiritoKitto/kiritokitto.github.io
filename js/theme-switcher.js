@@ -3,7 +3,7 @@ function loadTheme(theme) {
     const themeLink = document.createElement("link");
     themeLink.id = "theme-link"; // Assegna un ID per il link
     themeLink.rel = "stylesheet";
-    themeLink.href = `{{ '/css/${theme}.css' | relative_url }}`; // Usa il tema passato come argomento
+    themeLink.href = `{{ 'css/${theme}.css' | relative_url }}`; // Usa il tema passato come argomento
     document.head.appendChild(themeLink); // Aggiungi il link al <head>
 }
 
@@ -14,7 +14,7 @@ function switchTheme(event) {
     const currentTheme = document.getElementById("theme-link").getAttribute("href");
 
     // Cambia il tema e salva la scelta nel localStorage
-    if (currentTheme.includes("dark.css")) {
+    if (currentTheme.includes("css/dark.css")) {
         loadTheme("light"); // Carica il tema chiaro
         localStorage.setItem("theme", "light");
     } else {
