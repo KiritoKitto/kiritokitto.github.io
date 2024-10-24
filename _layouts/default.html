@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Reddit+Mono:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
-
+    <link id="theme" rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+    <link id="theme-link" rel="stylesheet" href="{{ '/css/light.css' | relative_url }}">
 </head>
 <body>
   <header>
@@ -18,10 +18,12 @@
         <a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}/job">Lavoro</a>
         <a href="https://t.me/kiritokitto">Contact</a>
+        <button id="theme-button">Switch Theme</button>
       </p></nav>
   </header>
   <main>
     {{ content }}
   </main>
+  <script src= "{{ '/js/theme-switcher.js' | relative_url }}"></script>
 </body>
 </html>
