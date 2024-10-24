@@ -1,4 +1,4 @@
-## Scalatore di montagne all'alba, videogiocatore nella notte.
+## Scalatore di montagne all'alba,<br>videogiocatore nella notte.
 
 Se volete fare un saluto o chiedere qualcosa potete scrivermi su [Telegram](https://t.me/kiritokitto), dove tengo anche un diario per raccontare aneddoti, pensieri o commenti sui giochi, film e anime che inizio.
 
