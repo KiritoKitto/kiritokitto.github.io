@@ -2,6 +2,7 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
     let currentIndex = 0; // Indice dell'immagine corrente
     const images = carousel.querySelectorAll('.carousel-item'); // Seleziona tutti i contenitori delle immagini nel carosello
     const totalImages = images.length;
+    const indicators = carousel.querySelectorAll('.indicator'); // Seleziona tutti gli indicatori
     const threshold = 10; // Soglia per il cambiamento dell'immagine
     let startX; // Posizione iniziale del tocco
     let isDragging = false; // Stato del trascinamento
@@ -24,6 +25,11 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
 
         backButton.style.display = currentIndex === 0 ? 'none' : 'block'; // Nascondi il pulsante "Indietro"
         nextButton.style.display = currentIndex === totalImages - 1 ? 'none' : 'block'; // Nascondi il pulsante "Avanti"
+
+        // Aggiorna gli indicatori
+        indicators.forEach((indicator, index) => {
+            indicator.classList.toggle('active', index === currentIndex); // Attiva il puntino corrente
+        });
     }
 
     // Funzione per andare avanti
@@ -99,11 +105,8 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
         }
     };
 
-    // Aggiungi gli eventi di tocco
+    // Aggiungi gli event listener per il trascinamento
     carousel.addEventListener('touchstart', touchStart);
     carousel.addEventListener('touchmove', touchMove);
     carousel.addEventListener('touchend', touchEnd);
-
-    // Inizializza la visualizzazione dell'immagine
-    updateImageDisplay();
 });

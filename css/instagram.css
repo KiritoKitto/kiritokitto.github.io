@@ -77,3 +77,24 @@ button {
 .next {
   right: 10px;
 }
+
+.carousel-indicators {
+  display: flex; /* Flexbox per allineare i puntini */
+  justify-content: center; /* Centra i puntini */
+  margin-top: 10px; /* Spazio sopra i puntini */
+}
+
+.indicator {
+  width: 10px; /* Larghezza del puntino */
+  height: 10px; /* Altezza del puntino */
+  background-color: grey; /* Colore di base dei puntini */
+  border-radius: 50%; /* Rende i puntini circolari */
+  margin: 0 5px; /* Margine tra i puntini */
+  opacity: 0.5; /* Trasparenza di base */
+  cursor: pointer; /* Cambia il cursore */
+}
+
+.indicator.active {
+  background-color: var(--color-link-primary); /* Colore del puntino attivo */
+  opacity: 1; /* Opacità completa per il puntino attivo */
+}
