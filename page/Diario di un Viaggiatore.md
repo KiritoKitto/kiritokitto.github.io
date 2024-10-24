@@ -23,8 +23,8 @@ Il **Diario di Viaggiatore**, serie nata nel corso del 2022, è una raccolta di 
 
 La quarta stagione
 
-<details> <summary> Roma </summary>
-  <span class="opacity"> Città Eterna </span> <hr>
+<details> <summary> Roma<br>
+  <span class="opacity"> Città Eterna </span></summary> <hr>
   <div class="grid-images">
     <img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg">
     <img src="docs/assets/images/intothewilds/s4/roma/Roma04.jpg">
