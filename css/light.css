@@ -1,9 +1,9 @@
 :root {
-    --font: 'Times New Roman', serif;
-    --font-title: 'Times New Roman', serif;
+    --font: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+    --font-title: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
 
     --color-background: #FFFFF6;
-    --color-background-secondary: rgb(242, 241, 237);
+    --color-background-secondary: #FFFFF6;
   
     --color-primary: rgb(0, 0, 4);
     --color-secondary: rgb(34, 34, 32);
