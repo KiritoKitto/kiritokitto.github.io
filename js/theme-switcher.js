@@ -10,8 +10,8 @@ function switchTheme(event) {
         themeLink.setAttribute("href", "/css/dark.css");
         localStorage.setItem("theme", "dark");
     } else {
-        themeLink.setAttribute("href", "light.css");
-        localStorage.setItem("theme", "/css/light");
+        themeLink.setAttribute("href", "/css/light.css");
+        localStorage.setItem("theme", "light");
     }
 }
 
