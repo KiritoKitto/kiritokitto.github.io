@@ -24,18 +24,18 @@ Il **Diario di Viaggiatore**, serie nata nel corso del 2022, è una raccolta di 
 La quarta stagione
 
 <details><summary>Milano</summary><span class="opacity">Capitale dell'Economia</span><hr>
-<div class="carousel" id="carousel22"><div class="carousel-inner">
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (1).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (2).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (3).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (4).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (5).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (6).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (7).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (8).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (9).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (10).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/milano (11).jpg"></div>
+<div class="carousel" id="carousel20"><div class="carousel-inner">
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m1.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m2.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m3.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m4.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m5.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m6.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m7.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m8.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m9.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m10.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m11.jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
     <span class="indicator"></span>
@@ -50,6 +50,7 @@ La quarta stagione
     <span class="indicator"></span>
     <span class="indicator"></span>
 </div> </details>
+
 
 
 <details><summary>Roma</summary><span class="opacity">Città Eterna</span><hr>
@@ -72,14 +73,15 @@ La quarta stagione
 
 
 
-<details><summary>Barberino di Mugello</summary><span class="opacity">Lago Bilancino</span><hr>
+<details><summary>Barberino di Mugello</summary><span class="opacity">Lago di Bilancino</span><hr>
 <div class="carousel" id="carousel20"><div class="carousel-inner">
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (1).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (2).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (3).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (4).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (5).jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/barberino (6).jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b1.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b2.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b3.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b4.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b5.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b6.jpg"></div>
+    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b7.jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
     <span class="indicator"></span>
@@ -88,7 +90,9 @@ La quarta stagione
     <span class="indicator"></span>
     <span class="indicator"></span>
     <span class="indicator"></span>
+    <span class="indicator"></span>
 </div> </details>
+
 
 
 
