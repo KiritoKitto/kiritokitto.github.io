@@ -3,9 +3,9 @@ document.getElementById("theme-button").addEventListener("click", function() {
     const themeLink = document.getElementById("theme-link");
     
     // Se il tema è chiaro, cambia a scuro, altrimenti cambia a chiaro
-    if (themeLink.getAttribute("href") === "light.css") {
-        themeLink.setAttribute("href", "dark.css");
+    if (themeLink.getAttribute("href") === "css/light.css") {
+        themeLink.setAttribute("href", "css/dark.css");
     } else {
-        themeLink.setAttribute("href", "light.css");
+        themeLink.setAttribute("href", "css/light.css");
     }
 });
