@@ -1,5 +1,5 @@
 @import url('instagram.css');
-@import url('light.css');
+@import url('dark.css');
 
 :root {
   --width: 700px;
@@ -157,7 +157,6 @@ img {
   height: auto;
   object-fit: contain;
   margin-top: 8px;
-  border-radius: var(--img-radius);
 }
 
 nav a {

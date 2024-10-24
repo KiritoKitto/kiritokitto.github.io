@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
   object-fit:cover;
   aspect-ratio: 3/4;
-  border-radius: var(--img-radius);
+  border-radius: var(--radius);
   overflow: hidden; 
   margin: 0;
   transition: 300ms;
