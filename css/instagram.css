@@ -92,10 +92,9 @@ button {
   margin: 0 5px; /* Spazio tra i puntini */
   cursor: pointer; /* Cambia il cursore se vuoi farli cliccabili */
   opacity: 0.5; /* Trasparenza per i puntini non attivi */
-  transition: opacity 0.3s; /* Transizione per il cambiamento di opacità */
 }
 
 .indicator.active {
-  background-color: white; /* Colore dei puntini attivi */
+  background-color: var(--color-link-primary); /* Colore dei puntini attivi */
   opacity: 1; /* Opacità piena per il puntino attivo */
 }
