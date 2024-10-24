@@ -155,9 +155,10 @@ img {
 
 nav {
   position: fixed;
-  z-index: 1000; /* Assicura che il nav rimanga sopra altri elementi */
+  z-index: 1000;
   padding: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiungi un'ombra se vuoi evidenziare la barra */
+  background-color: var(--color-background); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
