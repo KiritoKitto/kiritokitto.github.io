@@ -27,10 +27,10 @@ Tutte le edizioni della rubrica seguono e seguiranno questo regolamento:
 <hr>Solo i titoli multiplayer online possono vincere il relativo premio più volte.</details>
 
 <details><summary>Cosa succede se un titolo lo inizi in un anno ma lo finisci in quello successivo?</summary>
-<hr>Dipende da quanto tempo ho giocato il titolo nell'anno precedente. Se poco: il titolo diventa candidabile per l'anno successivo e viene rimosso da quello precedente. </details>
+<hr>Dipende da quanto tempo ho giocato il titolo nell'anno precedente.<br><br>Se poco: il titolo diventa candidabile per l'anno successivo e viene rimosso da quello precedente. </details>
 
 <details><summary>Vincere una categoria ne preclude la vincita in altre?</summary>
-<hr>In alcuni casi sì.<br><br>Questi casi sono citati nella descrizione del premio.</details>
+<hr>In alcuni casi sì. Questi casi sono citati nella descrizione del premio.</details>
 
 ---
 
