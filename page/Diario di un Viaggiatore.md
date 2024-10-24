@@ -28,7 +28,6 @@ La quarta stagione
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m1.jpg"></div>
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m2.jpg"></div>
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m3.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m4.jpg"></div>
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m5.jpg"></div>
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m6.jpg"></div>
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m7.jpg"></div>
@@ -48,10 +47,7 @@ La quarta stagione
     <span class="indicator"></span>
     <span class="indicator"></span>
     <span class="indicator"></span>
-    <span class="indicator"></span>
 </div> </details>
-
-
 
 <details><summary>Roma</summary><span class="opacity">Città Eterna</span><hr>
 <div class="carousel" id="carousel21"><div class="carousel-inner">
@@ -80,8 +76,6 @@ La quarta stagione
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b3.jpg"></div>
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b4.jpg"></div>
     <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b5.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b6.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b7.jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
     <span class="indicator"></span>
@@ -89,12 +83,7 @@ La quarta stagione
     <span class="indicator"></span>
     <span class="indicator"></span>
     <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
 </div> </details>
-
-
-
 
 <hr id="s3">
 
@@ -113,8 +102,6 @@ La terza stagione è iniziata a Febbraio 2024 e non ha ancora un nome.
     <img src="https://pbs.twimg.com/media/GRoO9GKW4AEvOX2?format=jpg&name=small">
   </div>
 </details>
-
-
 
 <details> <summary> Regno dei Cavalli </summary>
   <span class="opacity"> Aprile | Sofignano </span><hr>  

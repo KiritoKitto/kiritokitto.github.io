@@ -34,7 +34,7 @@
   overflow: hidden; /* Nasconde le immagini in eccesso */
   width: 100%;
   margin: 0 auto; /* Centra il carosello orizzontalmente */
-  aspect-ratio: 3/4;
+  aspect-ratio: 9/16;
   border-radius: var(--radius);
   max-width: 400px;
   align-content: center;
