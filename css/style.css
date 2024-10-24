@@ -68,9 +68,9 @@ h6 {
 }
 
 h1 {
-  font-size: calc(var(--font-size)*1.8);
+  font-size: calc(var(--font-size)*1.5);
   font-family: var(--font-title);
-  align-self: center;
+  text-align: center;
 }
 
 h2 {
@@ -140,7 +140,7 @@ blockquote {
   border-style: solid;
 
   line-height: 1.2;
-  padding: calc(var(--padding)*1.5) calc(var(--padding)*2);
+  padding: var(--padding) calc(var(--padding)*1.5);
   color: var(--color-secondary);
   margin: var(--margin-light) 0px;
   font-size: var(--font-size-light);
