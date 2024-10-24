@@ -70,6 +70,7 @@ h6 {
 h1 {
   font-size: calc(var(--font-size)*1.8);
   font-family: var(--font-title);
+  align-self: center;
 }
 
 h2 {
