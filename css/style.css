@@ -13,6 +13,7 @@
 
   --padding: 15px;
   --screen-margin: 20px;
+  --radius: 10px;
 }
 
 /* Line Height determina quanto spazio c'è tra le varie linee */
@@ -68,7 +69,7 @@ h6 {
 }
 
 h1 {
-  font-size: calc(var(--font-size)*1.5);
+  font-size: calc(var(--font-size)*1.8);
   font-family: var(--font-title);
   text-align: center;
 }
@@ -100,7 +101,7 @@ h6 {
 }
 
 details {
-  border-radius: var(--highlight-radius);
+  border-radius: var(--radius);
   border: 1px;
   border-color: var(--color-tertiary);
   border-style: solid;
@@ -133,6 +134,7 @@ mark {
 /* ---------------------------------- */
 
 blockquote {
+  border-radius: var(--radius);
   border: 0px;
   border-left-width: 3px;
   border-color: var(--color-link-primary);
@@ -140,7 +142,7 @@ blockquote {
   border-style: solid;
 
   line-height: 1.2;
-  padding: var(--padding) calc(var(--padding)*1.5);
+  padding: var(--padding);
   color: var(--color-secondary);
   margin: var(--margin-light) 0px;
   font-size: var(--font-size-light);
