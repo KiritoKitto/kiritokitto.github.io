@@ -1,11 +1,27 @@
-document.getElementById("theme-button").addEventListener("click", function() {
-    // Prendi il link dell'attuale tema
+// Funzione per cambiare il tema
+function switchTheme() {
     const themeLink = document.getElementById("theme-link");
-    
-    // Se il tema è chiaro, cambia a scuro, altrimenti cambia a chiaro
-    if (themeLink.getAttribute("href") === "css/light.css") {
+    const currentTheme = themeLink.getAttribute("href");
+
+    // Cambia il tema e salva la scelta nel localStorage
+    if (currentTheme === "css/light.css") {
         themeLink.setAttribute("href", "css/dark.css");
+        localStorage.setItem("theme", "dark");
     } else {
         themeLink.setAttribute("href", "css/light.css");
+        localStorage.setItem("theme", "light");
+    }
+}
+
+// Al caricamento della pagina, controlla il tema nel localStorage
+window.addEventListener("load", function() {
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme) {
+        // Se c'è un tema salvato, applicalo
+        document.getElementById("theme-link").setAttribute("href", "css/" + savedTheme + ".css");
     }
 });
+
+// Aggiungi un event listener al bottone per cambiare tema
+document.getElementById("theme-button").addEventListener("click", switchTheme);
