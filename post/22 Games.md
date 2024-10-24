@@ -15,6 +15,8 @@ Benvenuti nella seconda edizione della rubrica **Year in Videogames**, un recap 
 * Death Stranding
 * Xenoblade Chronicles 3
 
+---
+
 **Great Experience Award:** titoli che non hanno vinto il premio "Game of the Year" ma che ritengo memorabili per qualità realizzative o impatto emotivo.
 * Superliminal
 * Marvel's Spiderman
