@@ -31,9 +31,8 @@
 .carousel {
   position: relative;
   width: 100%;
-  max-width: 600px;
-  margin: auto;
-  overflow: hidden;
+  width: auto; 
+  margin: 0px;
   border-radius: var(--radius);
 }
 
@@ -52,7 +51,7 @@
   height: auto;
   aspect-ratio: 3/4;
   background-repeat: no-repeat;
-  object-fit:cover;
+  object-fit: cover;
   overflow: hidden; 
   margin: 0;
 }
