@@ -26,7 +26,7 @@ La quarta stagione
 <details> <summary> Roma </summary>
   <span class="opacity"> Città Eterna </span> <hr>
   <div class="grid-images">
-    ![Book logo](/docs/assets/images/Roma01.jpg)
+    <img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg">
   </div>
 </details>
 
