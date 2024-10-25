@@ -11,21 +11,21 @@ In passato ho anche fatto da trainer sia in italiano che in inglese, mi sono occ
 ---
 
 #### 2024
-- Data Analyst & Metrics Engineer
+- **Data Analyst & Metrics Engineer**
 
 #### 2023
-- Data Analyst (indeterminato)
-- Data Analyst & New Employee Trainer
-- Data Analyst
+- **Data Analyst (indeterminato)**
+- **Data Analyst & New Employee Trainer**
+- **Data Analyst**
 
 #### 2022
-- Data Analyst & Trainer(determinato)
-- Data Analyst (stage)
-- Excel Expert & Rebranding Support
-- Excel Support
+- **Data Analyst & Trainer(determinato)**
+- **Data Analyst (stage)**
+- **Excel Expert & Rebranding Support**
+- **Excel Support**
 
 #### 2021
 
-- Microsoft Office Support (a contratto)
+- **Microsoft Office Support (a contratto)**
 
 ---
