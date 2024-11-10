@@ -11,16 +11,17 @@ In passato ho anche fatto da trainer sia in italiano che in inglese, mi sono occ
 ---
 
 #### 2024
-- **Data Analyst & Metrics Engineer**
+- **Metrics Engineer**
+- **Data Analyst**
 
 #### 2023
-- Data Analyst & New Employee Trainer
+- New Employee Trainer
 - Data Analyst
 
 #### 2022
-- Data Analyst & Trainer (Speaker)
+- Trainer (Script Development & Speaker)
 - Data Analyst
-- Excel Expert & Rebranding Support
+- Rebranding Support
 - Excel Expert
 - Excel Support
 
@@ -30,4 +31,4 @@ In passato ho anche fatto da trainer sia in italiano che in inglese, mi sono occ
 
 ---
 
-*Ultimo Aggiornamento: Settembre 2024*
+*Ultimo aggiornamento: Settembre 2024*
