@@ -12,18 +12,15 @@ In passato ho anche fatto da trainer sia in italiano che in inglese, mi sono occ
 
 #### 2024
 - **Metrics Engineer**
-- **Data Analyst**
 
 #### 2023
-- New Employee Trainer
+- Trainer (Support for new Employee)
 - Data Analyst
 
 #### 2022
 - Trainer (Script Development & Speaker)
-- Data Analyst
 - Rebranding Support
 - Excel Expert
-- Excel Support
 
 #### 2021
 

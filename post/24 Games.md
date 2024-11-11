@@ -16,14 +16,15 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 ---
 
 **Game of the Year Award:** titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
-* Dark Souls III
 * Elden Ring: Shadow of the Erdtree
-* Nine Sols
+
 
 
 ---
 
 **Great Experience Award:** titoli che non hanno vinto il premio "Game of the Year" ma che ritengo memorabili per qualità realizzative o impatto emotivo.
+* Dark Souls III
+* Nine Sols
 * Black Myth: Wukong
 * The Legend of Zelda: Link's Awakening
 * Horizon Forbidden West
@@ -34,12 +35,12 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 ---
 
 **Soundtrack Award:** titoli con una colonna sonora nel complesso eccellente, con diverse OST memorabili.
-* 
+* Elden Ring: Shadow of the Erdtree
 
 ---
 
 **Music Memory Award:** titoli che non hanno vinto il "Soundtrack Award" ma presentano una o più OST memorabili.
-* 
+* Horizon Zero Dawn
 
 ---
 
@@ -49,14 +50,13 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 * New Star GP
 * Eldest Souls
 * Clone Drone in the Danger Zone
-
-
+* Nine Sols
 
 ---
 
 **Below Expectation:** titoli che non hanno raggiunto le mie aspettative, forse ingiustamente troppo alte.
 * Hellblade 2
-* Persona 3 Reloa
+* Persona 3 Reload
 
 ---
 
@@ -65,9 +65,7 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
-**Moment Memory Award:** titoli che non hanno vinto il premio "Core Memory Award" o "Great Game Award" ma che presentano una scena o una meccanica particolarmente memorabile.
-
-* 
+_**Moment Memory Award:** titoli che non hanno vinto il premio "Core Memory Award" o "Great Game Award" ma che presentano una scena o una meccanica particolarmente memorabile._
 
 ---
 
@@ -81,7 +79,6 @@ Tripla A
 * The Legend of Zelda: Echoes of Wisdom
 * Detroit: Become Human
 * Wild Hearts
-
 
 Indie
 
