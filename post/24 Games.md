@@ -11,14 +11,12 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
-<img src="images/year-in-videogames-23.jpg">
+<img src="images/banners/year-in-videogames-23.jpg">
 
 ---
 
 **Game of the Year Award:** titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
 * Elden Ring: Shadow of the Erdtree
-
-
 
 ---
 

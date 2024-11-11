@@ -2,7 +2,7 @@
 permalink: "/into-the-wilds"
 ---
 
-<img src="images/into-the-wilds.jpg">
+<img src="images/banners/into-the-wilds.jpg">
 
 # Into the Wilds
 

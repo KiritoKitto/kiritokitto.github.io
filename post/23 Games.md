@@ -11,7 +11,7 @@ Benvenuti nella terza edizione della rubrica <b>Year in Videogames</b>, un recap
 
 ---
 
-<img src="images/year-in-videogames-23.jpg">
+<img src="images/banners/year-in-videogames-23.jpg">
 
 ---
 
