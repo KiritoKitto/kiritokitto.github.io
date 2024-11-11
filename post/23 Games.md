@@ -11,7 +11,7 @@ Benvenuti nella terza edizione della rubrica <b>Year in Videogames</b>, un recap
 
 ---
 
-![2023 Banner](https://pbs.twimg.com/media/GCbPcA-WMAATbfQ?format=jpg&name=large)
+<img src="images/year-in-videogames-23.jpg">
 
 ---
 

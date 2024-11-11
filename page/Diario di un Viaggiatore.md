@@ -2,7 +2,7 @@
 permalink: "/into-the-wilds"
 ---
 
-![Banner](https://pbs.twimg.com/media/GHftTs4WkAAs45W?format=jpg&name=medium)
+<img src="images/into-the-wilds.jpg">
 
 # Into the Wilds
 
@@ -25,14 +25,14 @@ La quarta stagione
 
 <details><summary>Milano</summary><span class="opacity">Capitale dell'Economia</span><hr>
 <div class="carousel" id="carousel20"><div class="carousel-inner">
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m1.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m2.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m3.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m5.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m6.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m7.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m8.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/milano/m10.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m1.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m2.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m3.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m5.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m6.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m7.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m8.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m10.jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
     <span class="indicator"></span>
@@ -47,12 +47,12 @@ La quarta stagione
 
 <details><summary>Roma</summary><span class="opacity">Città Eterna</span><hr>
 <div class="carousel" id="carousel21"><div class="carousel-inner">
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma01.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma02.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma03.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma04.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma05.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/roma/Roma06.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma01.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma02.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma03.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma04.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma05.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma06.jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
     <span class="indicator"></span>
@@ -67,11 +67,11 @@ La quarta stagione
 
 <details><summary>Barberino di Mugello</summary><span class="opacity">Lago di Bilancino</span><hr>
 <div class="carousel" id="carousel20"><div class="carousel-inner">
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b1.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b2.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b3.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b4.jpg"></div>
-    <div class="carousel-item"><img src="docs/assets/images/intothewilds/s4/barberino/b5.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/barberino/b1.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/barberino/b2.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/barberino/b3.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/barberino/b4.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/barberino/b5.jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
     <span class="indicator"></span>

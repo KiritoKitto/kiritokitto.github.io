@@ -11,7 +11,7 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
-![2023 Banner](https://pbs.twimg.com/media/GCbPcA-WMAATbfQ?format=jpg&name=large)
+<img src="images/year-in-videogames-23.jpg">
 
 ---
 
