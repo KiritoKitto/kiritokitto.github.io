@@ -9,11 +9,9 @@ function drawVisualization() {
     const graphbasesecondary = rootStyles.getPropertyValue('--graph-base-secondary').trim();
     const graphhighlightprimary = rootStyles.getPropertyValue('--graph-highlight-primary').trim();
     const graphhighlightsecondary = rootStyles.getPropertyValue('--graph-highlight-secondary').trim();
-
-    const colorprimary = rootStyles.getPropertyValue('--color-primary').trim();
-    const colorsecondary = rootStyles.getPropertyValue('--color-secondary').trim();
-
-    const font = rootStyles.getPropertyValue('--font').trim();
+    const font = rootStyles.getPropertyValue('--font').trim();  // Aggiungi la variabile font
+    const colorPrimary = rootStyles.getPropertyValue('--color-primary').trim();  // Colore primario
+    const colorSecondary = rootStyles.getPropertyValue('--color-secondary').trim();  // Colore secondario
 
     var data = google.visualization.arrayToDataTable([
         ['Year', 'Completed', 'Not Completed', 'Average'],
@@ -27,31 +25,57 @@ function drawVisualization() {
         titleTextStyle: {
             fontSize: 24,
             bold: true,
-            fontName: font,  // Usa il font definito nella variabile
-            color: colorprimary,
+            fontName: font,
+            color: colorPrimary  // Colore del titolo
         },
         vAxis: {
             title: '# of Games',
-            textStyle: {
-                fontName: font,  // Applica il font agli assi
-                color: colorsecondary,
-            }
-        },
-        vAxis2: {  // Aggiungi il secondo asse verticale
-            title: 'Average',
+            titleTextStyle: {
+                fontName: font,
+                color: colorPrimary  // Colore del titolo asse verticale primario
+            },
             textStyle: {
                 fontName: font,
-                color: colorsecondary,
+                color: colorSecondary  // Colore del testo dell'asse verticale primario
+            }
+        },
+        vAxes: {  // Modifica vAxes per aggiungere il secondo asse
+            0: {
+                title: '# of Games',
+                titleTextStyle: {
+                    fontName: font,
+                    color: colorPrimary  // Colore del titolo asse verticale primario
+                },
+                textStyle: {
+                    fontName: font,
+                    color: colorSecondary  // Colore del testo dell'asse verticale primario
+                }
             },
-            viewWindow: {
-                min: 0  // Imposta il minimo valore visibile sull'asse secondario (opzionale)
+            1: {  // Definisce il secondo asse verticale
+                title: 'Average',
+                titleTextStyle: {
+                    fontName: font,
+                    color: colorPrimary  // Colore del titolo del secondo asse
+                },
+                textStyle: {
+                    fontName: font,
+                    color: colorSecondary  // Colore del testo del secondo asse
+                },
+                viewWindow: {
+                    min: 6,  // Imposta il range da 6 a 8
+                    max: 8
+                }
             }
         },
         hAxis: {
             title: 'Year',
+            titleTextStyle: {
+                fontName: font,
+                color: colorPrimary  // Colore del titolo asse orizzontale
+            },
             textStyle: {
-                fontName: font,  // Applica il font agli assi
-                color: colorsecondary,
+                fontName: font,
+                color: colorSecondary  // Colore del testo dell'asse orizzontale
             }
         },
         seriesType: 'bars',
@@ -64,8 +88,11 @@ function drawVisualization() {
             position: 'bottom',
             alignment: 'center',
             textStyle: {
-                fontName: font  // Applica il font alla legenda
-            }
+                fontName: font,
+                color: colorPrimary  // Colore della legenda
+            },
+            maxLines: 3,  // Limita a 3 righe nella legenda (puoi aumentare se necessario)
+            layout: 'vertical'  // Permette di fare andare a capo la legenda
         },
         backgroundColor: { fill: 'transparent' },
         annotations: {
@@ -87,6 +114,5 @@ function drawVisualization() {
     chart.draw(data, options);
 }
 
-// Redraw chart on window resize
 window.addEventListener('resize', drawVisualization);
 document.getElementById("theme-link-switcher").addEventListener("click", drawVisualization);
