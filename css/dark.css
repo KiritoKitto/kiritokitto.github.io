@@ -5,15 +5,15 @@
     --color-background: rgb(18, 18, 18);
     --color-background-secondary: rgba(80, 80, 85, 0.2);
   
-    --color-primary: #ececec;
-    --color-secondary: #BDC0C2;
-    --color-tertiary: #676767;
+    --color-primary: rgb(236, 236, 236);
+    --color-secondary: rgb(189, 192, 194);
+    --color-tertiary: rgb(103, 103, 103);
     
     --color-link-primary: rgb(98,158,251);
     --color-link-secondary: rgb(255, 214, 10);
 
-    --graph-base-primary: hsl(0, 0%, 20%);
-    --graph-base-secondary: hsl(0, 0%, 30%);
+    --graph-base-primary: rgb(51, 51, 51);
+    --graph-base-secondary: rgb(77, 77, 77);
 
     --graph-highlight-primary: rgb(98,158,251);
     --graph-highlight-secondary: rgb(98,158,251);
