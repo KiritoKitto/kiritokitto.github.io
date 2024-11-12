@@ -13,7 +13,11 @@ function switchTheme(event) {
         themeLink.setAttribute("href", "/css/light.css");
         localStorage.setItem("theme", "light");
     }
+
+    // Chiama la funzione drawVisualization dopo aver cambiato il tema
+    drawVisualization();
 }
+
 
 // Al caricamento della pagina, controlla il tema nel localStorage o la preferenza di sistema
 window.addEventListener("load", function() {
@@ -30,4 +34,3 @@ window.addEventListener("load", function() {
 
 // Aggiungi un event listener al link per cambiare tema
 document.getElementById("theme-link-switcher").addEventListener("click", switchTheme);
-document.getElementById("theme-link-switcher").addEventListener("click", drawVisualization);
