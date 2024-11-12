@@ -4,14 +4,17 @@ function switchTheme(event) {
 
     const themeLink = document.getElementById("theme-link");
     const currentTheme = themeLink.getAttribute("href");
+    handleThemeLoad();
 
     // Cambia il tema e salva la scelta nel localStorage
     if (currentTheme === "/css/light.css") {
         themeLink.setAttribute("href", "/css/dark.css");
         localStorage.setItem("theme", "dark");
+        handleThemeLoad();
     } else {
         themeLink.setAttribute("href", "/css/light.css");
         localStorage.setItem("theme", "light");
+        handleThemeLoad();
     }
 
     // Rimuove qualsiasi listener precedente per evitare duplicazioni
@@ -21,33 +24,20 @@ function switchTheme(event) {
     themeLink.addEventListener("load", handleThemeLoad);
 }
 
-// Funzione che gestisce il caricamento del tema e ridisegna il grafico
+let graphbaseprimary, graphbasesecondary, font, colorPrimary, colorSecondary;
+
 function handleThemeLoad() {
-    // Attendi 100 ms per garantire che il nuovo tema sia completamente caricato
-    setTimeout(drawVisualization, 100);
-
-    // Attiva un controllo di fallback per ridisegnare il grafico se il tema non è stato aggiornato
-    checkAndRedraw();
-}
-
-// Funzione di fallback per assicurarsi che il grafico venga ridisegnato correttamente
-function checkAndRedraw() {
-    // Esempio di condizione di controllo (modifica in base alle tue esigenze)
-    const rootStyles = getComputedStyle(document.documentElement);
-    const graphbaseprimary = rootStyles.getPropertyValue('--graph-base-primary').trim();
-    const graphbasesecondary = rootStyles.getPropertyValue('--graph-base-secondary').trim();
-    const font = rootStyles.getPropertyValue('--font').trim();
-    const colorPrimary = rootStyles.getPropertyValue('--color-primary').trim();
-    const colorSecondary = rootStyles.getPropertyValue('--color-secondary').trim();
-
-    // Controlla se il tema è stato correttamente applicato
-    if (document.body.classList.contains('dark-mode') && currentColor === 'expected-dark-color') {
+    setTimeout(() => {
+        const rootStyles = getComputedStyle(document.documentElement);
+        graphbaseprimary = rootStyles.getPropertyValue('--graph-base-primary').trim();
+        graphbasesecondary = rootStyles.getPropertyValue('--graph-base-secondary').trim();
+        font = rootStyles.getPropertyValue('--font').trim();
+        colorPrimary = rootStyles.getPropertyValue('--color-primary').trim();
+        colorSecondary = rootStyles.getPropertyValue('--color-secondary').trim();
         drawVisualization();
-    } else {
-        // Ricontrolla dopo 100 ms se la condizione non è soddisfatta
-        setTimeout(checkAndRedraw, 300);
-    }
+    }, 500);
 }
+
 
 // Al caricamento della pagina, controlla il tema nel localStorage o la preferenza di sistema
 window.addEventListener("load", function() {
