@@ -9,6 +9,7 @@ function drawVisualization() {
     const graphbasesecondary = rootStyles.getPropertyValue('--graph-base-secondary').trim();
     const graphhighlightprimary = rootStyles.getPropertyValue('--graph-highlight-primary').trim();
     const graphhighlightsecondary = rootStyles.getPropertyValue('--graph-highlight-secondary').trim();
+    const font = rootStyles.getPropertyValue('--font').trim();
 
     var data = google.visualization.arrayToDataTable([
         ['Year', 'Completed', 'Not Completed', 'Average'],
@@ -21,23 +22,50 @@ function drawVisualization() {
         title: 'Score Average',
         titleTextStyle: {
             fontSize: 24,
-            bold: true
+            bold: true,
+            fontName: font  // Usa il font definito nella variabile
         },
-        vAxis: {title: '# of Games'},
-        hAxis: {title: 'Year'},
+        vAxis: {
+            title: '# of Games',
+            textStyle: {
+                fontName: font  // Applica il font agli assi
+            }
+        },
+        vAxis2: {  // Aggiungi il secondo asse verticale
+            title: 'Average',
+            textStyle: {
+                fontName: font
+            },
+            viewWindow: {
+                min: 0  // Imposta il minimo valore visibile sull'asse secondario (opzionale)
+            }
+        },
+        hAxis: {
+            title: 'Year',
+            textStyle: {
+                fontName: font  // Applica il font agli assi
+            }
+        },
         seriesType: 'bars',
         series: {
-            0: { color: graphbaseprimary },  // Colore primario del grafico
-            1: { color: graphbasesecondary },  // Colore secondario del grafico
-            2: { type: 'line', color: graphhighlightprimary, pointSize: 10, lineWidth: 3 }  // Linea con colore dinamico
+            0: { color: graphbaseprimary, targetAxisIndex: 0 },  // Colore per "Completed" e "Not Completed", usa il primo asse
+            1: { color: graphbasesecondary, targetAxisIndex: 0 },  // Colore per "Not Completed", usa il primo asse
+            2: { type: 'line', color: graphhighlightprimary, pointSize: 10, lineWidth: 3, targetAxisIndex: 1 }  // Linea per "Average", usa il secondo asse
         },
-        legend: { position: 'bottom', alignment: 'center' },
+        legend: {
+            position: 'bottom',
+            alignment: 'center',
+            textStyle: {
+                fontName: font  // Applica il font alla legenda
+            }
+        },
         backgroundColor: { fill: 'transparent' },
         annotations: {
             textStyle: {
                 fontSize: 12,
                 bold: true,
-                color: '#FFFFFF'
+                color: '#FFFFFF',
+                fontName: font  // Applica il font alle annotazioni
             },
             stem: {
                 color: 'transparent'
@@ -53,3 +81,4 @@ function drawVisualization() {
 
 // Redraw chart on window resize
 window.addEventListener('resize', drawVisualization);
+document.getElementById("theme-link-switcher").addEventListener("click", drawVisualization);
