@@ -16,7 +16,7 @@ function drawVisualization() {
     const colorSecondary = rootStyles.getPropertyValue('--color-secondary').trim();
     
     var data = google.visualization.arrayToDataTable([
-        ['Year', 'Completed', 'Not Completed'],
+        ['Year', 'Completati', 'Non Completati'],
         ['2024', 23, 12],
         ['2023', 39, 17],
         ['2022', 48, 25]]);
@@ -46,7 +46,7 @@ function drawVisualization() {
     // ----------------------
 
     var data = google.visualization.arrayToDataTable([
-        ['Year', 'Completed', 'Retired', 'Shelved', 'Abandoned'],
+        ['Year', 'Completati', 'Senza Fine', 'In Pausa', 'Abbandonati'],
         ['2024', 23,4,7,1],
         ['2023', 39,6,7,4],
         ['2022', 48,11,8,6]]);

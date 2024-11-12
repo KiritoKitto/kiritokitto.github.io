@@ -17,9 +17,9 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 
 <script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
-<h3># Completed Games</h3>
+<h3># Titoli Completati</h3>
 <div class="chart" id="completed-games"></div>
-<h3>Percentage</h3>
+<h3>% Completamento</h3>
 <div class="chart" id="percentage"></div>
 
 ---
