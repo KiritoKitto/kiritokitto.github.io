@@ -1,5 +1,5 @@
 google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(drawVisualization);
+google.charts.setOnLoadCallback(drawChart);
 
 function drawVisualization() {
   // Some raw data (not necessarily accurate)
