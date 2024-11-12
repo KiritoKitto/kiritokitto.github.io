@@ -11,7 +11,11 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
-<img src="images/image_2024-11-12_00-25-43.png">
+> ***Titoli completati:*** _23_
+> ***Titoli iniziati:*** _56_
+> ***Titoli iniziati:*** _56_
+> ***Media generale:*** _7.3_
+
 
 ---
 
