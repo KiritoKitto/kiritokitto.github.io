@@ -87,6 +87,10 @@ Indie
 
 ---
 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<div id="chart_div" style="width: 900px; height: 500px;"></div>
+
+
 ***Titoli che non ho finito e con valutazione rimandata:*** *Immortals Fenyx Rising, Rain World, Age of Calamity DLC*
 
 ***Altri titoli che ho giocato ma che non hanno vinto un premio:*** *Chasing the Unseen, Animal Well, Professor Layton and the Last Specter, The Talos Principle*
