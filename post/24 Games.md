@@ -11,19 +11,17 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
+* Titoli completati: **23**
+* Titoli giocati: **35**
+* Media generale: **7.6**
+
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<h2># Completed Games</h2>
 <script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
+
+<h3># Completed Games</h3>
 <div class="chart" id="completed-games"></div>
-
----
-
-*Titoli completati:**23***
-*Titoli iniziati: **56***
-*Titoli iniziati: **56***
-*Media generale: **7.3***
-
+<h3>Percentage</h3>
+<div class="chart" id="percentage"></div>
 
 ---
 
