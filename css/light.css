@@ -11,4 +11,12 @@
     
     --color-link-primary: #d3425a;
     --color-link-secondary: #d3425a; 
+
+
+
+    --graph-base-primary: #D9D9D9;
+    --graph-base-secondary: #BFBFBF;
+
+    --graph-highlight-primary: #d3425a; 
+    --graph-highlight-secondary: #d3425a;
 }

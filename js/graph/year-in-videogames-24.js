@@ -2,28 +2,54 @@ google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(drawVisualization);
 
 function drawVisualization() {
+    // Recupera i colori dalle variabili CSS
+    const rootStyles = getComputedStyle(document.documentElement);
+
+    const graphbaseprimary = rootStyles.getPropertyValue('--graph-base-primary').trim();
+    const graphbasesecondary = rootStyles.getPropertyValue('--graph-base-secondary').trim();
+    const graphhighlightprimary = rootStyles.getPropertyValue('--graph-highlight-primary').trim();
+    const graphhighlightsecondary = rootStyles.getPropertyValue('--graph-highlight-secondary').trim();
+
     var data = google.visualization.arrayToDataTable([
-        ['Month', 'Bolivia', 'Ecuador', 'Madagascar', 'Papua New Guinea', 'Rwanda', 'Average'],
-        ['2004/05',  165,      938,         522,             998,           450,      614.6],
-        ['2005/06',  135,      1120,        599,             1268,          288,      682],
-        ['2006/07',  157,      1167,        587,             807,           397,      623],
-        ['2007/08',  139,      1110,        615,             968,           215,      609.4],
-        ['2008/09',  136,      691,         629,             1026,          366,      569.6]
+        ['Year', 'Completed', 'Not Completed', 'Average'],
+        ['2022', 48, 25, 7.0],
+        ['2023', 39, 17, 7.2],
+        ['2024', 23, 12, 7.6]
     ]);
 
     var options = {
-        title: 'Monthly Coffee Production by Country',
-        fontName: 'Roboto Mono',  // Font personalizzato
-        vAxis: {title: 'Cups'},
-        hAxis: {title: 'Month'},
+        title: 'Score Average',
+        titleTextStyle: {
+            fontSize: 24,
+            bold: true
+        },
+        vAxis: {title: '# of Games'},
+        hAxis: {title: 'Year'},
         seriesType: 'bars',
         series: {
-            0: { color: 'red' },    // Colore rosso per la prima barra
-            5: { type: 'line', color: 'blue', pointSize: 10, dataLabel: 'value' }  // Linea con punti grandi per "Average"
+            0: { color: graphbaseprimary },  // Colore primario del grafico
+            1: { color: graphbasesecondary },  // Colore secondario del grafico
+            2: { type: 'line', color: graphhighlightprimary, pointSize: 10, lineWidth: 3 }  // Linea con colore dinamico
         },
-        backgroundColor: { fill: 'transparent' }
+        legend: { position: 'bottom', alignment: 'center' },
+        backgroundColor: { fill: 'transparent' },
+        annotations: {
+            textStyle: {
+                fontSize: 12,
+                bold: true,
+                color: '#FFFFFF'
+            },
+            stem: {
+                color: 'transparent'
+            },
+            alwaysOutside: true
+        },
+        isStacked: true
     };
 
     var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
     chart.draw(data, options);
 }
+
+// Redraw chart on window resize
+window.addEventListener('resize', drawVisualization);
