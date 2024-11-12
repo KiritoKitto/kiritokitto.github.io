@@ -11,7 +11,7 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
-<img src="images/banners/year-in-videogames-23.jpg">
+<img src="images/image_2024-11-12_00-25-43.png">
 
 ---
 
