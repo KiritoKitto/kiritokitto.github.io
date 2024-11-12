@@ -58,8 +58,8 @@ function drawVisualization() {
         legend: {textStyle: { fontName: font, color: colorSecondary }, position: 'bottom', alignment: 'center', maxLines: 10},
         series: {
             0: { color: graphhighlightprimary },
-            1: { color: graphbaseprimary },
-            2: { color: graphbasesecondary },
+            1: { color: graphhighlightsecondary },
+            2: { color: graphhighlighttertiary },
             3: { color: graphbaseprimary }
         },
         backgroundColor: { fill: 'transparent' },
