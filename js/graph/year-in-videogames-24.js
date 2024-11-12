@@ -40,7 +40,8 @@ function drawVisualization() {
         },
         hAxis: {
             title: '',
-            textStyle: { fontName: font, color: colorSecondary }
+            textStyle: { fontName: font, color: colorSecondary },
+            gridlines: { color: graphbasesecondary }
         },
         legend: {
             position: 'bottom',

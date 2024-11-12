@@ -12,8 +12,8 @@
     --color-link-primary: rgb(98,158,251);
     --color-link-secondary: rgb(255, 214, 10);
 
-    --graph-base-primary: #676767;
-    --graph-base-secondary: #BDC0C2;
+    --graph-base-primary: hsl(0, 0%, 20%);
+    --graph-base-secondary: hsl(0, 0%, 30%);
 
     --graph-highlight-primary: rgb(98,158,251);
     --graph-highlight-secondary: rgb(98,158,251);
