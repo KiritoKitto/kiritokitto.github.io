@@ -88,8 +88,8 @@ Indie
 ---
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
 <div id="chart_div" style="width: 900px; height: 500px;"></div>
-
 
 ***Titoli che non ho finito e con valutazione rimandata:*** *Immortals Fenyx Rising, Rain World, Age of Calamity DLC*
 
