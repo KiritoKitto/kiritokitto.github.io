@@ -9,6 +9,10 @@ function drawVisualization() {
     const graphbasesecondary = rootStyles.getPropertyValue('--graph-base-secondary').trim();
     const graphhighlightprimary = rootStyles.getPropertyValue('--graph-highlight-primary').trim();
     const graphhighlightsecondary = rootStyles.getPropertyValue('--graph-highlight-secondary').trim();
+
+    const colorprimary = rootStyles.getPropertyValue('--color-primary').trim();
+    const colorsecondary = rootStyles.getPropertyValue('--color-secondary').trim();
+
     const font = rootStyles.getPropertyValue('--font').trim();
 
     var data = google.visualization.arrayToDataTable([
@@ -23,18 +27,21 @@ function drawVisualization() {
         titleTextStyle: {
             fontSize: 24,
             bold: true,
-            fontName: font  // Usa il font definito nella variabile
+            fontName: font,  // Usa il font definito nella variabile
+            color: colorprimary,
         },
         vAxis: {
             title: '# of Games',
             textStyle: {
-                fontName: font  // Applica il font agli assi
+                fontName: font,  // Applica il font agli assi
+                color: colorsecondary,
             }
         },
         vAxis2: {  // Aggiungi il secondo asse verticale
             title: 'Average',
             textStyle: {
-                fontName: font
+                fontName: font,
+                color: colorsecondary,
             },
             viewWindow: {
                 min: 0  // Imposta il minimo valore visibile sull'asse secondario (opzionale)
@@ -43,7 +50,8 @@ function drawVisualization() {
         hAxis: {
             title: 'Year',
             textStyle: {
-                fontName: font  // Applica il font agli assi
+                fontName: font,  // Applica il font agli assi
+                color: colorsecondary,
             }
         },
         seriesType: 'bars',
