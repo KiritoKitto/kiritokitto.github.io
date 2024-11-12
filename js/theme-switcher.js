@@ -15,15 +15,16 @@ function switchTheme(event) {
     }
 }
 
-// Al caricamento della pagina, controlla il tema nel localStorage
+// Al caricamento della pagina, controlla il tema nel localStorage o la preferenza di sistema
 window.addEventListener("load", function() {
     const savedTheme = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    // Se c'è un tema salvato, applicalo; altrimenti imposta il tema di default (light.css)
+    // Se c'è un tema salvato, applicalo; altrimenti imposta secondo il sistema (se disponibile)
     if (savedTheme) {
         document.getElementById("theme-link").setAttribute("href", "/css/" + savedTheme + ".css");
     } else {
-        document.getElementById("theme-link").setAttribute("href", "/css/dark.css");
+        document.getElementById("theme-link").setAttribute("href", prefersDark ? "/css/dark.css" : "/css/light.css");
     }
 });
 
