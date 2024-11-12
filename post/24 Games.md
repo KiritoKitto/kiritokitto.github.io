@@ -10,19 +10,19 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 > Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-videogames).
 
 ---
+
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-## Completed Games
-
+<h2># Completed Games</h2>
 <script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
 <div class="chart" id="completed-games"></div>
 
 ---
 
-* ***Titoli completati:*** _23_
-* ***Titoli iniziati:*** _56_
-* ***Titoli iniziati:*** _56_
-* ***Media generale:*** _7.3_
+*Titoli completati:**23***
+*Titoli iniziati: **56***
+*Titoli iniziati: **56***
+*Media generale: **7.3***
 
 
 ---

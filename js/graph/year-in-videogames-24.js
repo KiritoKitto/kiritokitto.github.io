@@ -22,17 +22,13 @@ function drawVisualization() {
     ]);
 
     // Calcola l'altezza in base al numero di righe, moltiplicando per un valore base
-    var dynamicHeight = data.getNumberOfRows() * (70 + (3 * data.getNumberOfRows()));
+    var dynamicHeight = data.getNumberOfRows() * (50 + (3 * data.getNumberOfRows()));
 
     var options = {
         width: '100%',
         height: '100%',
         title: '',
         titleTextStyle: {
-            fontSize: 24,
-            bold: true,
-            fontName: font,
-            color: colorPrimary
         },
         vAxis: {
             title: '',
