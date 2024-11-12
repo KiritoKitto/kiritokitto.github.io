@@ -34,14 +34,18 @@ function handleThemeLoad() {
 function checkAndRedraw() {
     // Esempio di condizione di controllo (modifica in base alle tue esigenze)
     const rootStyles = getComputedStyle(document.documentElement);
-    const currentColor = rootStyles.getPropertyValue('--color-primary').trim();
+    const graphbaseprimary = rootStyles.getPropertyValue('--graph-base-primary').trim();
+    const graphbasesecondary = rootStyles.getPropertyValue('--graph-base-secondary').trim();
+    const font = rootStyles.getPropertyValue('--font').trim();
+    const colorPrimary = rootStyles.getPropertyValue('--color-primary').trim();
+    const colorSecondary = rootStyles.getPropertyValue('--color-secondary').trim();
 
     // Controlla se il tema è stato correttamente applicato
     if (document.body.classList.contains('dark-mode') && currentColor === 'expected-dark-color') {
         drawVisualization();
     } else {
         // Ricontrolla dopo 100 ms se la condizione non è soddisfatta
-        setTimeout(checkAndRedraw, 100);
+        setTimeout(checkAndRedraw, 300);
     }
 }
 

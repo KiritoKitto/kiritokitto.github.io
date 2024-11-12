@@ -31,35 +31,26 @@ function drawVisualization() {
         },
         vAxis: {
             title: '',
-            textStyle: {
-                fontName: font,
-                color: colorSecondary
-            }
+            textStyle: { fontName: font, color: colorSecondary }
         },
         hAxis: {
             title: '',
-            textStyle: {
-                fontName: font,
-                color: colorSecondary
-            }
+            textStyle: { fontName: font, color: colorSecondary }
         },
         legend: {
             position: 'bottom',
             alignment: 'center',
             maxLines: 10,
-            textStyle: {
-                fontName: font,
-                color: colorPrimary
-            }
+            textStyle: { fontName: font, color: colorSecondary }
         },
         series: {
-            0: { color: graphbaseprimary },
+            0: { color: colorPrimary },
             1: { color: graphbasesecondary }
         },
         backgroundColor: { fill: 'transparent' },
         isStacked: true,
         chartArea: {  // Configura l'area del grafico per sfruttare l'altezza dinamica
-        	width: '90%',
+        	width: '80%',
             height: '80%',  // Mantieni circa l'80% dell'altezza per il grafico
             top: 60,
             bottom: 60
