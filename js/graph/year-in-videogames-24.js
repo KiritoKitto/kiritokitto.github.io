@@ -5,9 +5,14 @@ function drawVisualization() {
     const rootStyles = getComputedStyle(document.documentElement);
     const graphbaseprimary = rootStyles.getPropertyValue('--graph-base-primary').trim();
     const graphbasesecondary = rootStyles.getPropertyValue('--graph-base-secondary').trim();
-    const font = rootStyles.getPropertyValue('--font').trim();
+
+    const graphhighlightprimary = rootStyles.getPropertyValue('--graph-highlight-primary').trim();
+    const graphhighlightsecondary = rootStyles.getPropertyValue('--graph-highlight-secondary').trim();
+    
     const colorPrimary = rootStyles.getPropertyValue('--color-primary').trim();
     const colorSecondary = rootStyles.getPropertyValue('--color-secondary').trim();
+
+    const font = rootStyles.getPropertyValue('--font').trim();
 
     var data = google.visualization.arrayToDataTable([
         ['Year', 'Completed', 'Not Completed'],
@@ -44,8 +49,8 @@ function drawVisualization() {
             textStyle: { fontName: font, color: colorSecondary }
         },
         series: {
-            0: { color: colorPrimary },
-            1: { color: graphbasesecondary }
+            0: { color: graphhighlightprimary },
+            1: { color: graphbaseprimary }
         },
         backgroundColor: { fill: 'transparent' },
         isStacked: true,
