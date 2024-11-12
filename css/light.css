@@ -17,6 +17,7 @@
     --graph-base-primary: rgb(217, 217, 217);
     --graph-base-secondary: rgb(191, 191, 191);
 
-    --graph-highlight-primary: rgb(211, 66, 90); 
-    --graph-highlight-secondary: rgb(211, 66, 90);
+    --graph-highlight-primary: hsl(350, 62%, 54%); 
+    --graph-highlight-secondary: hsl(178, 95%, 33%);
+    --graph-highlight-tertiary: hsl(48, 55%, 52%);
 }
