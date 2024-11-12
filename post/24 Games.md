@@ -97,18 +97,20 @@ Indie
             ['Month', 'Bolivia', 'Ecuador', 'Madagascar', 'Papua New Guinea', 'Rwanda', 'Average'],
             ['2004/05',  165,      938,         522,             998,           450,      614.6],
             ['2005/06',  135,      1120,        599,             1268,          288,      682],
+            ['2006/07',  157,      1167,        587,             807,           397,      623],
+            ['2007/08',  139,      1110,        615,             968,           215,      609.4],
             ['2008/09',  136,      691,         629,             1026,          366,      569.6]
         ]);
 
         var options = {
             title: 'Monthly Coffee Production by Country',
-            fontName: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;,
+            fontName: 'Roboto Mono',  // Font personalizzato
             vAxis: {title: 'Cups'},
             hAxis: {title: 'Month'},
             seriesType: 'bars',
             series: {
                 0: { color: 'red' },    // Colore rosso per la prima barra
-                3: { type: 'line', color: 'blue', pointSize: 10, dataLabel: 'value' }  // Linea con punti grandi per "Average"
+                5: { type: 'line', color: 'blue', pointSize: 10, dataLabel: 'value' }  // Linea con punti grandi per "Average"
             },
             backgroundColor: { fill: 'transparent' }
         };
