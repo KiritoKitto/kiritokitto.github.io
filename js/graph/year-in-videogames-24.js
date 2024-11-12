@@ -17,6 +17,9 @@ function drawVisualization() {
     ]);
 
     var options = {
+        width: '100%',
+        height: '100%',
+        chartArea: { width: '100%', height: '100%' },
         title: 'Score Average',
         titleTextStyle: {
             fontSize: 24,

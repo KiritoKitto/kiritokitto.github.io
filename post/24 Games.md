@@ -17,10 +17,10 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
-> ***Titoli completati:*** _23_
-> ***Titoli iniziati:*** _56_
-> ***Titoli iniziati:*** _56_
-> ***Media generale:*** _7.3_
+* ***Titoli completati:*** _23_
+* ***Titoli iniziati:*** _56_
+* ***Titoli iniziati:*** _56_
+* ***Media generale:*** _7.3_
 
 
 ---
