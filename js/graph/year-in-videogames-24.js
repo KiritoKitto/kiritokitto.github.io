@@ -27,7 +27,7 @@ function drawVisualization() {
     var options = {
         width: '100%',
         height: '100%',
-        title: '# of Completed Games',
+        title: '',
         titleTextStyle: {
             fontSize: 24,
             bold: true,
@@ -41,7 +41,8 @@ function drawVisualization() {
         hAxis: {
             title: '',
             textStyle: { fontName: font, color: colorSecondary },
-            gridlines: { color: graphbasesecondary }
+            gridlines: { color: graphbaseprimary },
+            minorGridlines: { count: 0 }
         },
         legend: {
             position: 'bottom',
@@ -56,17 +57,17 @@ function drawVisualization() {
         backgroundColor: { fill: 'transparent' },
         isStacked: true,
         chartArea: {  // Configura l'area del grafico per sfruttare l'altezza dinamica
-        	width: '80%',
-            height: '80%',  // Mantieni circa l'80% dell'altezza per il grafico
-            top: 60,
-            bottom: 60
+        	width: '100%',
+            height: '100%',  // Mantieni circa l'80% dell'altezza per il grafico
+            bottom: 60,
+            left: 35,
         }
     };
 
     // Imposta l'altezza del div del grafico in base all'altezza calcolata
-    document.getElementById('chart_div').style.height = `${dynamicHeight}px`;
+    document.getElementById('completed-games').style.height = `${dynamicHeight}px`;
 
-    var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+    var chart = new google.visualization.BarChart(document.getElementById('completed-games'));
     chart.draw(data, options);
 }
 
