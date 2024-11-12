@@ -11,6 +11,12 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
+<div id="chart_div" style="width: 100%; height: 500px;"></div>
+
+---
+
 > ***Titoli completati:*** _23_
 > ***Titoli iniziati:*** _56_
 > ***Titoli iniziati:*** _56_
@@ -90,10 +96,6 @@ Indie
 * Voices of the Void
 
 ---
-
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
-<div id="chart_div" style="width: 100%; height: 500px;"></div>
 
 ***Titoli che non ho finito e con valutazione rimandata:*** *Immortals Fenyx Rising, Rain World, Age of Calamity DLC*
 
