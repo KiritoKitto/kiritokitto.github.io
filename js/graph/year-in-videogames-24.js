@@ -74,3 +74,4 @@ function drawVisualization() {
 }
 
 window.addEventListener('resize', drawVisualization);
+document.getElementById("theme-link-switcher").addEventListener("click", drawVisualization);

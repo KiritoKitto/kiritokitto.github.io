@@ -31,3 +31,4 @@ window.addEventListener("load", function() {
 
 // Aggiungi un event listener al link per cambiare tema
 document.getElementById("theme-link-switcher").addEventListener("click", switchTheme);
+document.getElementById("theme-link-switcher").addEventListener("click", drawVisualization);
