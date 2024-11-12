@@ -1,6 +1,6 @@
 // Funzione per cambiare il tema
 function switchTheme(event) {
-    event.preventDefault();  // Evita il comportamento predefinito del link
+    event.preventDefault();
 
     const themeLink = document.getElementById("theme-link");
     const currentTheme = themeLink.getAttribute("href");
@@ -14,22 +14,19 @@ function switchTheme(event) {
         localStorage.setItem("theme", "light");
     }
 
-    // Chiama la funzione drawVisualization dopo aver cambiato il tema
-    drawVisualization();
+    // Aggiungi un listener per ridisegnare il grafico dopo che il nuovo tema è stato caricato
+    themeLink.addEventListener("load", function onLoad() {
+        drawVisualization();
+    });
 }
-
 
 // Al caricamento della pagina, controlla il tema nel localStorage o la preferenza di sistema
 window.addEventListener("load", function() {
     const savedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    // Se c'è un tema salvato, applicalo; altrimenti imposta secondo il sistema (se disponibile)
-    if (savedTheme) {
-        document.getElementById("theme-link").setAttribute("href", "/css/" + savedTheme + ".css");
-    } else {
-        document.getElementById("theme-link").setAttribute("href", prefersDark ? "/css/dark.css" : "/css/light.css");
-    }
+    // Imposta il tema in base a quanto salvato o alla preferenza di sistema
+    document.getElementById("theme-link").setAttribute("href", "/css/" + (savedTheme || (prefersDark ? "dark" : "light")) + ".css");
 });
 
 // Aggiungi un event listener al link per cambiare tema

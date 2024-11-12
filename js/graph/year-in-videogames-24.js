@@ -22,7 +22,7 @@ function drawVisualization() {
     var options = {
         width: '100%',
         height: '100%',
-        title: 'Score Average',
+        title: '# of Completed Games',
         titleTextStyle: {
             fontSize: 24,
             bold: true,
