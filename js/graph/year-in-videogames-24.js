@@ -26,17 +26,17 @@ function drawVisualization() {
         },
         vAxis: {
             title: '',
-            textStyle: { fontName: font, olor: colorSecondary }
+            textStyle: { fontName: font, color: colorSecondary }
         },
         hAxis: {
             title: '',
-            textStyle: { fontName: font, olor: colorSecondary }
+            textStyle: { fontName: font, color: colorSecondary }
         },
         legend: {
             position: 'bottom',
             alignment: 'center',
             maxLines: 10,
-            textStyle: { fontName: font, olor: colorSecondary }
+            textStyle: { fontName: font, color: colorSecondary }
         },
         series: {
             0: { color: graphbaseprimary },
