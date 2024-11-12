@@ -25,7 +25,7 @@ function drawVisualization() {
     var options = { width: '100%', height: '100%',title: '',
         vAxis: {textStyle: { fontName: font, color: colorSecondary }},
         hAxis: {textStyle: { fontName: font, color: colorSecondary },gridlines: { color: graphbaseprimary },minorGridlines: { count: 0 }},
-        legend: {textStyle: { fontName: font, color: colorSecondary }, position: 'bottom', alignment: 'center', maxLines: 10},
+        legend: {textStyle: { fontName: font, color: colorSecondary }, position: 'bottom', alignment: 'start', maxLines: 10},
         series: {
             0: { color: graphhighlightprimary },
             1: { color: graphbaseprimary }
@@ -55,7 +55,7 @@ function drawVisualization() {
     var options = { width: '100%', height: '100%',title: '',
         vAxis: {textStyle: { fontName: font, color: colorSecondary }},
         hAxis: {textStyle: { fontName: font, color: colorSecondary },gridlines: { color: graphbaseprimary },minorGridlines: { count: 0 }},
-        legend: {textStyle: { fontName: font, color: colorSecondary }, position: 'bottom', alignment: 'center', maxLines: 10},
+        legend: {textStyle: { fontName: font, color: colorSecondary }, position: 'bottom', alignment: 'start', maxLines: 10},
         series: {
             0: { color: graphhighlightprimary },
             1: { color: graphhighlightsecondary },
