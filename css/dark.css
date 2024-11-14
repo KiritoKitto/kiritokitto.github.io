@@ -16,6 +16,6 @@
     --graph-base-secondary: rgb(77, 77, 77);
 
     --graph-highlight-primary: rgb(98,158,251);
-    --graph-highlight-secondary: rgb(65, 200, 117);
-    --graph-highlight-tertiary: rgb(255, 214, 10);
+    --graph-highlight-secondary: #50C878;
+    --graph-highlight-tertiary: #FFD966;
 }
