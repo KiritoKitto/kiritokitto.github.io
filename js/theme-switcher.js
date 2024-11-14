@@ -27,4 +27,3 @@ window.addEventListener("load", function() {
 
 function handleThemeLoad() { setTimeout(() => {drawVisualization();}, 500);}
 document.getElementById("theme-link-switcher").addEventListener("click", switchTheme);
-document.getElementById("theme-link-switcher").addEventListener("click", drawVisualization);
