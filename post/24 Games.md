@@ -10,11 +10,13 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 > Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-videogames).
 
 ---
+<code>
 
 * Titoli completati: **23**
 * Titoli giocati: **35**
 * Media generale: **7.6**
-
+  
+</code>
 
 <script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
 <h3># Titoli Completati</h3>
@@ -24,12 +26,12 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
-**Game of the Year Award:** titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
+**Game of the Year Award.** Titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
 * Elden Ring: Shadow of the Erdtree
 
 ---
 
-**Great Experience Award:** titoli che non hanno vinto il premio "Game of the Year" ma che ritengo memorabili per qualità realizzative o impatto emotivo.
+**Great Experience Award.** Titoli che non hanno vinto il premio "Game of the Year" ma che ritengo memorabili per qualità realizzative o impatto emotivo.
 * Dark Souls III
 * Nine Sols
 * Black Myth: Wukong
@@ -41,17 +43,17 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
-**Soundtrack Award:** titoli con una colonna sonora nel complesso eccellente, con diverse OST memorabili.
+**Soundtrack Award.** Titoli con una colonna sonora nel complesso eccellente, con diverse OST memorabili.
 * Elden Ring: Shadow of the Erdtree
 
 ---
 
-**Music Memory Award:** titoli che non hanno vinto il "Soundtrack Award" ma presentano una o più OST memorabili.
+**Music Memory Award.** Titoli che non hanno vinto il "Soundtrack Award" ma presentano una o più OST memorabili.
 * Horizon Zero Dawn
 
 ---
 
-**Above Expectation:** titoli che mi hanno divertito molto più del previsto.
+**Above Expectation.** Titoli che mi hanno divertito molto più del previsto.
 * Black Myth: Wukong
 * Another Crab's Treasure
 * New Star GP
@@ -61,7 +63,7 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
-**Below Expectation:** titoli che non hanno raggiunto le mie aspettative, forse ingiustamente troppo alte.
+**Below Expectation.** Titoli che non hanno raggiunto le mie aspettative, forse ingiustamente troppo alte.
 * Hellblade 2
 * Persona 3 Reload
 
@@ -72,11 +74,11 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 ---
 
-_**Moment Memory Award:** titoli che non hanno vinto il premio "Core Memory Award" o "Great Game Award" ma che presentano una scena o una meccanica particolarmente memorabile._
+_**Moment Memory Award.** Titoli che non hanno vinto il premio "Core Memory Award" o "Great Game Award" ma che presentano una scena o una meccanica particolarmente memorabile._
 
 ---
 
-**Honorable Mention:** titoli che non sono riusciti a vincere un premio, comunque meritevoli di una mezione.
+**Honorable Mention.** Titoli che non sono riusciti a vincere un premio, comunque meritevoli di una mezione.
 
 Tripla A
 
