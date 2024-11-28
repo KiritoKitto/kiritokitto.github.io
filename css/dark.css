@@ -1,6 +1,6 @@
 :root {
-    --font: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
-    --font-title: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+    --font: "Roboto Flex", sans-serif;
+    --font-title: "Roboto Mono", sans-serif;
 
     --color-background: rgb(18, 18, 18);
     --color-background-secondary: rgba(80, 80, 85, 0.2);
