@@ -160,7 +160,7 @@ img {
   height: auto;
   object-fit: contain;
   margin-top: 8px;
-  filter: sepia(30%);
+  filter: sepia(0.20);
 }
 
 /*nav {

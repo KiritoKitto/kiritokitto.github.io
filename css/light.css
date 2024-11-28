@@ -6,14 +6,14 @@
     --color-background-secondary: #D7C9AC;
   
     --color-primary: #1c1c1c;
-    --color-secondary: rgb(39, 39, 39);
-    --color-tertiary: rgb(143, 143, 143);
+    --color-secondary: #1c1c1c;
+    --color-tertiary: #1c1c1c;
     
-    --color-link-primary: #B39761;
+    --color-tertiary: #1c1c1c;
     --color-link-secondary: #B39761;
 
-    --graph-base-primary: rgb(217, 217, 217);
-    --graph-base-secondary: rgb(191, 191, 191);
+    --color-tertiary: #1c1c1c;
+    --color-tertiary: #1c1c1c;
 
     --graph-highlight-primary: #B39761; 
     --graph-highlight-secondary: rgb(4, 164, 159);
