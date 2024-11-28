@@ -69,6 +69,7 @@ body::before {
   background-size: auto;
   background-position: top left;
   filter: invert(1); /* Inversione dei colori */
+  filter:opacity(0.5);
   z-index: -1; /* Porta il background dietro il contenuto */
   pointer-events: none; /* Assicura che non interferisca con l'interazione */
 }
