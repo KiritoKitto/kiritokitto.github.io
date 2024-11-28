@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: var(--margin);
   font-weight: 600;
   font-family: var(--font-title);
+  letter-spacing: -0.5px;
 }
 
 code { font-family: var(--font-title); }

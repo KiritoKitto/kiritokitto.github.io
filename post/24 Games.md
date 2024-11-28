@@ -12,9 +12,9 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 ---
 
 <code>
-TITOLI COMPLETATI: <b>23</b>
-TITOLI GIOCATI: <b>35</b>
-MEDIA GENERALE: <b>7.6</b>
+TITOLI COMPLETATI: <b>23</b><br>
+TITOLI GIOCATI: <b>35</b><br>
+MEDIA GENERALE: <b>7.6</b><br>
 </code>
 
 <script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
