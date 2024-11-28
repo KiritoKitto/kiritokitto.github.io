@@ -3,8 +3,8 @@
 :root {
   --width: 700px;
 
-  --font-size: 18px;
-  --font-line: 1.55;
+  --font-size: 16px;
+  --font-line: 24px;
   --font-line-title: 1.15;
 
   --margin: 30px;
@@ -174,11 +174,9 @@ nav a {
   margin-right: 8px;
 }
 
-strong, a, b { font-weight: 500; }
-strong, a { color: var(--color-link-primary); }
-b { font-weight: 500;}
+strong, a, b { font-weight: 700; }
 
-a { cursor: pointer; text-decoration: none; }
+a { cursor: pointer; text-decoration: none; color: var(--color-link-primary); }
 a:hover { text-decoration: underline; }
 
 em {
