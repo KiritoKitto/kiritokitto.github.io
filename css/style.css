@@ -26,6 +26,7 @@
 /* Line Height determina quanto spazio c'è tra le varie linee */
 main {
   line-height: var(--font-line);
+  text-wrap: pretty;
 }
 
 /* Margine della linea divisoria. Piena in verticale, 0 in orizzontale */
