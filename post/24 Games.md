@@ -11,16 +11,18 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 ---
 
+<h3> Statistiche: </h3>
+
 <code>
-TITOLI COMPLETATI: <b>23</b><br>
-TITOLI GIOCATI: <b>35</b><br>
-MEDIA GENERALE: <b>7.6</b><br>
+<b>TITOLI COMPLETATI:<br> 23<br>
+<b>TITOLI GIOCATI:<br> 35<br>
+<b>MEDIA GENERALE:<br> 7.6
 </code>
 
 <script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
-<h3># Titoli Completati</h3>
+<code> # Titoli Completati </code>
 <div class="chart" id="completed-games"></div>
-<h3>% Completamento</h3>
+<code> % Completamento </code>
 <div class="chart" id="percentage"></div>
 
 ---
