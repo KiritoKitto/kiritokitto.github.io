@@ -174,3 +174,7 @@ a:hover { text-decoration: underline; }
 
 nav a { margin-right: 8px; }
 
+em {
+  color: var(--color-tertiary);
+  font-style: normal;
+}
