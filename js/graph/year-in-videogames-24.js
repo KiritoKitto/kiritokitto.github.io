@@ -11,7 +11,7 @@ function drawVisualization() {
     const graph02 = rootStyles.getPropertyValue('--graph-base02').trim();
     const graph03 = rootStyles.getPropertyValue('--graph-base03').trim();
 
-    const highlight = rootStyles.getPropertyValue('--graph-highlight-primary').trim();
+    const highlight = rootStyles.getPropertyValue('--color-highlight').trim();
 
     const Primary = rootStyles.getPropertyValue('--color-primary').trim();
     const Secondary = rootStyles.getPropertyValue('--color-secondary').trim();

@@ -3,7 +3,7 @@
 :root {
   --width: 700px;
 
-  --font-size: 16px;
+  --font-size: 18px;
   --font-line: 24px;
   --font-line-title: 1.15;
 
@@ -126,7 +126,7 @@ summary {
 }
 
 mark {
-  color: var(--color-link-primary);
+  color: var(--color-highlight);
   background-color: transparent;
 }
 
@@ -139,7 +139,7 @@ blockquote {
   border-radius: 0px;
   border: 0px;
   border-left-width: 3px;
-  border-color: var(--color-link-primary);
+  border-color: var(--color-highlight);
   background-color: var(--color-background-primary);
   border-style: solid;
 
@@ -167,7 +167,7 @@ img {
 }*/
 
 strong, a, b { font-weight: 700; }
-a { cursor: pointer; text-decoration: none; color: var(--color-link-primary); }
+a { cursor: pointer; text-decoration: none; color: var(--color-highlight); }
 a:hover { text-decoration: underline; }
 
 nav a { margin-right: 8px; }
