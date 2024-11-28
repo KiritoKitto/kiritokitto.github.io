@@ -1,5 +1,5 @@
 ---
-permalink: "/yiv24"
+permalink: "/year-in-videogames-24t"
 ---
 
 ## Year in Videogames 2024
