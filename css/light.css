@@ -1,23 +1,21 @@
 :root {
-    --font: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
-    --font-title: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+    --font: "Roboto Flex", sans-serif;
+    --font-title: "Roboto Mono", sans-serif;
 
-    --color-background: #F5F5F7;
-    --color-background-secondary: #FFFFFF;
+    --color-background: #D7C9AC;
+    --color-background-secondary: #D7C9AC;
   
-    --color-primary: rgb(0, 0, 4);
+    --color-primary: #1c1c1c;
     --color-secondary: rgb(39, 39, 39);
     --color-tertiary: rgb(143, 143, 143);
     
-    --color-link-primary: #d3425a;
-    --color-link-secondary: #d3425a; 
-
-
+    --color-link-primary: #B39761;
+    --color-link-secondary: #B39761;
 
     --graph-base-primary: rgb(217, 217, 217);
     --graph-base-secondary: rgb(191, 191, 191);
 
-    --graph-highlight-primary: rgb(210, 65, 89); 
+    --graph-highlight-primary: #B39761; 
     --graph-highlight-secondary: rgb(4, 164, 159);
     --graph-highlight-tertiary: rgb(200, 173, 65);
 }
