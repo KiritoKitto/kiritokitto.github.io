@@ -2,8 +2,8 @@
     --font: "Roboto Flex", sans-serif;
     --font-title: "Roboto Mono", sans-serif;
 
-    --color-background: #F5F5F7;
-    --color-background-secondary: #FFFFFF;
+    --color-background: rgba(245, 245, 247,1);
+    --color-background-secondary: rgba(175, 175, 180,0.2);
   
     --color-primary: rgb(0, 0, 4);
     --color-secondary: rgb(39, 39, 39);
