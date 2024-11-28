@@ -7,13 +7,14 @@ function drawVisualization() {
     const rootStyles = getComputedStyle(document.documentElement);
     const font = rootStyles.getPropertyValue('--font').trim();
 
-    const graphbaseprimary = rootStyles.getPropertyValue('--graph-base-primary').trim();
-    const graphbasesecondary = rootStyles.getPropertyValue('--graph-base-secondary').trim();
-    const graphhighlightprimary = rootStyles.getPropertyValue('--graph-highlight-primary').trim();
-    const graphhighlightsecondary = rootStyles.getPropertyValue('--graph-highlight-secondary').trim();
-    const graphhighlighttertiary = rootStyles.getPropertyValue('--graph-highlight-tertiary').trim();
-    const colorPrimary = rootStyles.getPropertyValue('--color-primary').trim();
-    const colorSecondary = rootStyles.getPropertyValue('--color-secondary').trim();
+    const graph01 = rootStyles.getPropertyValue('--graph-base01').trim();
+    const graph02 = rootStyles.getPropertyValue('--graph-base02').trim();
+    const graph03 = rootStyles.getPropertyValue('--graph-base03').trim();
+
+    const highlight = rootStyles.getPropertyValue('--graph-highlight-primary').trim();
+
+    const Primary = rootStyles.getPropertyValue('--color-primary').trim();
+    const Secondary = rootStyles.getPropertyValue('--color-secondary').trim();
     
     var data = google.visualization.arrayToDataTable([
         ['Year', 'Completati', 'Non Completati'],
@@ -23,12 +24,12 @@ function drawVisualization() {
 
     var dynamicHeight = data.getNumberOfRows() * (50 + (3 * data.getNumberOfRows()));
     var options = { width: '100%', height: '100%',title: '',
-        vAxis: {textStyle: { fontName: font, color: colorSecondary }},
-        hAxis: {textStyle: { fontName: font, color: colorSecondary },gridlines: { color: graphbaseprimary },minorGridlines: { count: 0 }},
-        legend: {textStyle: { fontName: font, color: colorSecondary }, position: 'bottom', alignment: 'start', maxLines: 10},
+        vAxis: {textStyle: { fontName: font, color: Secondary }},
+        hAxis: {textStyle: { fontName: font, color: Secondary },gridlines: { color: graph01 },minorGridlines: { count: 0 }},
+        legend: {textStyle: { fontName: font, color: Secondary }, position: 'bottom', alignment: 'start', maxLines: 10},
         series: {
-            0: { color: graphhighlightprimary },
-            1: { color: graphbaseprimary }
+            0: { color: highlight },
+            1: { color: graph01 }
         },
         backgroundColor: { fill: 'transparent' },
         isStacked: true,
@@ -53,14 +54,14 @@ function drawVisualization() {
 
     var dynamicHeight = data.getNumberOfRows() * (50 + (3 * data.getNumberOfRows()));
     var options = { width: '100%', height: '100%',title: '',
-        vAxis: {textStyle: { fontName: font, color: colorSecondary }},
-        hAxis: {textStyle: { fontName: font, color: colorSecondary },gridlines: { color: graphbaseprimary },minorGridlines: { count: 0 }},
-        legend: {textStyle: { fontName: font, color: colorSecondary }, position: 'bottom', alignment: 'start', maxLines: 10},
+        vAxis: {textStyle: { fontName: font, color: Secondary }},
+        hAxis: {textStyle: { fontName: font, color: Secondary },gridlines: { color: graph01 },minorGridlines: { count: 0 }},
+        legend: {textStyle: { fontName: font, color: Secondary }, position: 'bottom', alignment: 'start', maxLines: 10},
         series: {
-            0: { color: graphhighlightprimary },
-            1: { color: graphhighlightsecondary },
-            2: { color: graphhighlighttertiary },
-            3: { color: graphbaseprimary }
+            0: { color: highlight },
+            1: { color: graph01 },
+            2: { color: graph02 },
+            3: { color: graph03 }
         },
         backgroundColor: { fill: 'transparent' },
         isStacked: 'percent',

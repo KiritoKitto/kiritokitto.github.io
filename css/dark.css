@@ -10,12 +10,8 @@
     --color-tertiary: rgb(103, 103, 103);
     
     --color-link-primary: rgb(98,158,251);
-    --color-link-secondary: rgb(255, 214, 10);
 
-    --graph-base-primary: rgb(51, 51, 51);
-    --graph-base-secondary: rgb(77, 77, 77);
-
-    --graph-highlight-primary: rgb(98,158,251);
-    --graph-highlight-secondary: #50C878;
-    --graph-highlight-tertiary: #FFD966;
+    --graph-base01: rgb(51, 51, 51);
+    --graph-base02: rgb(77, 77, 77);
+    --graph-base03: rgb(120, 120, 120);
 }

@@ -2,20 +2,16 @@
     --font: "Roboto Flex", sans-serif;
     --font-title: "Roboto Mono", sans-serif;
 
-    --color-background: #D7C9AC;
-    --color-background-secondary: #D7C9AC;
+    --color-background: #F5F5F7;
+    --color-background-secondary: #FFFFFF;
   
-    --color-primary: #1c1c1c;
-    --color-secondary: #1c1c1c;
-    --color-tertiary: #1c1c1c;
+    --color-primary: rgb(0, 0, 4);
+    --color-secondary: rgb(39, 39, 39);
+    --color-tertiary: rgb(143, 143, 143);
     
-    --color-link-primary: #1c1c1c;
-    --color-link-secondary: #B39761;
+    --color-link-primary: #d3425a;
 
-    --color-tertiary: #1c1c1c;
-    --color-tertiary: #1c1c1c;
-
-    --graph-highlight-primary: #B39761; 
-    --graph-highlight-secondary: rgb(4, 164, 159);
-    --graph-highlight-tertiary: rgb(200, 173, 65);
+    --graph-base01: rgb(217, 217, 217);
+    --graph-base02: rgb(191, 191, 191);
+    --graph-base03: rgb(150, 150, 150);
 }
