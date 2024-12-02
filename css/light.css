@@ -6,10 +6,10 @@
     --color-background-secondary: rgba(215, 201, 172,0.2);
   
     --color-primary: rgb(0, 0, 4);
-    --color-secondary: rgb(39, 39, 39);
-    --color-tertiary: rgb(143, 143, 143);
+    --color-secondary: rgb(0, 0, 4);
+    --color-tertiary: rgb(39, 39, 39);
     
-    --color-highlight: #1C1C1C;
+    --color-highlight: rgba(153, 120, 60, 1);
 
     --graph-base01: rgb(217, 217, 217);
     --graph-base02: rgb(191, 191, 191);
