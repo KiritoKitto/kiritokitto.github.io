@@ -62,8 +62,8 @@ button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.5);
-  color: grey;
+  background-color: var(--color-tertiary);
+  color: var(--color-tertiary);
   border: none;
   padding: 1px; /* Riduci il padding per un bottone più piccolo */
   height: 15px; /* Riduci l'altezza del bottone */

@@ -34,11 +34,18 @@
   <script>
     // Aggiungi un listener per il click su ogni elemento details
     document.querySelectorAll('details').forEach(detail => {
-      detail.addEventListener('click', function () {
-        // Simula il clic sul summary
-        const summary = detail.querySelector('summary');
-        if (!summary.hasAttribute('open')) {
-          summary.click();
+      // Ascolta il clic su summary
+      const summary = detail.querySelector('summary');
+      
+      summary.addEventListener('click', function(event) {
+        // Evita che l'evento di clic venga gestito dal listener su details
+        event.stopPropagation();
+      });
+
+      detail.addEventListener('click', function() {
+        // Se il detail è chiuso, aprilo
+        if (!detail.hasAttribute('open')) {
+          detail.setAttribute('open', 'true');
         }
       });
     });
