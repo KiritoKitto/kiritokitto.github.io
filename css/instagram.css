@@ -94,10 +94,10 @@ button {
   width: 10px; /* Larghezza dei puntini */
   height: 10px; /* Altezza dei puntini */
   border-radius: 50%; /* Rende i puntini circolari */
-  background-color: var(--color-background-secondary); /* Colore dei puntini non attivi */
+  background-color: var(--color-highlight); /* Colore dei puntini non attivi */
   margin: 0 5px; /* Spazio tra i puntini */
   cursor: pointer; /* Cambia il cursore se vuoi farli cliccabili */
-  /* opacity: 0.5; Trasparenza per i puntini non attivi */
+  opacity: 0.3;
 }
 
 .indicator.active {
