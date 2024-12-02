@@ -19,6 +19,8 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 <b>MEDIA GENERALE:</b> 7.6<br>
 </code>
 
+---
+
 <script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
 <code> # Titoli Completati </code>
 <div class="chart" id="completed-games"></div>

@@ -1,15 +1,15 @@
 :root {
     --font: "Roboto Flex", sans-serif;
-    --font-title: "Roboto Mono", sans-serif;
+    --font-title: "Roboto Flex", sans-serif;
 
-    --color-background: rgba(245, 245, 247,1);
-    --color-background-secondary: rgba(175, 175, 180,0.2);
+    --color-background: rgba(215, 201, 172,1);
+    --color-background-secondary: rgba(215, 201, 172,0.2);
   
     --color-primary: rgb(0, 0, 4);
     --color-secondary: rgb(39, 39, 39);
     --color-tertiary: rgb(143, 143, 143);
     
-    --color-highlight: #d3425a;
+    --color-highlight: #1C1C1C;
 
     --graph-base01: rgb(217, 217, 217);
     --graph-base02: rgb(191, 191, 191);
