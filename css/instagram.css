@@ -101,6 +101,6 @@ button {
 }
 
 .indicator.active {
-  background-color: var(--color-link-primary); /* Colore per il puntino attivo */
+  background-color: var(--color-highlight); /* Colore per il puntino attivo */
   opacity: 1; /* Puntino attivo a opacità piena */
 }

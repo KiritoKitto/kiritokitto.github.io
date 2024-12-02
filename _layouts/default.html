@@ -31,5 +31,17 @@
     {{ content }}
   </main>
   <script src= "{{ '/js/carousel.js' | relative_url }}"></script>
+  <script>
+    // Aggiungi un listener per il click su ogni elemento details
+    document.querySelectorAll('details').forEach(detail => {
+      detail.addEventListener('click', function () {
+        // Simula il clic sul summary
+        const summary = detail.querySelector('summary');
+        if (!summary.hasAttribute('open')) {
+          summary.click();
+        }
+      });
+    });
+  </script>
 </body>
 </html>
