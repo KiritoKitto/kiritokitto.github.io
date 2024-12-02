@@ -62,8 +62,8 @@ button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: var(--color-tertiary);
-  color: var(--color-tertiary);
+  background-color: rgba(255, 255, 255, 0.5);
+  color: grey;
   border: none;
   padding: 1px; /* Riduci il padding per un bottone più piccolo */
   height: 15px; /* Riduci l'altezza del bottone */
@@ -94,10 +94,10 @@ button {
   width: 10px; /* Larghezza dei puntini */
   height: 10px; /* Altezza dei puntini */
   border-radius: 50%; /* Rende i puntini circolari */
-  background-color: grey; /* Colore dei puntini non attivi */
+  background-color: var(--color-background-secondary); /* Colore dei puntini non attivi */
   margin: 0 5px; /* Spazio tra i puntini */
   cursor: pointer; /* Cambia il cursore se vuoi farli cliccabili */
-  opacity: 0.5; /* Trasparenza per i puntini non attivi */
+  /* opacity: 0.5; Trasparenza per i puntini non attivi */
 }
 
 .indicator.active {
