@@ -2,14 +2,14 @@
     --font: "Roboto Flex", sans-serif;
     --font-title: "Roboto Flex", sans-serif;
 
-    --color-background: rgba(215, 201, 172,1);
+    --color-background: rgb(215, 201, 172);
     --color-background-secondary: rgba(215, 201, 172,0.2);
   
     --color-primary: rgb(0, 0, 4);
     --color-secondary: rgb(0, 0, 4);
     --color-tertiary: rgb(39, 39, 39);
     
-    --color-highlight: rgba(153, 120, 60, 1);
+    --color-highlight: rgb(120, 85, 30);
 
     --graph-base01: rgb(217, 217, 217);
     --graph-base02: rgb(191, 191, 191);
