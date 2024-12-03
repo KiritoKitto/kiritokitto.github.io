@@ -2,6 +2,7 @@
 permalink: "/year-in-videogames-24t"
 ---
 
+
 ## Year in Videogames 2024
 
 Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un recap annuale dei titoli giocati nel corso dell'anno per ricordare i punti più alti (e bassi) della mia carriera videoludica.
@@ -26,6 +27,10 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 <div class="chart" id="completed-games"></div>
 <code> % Completamento </code>
 <div class="chart" id="percentage"></div>
+
+<script type="text/javascript" src="js/graph/year-in-videogames.js"></script>
+<code> # Titoli Completati </code>
+<div class="chart" id="donut_chart"></div>
 
 ---
 
