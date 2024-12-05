@@ -28,9 +28,6 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 <code> % Completamento </code>
 <div class="chart" id="percentage"></div>
 
-<script type="text/javascript" src="js/graph/year-in-videogames.js"></script>
-<code> # Titoli Completati </code>
-<div class="chart" id="donut_chart"></div>
 
 ---
 

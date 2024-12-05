@@ -29,7 +29,7 @@ function drawVisualization() {
         legend: {textStyle: { fontName: font, color: Secondary }, position: 'bottom', alignment: 'start', maxLines: 10},
         series: {
             0: { color: highlight },
-            1: { color: graph01 }
+            1: { color: graph03 }
         },
         backgroundColor: { fill: 'transparent' },
         isStacked: true,
