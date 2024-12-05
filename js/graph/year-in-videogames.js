@@ -25,7 +25,7 @@ function drawVisualization() {
     const data = google.visualization.arrayToDataTable(Completati);
     const options = {
         pieHole: 0.6,
-        colors: ["#28a745", "#dc3545"], // Verde per finiti, rosso per non finiti
+        colors: [highlight, graph03], // Verde per finiti, rosso per non finiti
         pieSliceText: "none",
         legend: "none",
         tooltip: { trigger: "none" },
