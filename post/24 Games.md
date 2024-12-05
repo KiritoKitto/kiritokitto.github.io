@@ -28,6 +28,10 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 <code> % Completamento </code>
 <div class="chart" id="percentage"></div>
 
+<script type="text/javascript" src="js/graph/year-in-videogames.js"></script>
+<code> # Titoli Completati </code>
+<div class="chart" id="donut_chart"></div>
+
 ---
 
 **Game of the Year Award.** Titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
