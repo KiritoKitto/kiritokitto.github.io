@@ -2,17 +2,17 @@
     --font: "Roboto Flex", sans-serif;
     --font-title: "Roboto Flex", sans-serif;
 
-    --color-background: rgb(215, 201, 172);
-    --color-background-secondary: rgba(215, 201, 172,0.2);
+    --color-background: #FFFFFF;
+    --color-background-secondary: #F6F6F6;
   
     --color-primary: rgb(0, 0, 4);
     --color-secondary: rgb(0, 0, 4);
     --color-tertiary: rgb(0, 0, 4);
     
-    --color-highlight: #78551e;
+    --color-highlight: #0083ff;
 
-    --graph-highlight: #B2975F;
-    --graph-base01: #D1C19F;
+    --graph-highlight: #0083ff;
+    --graph-base01: #FFFFFF;
     --graph-base02: #E0D5BF;
     --graph-base03: #F0EADF;
 }
