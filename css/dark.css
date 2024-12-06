@@ -12,7 +12,7 @@
     --color-highlight: rgb(98,158,251);
 
     --graph-highlight: #0083ff;
-    --graph-base01: hsl(240, 3%, 30%);
-    --graph-base02: hsl(240, 3%, 22%);
-    --graph-base03: hsl(240, 3%, 15%);
+    --graph-base01: rgb(74, 74, 79);
+    --graph-base02: rgb(54, 54, 58);
+    --graph-base03: rgb(37, 37, 39);
 }
