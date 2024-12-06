@@ -12,7 +12,7 @@
     --color-highlight: #0083ff;
 
     --graph-highlight: #0083ff;
-    --graph-base01: #C2C2C5;
-    --graph-base02: #D7D7D8;
-    --graph-base03: #EBEBEC;
+    --graph-base01: rgb(195, 195, 198);
+    --graph-base02: rgb(216, 216, 217);
+    --graph-base03: rgb(234, 234, 235);
 }
