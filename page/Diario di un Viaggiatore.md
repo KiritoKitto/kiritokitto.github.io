@@ -13,7 +13,7 @@ Il **Diario di Viaggiatore**, serie nata nel corso del 2022, è una raccolta di 
 ---
 
 - <a href="#s4">S4 - RainFall</a>
-- <a href="#s3">S3 - Into the Wilds, the Sequel</a>
+- <a href="#s3">S3 - Into the Wilds 2</a>
 - <a href="#s2">S2 - Into the Wilds</a>
 - <a href="#s1">S1 - Oltre il Firmamento</a>
 
@@ -21,7 +21,7 @@ Il **Diario di Viaggiatore**, serie nata nel corso del 2022, è una raccolta di 
 
 ### S4 - Tour
 
-La quarta stagione
+La quarta stagione è stato un breve paragrafo in compagnia di 3 città italiane: Barberino di Mugello (Firenze), Roma e Milano.
 
 <details><summary>Milano</summary><span class="opacity">Capitale dell'Economia</span><hr>
 <div class="carousel" id="carousel20"><div class="carousel-inner">
@@ -29,15 +29,9 @@ La quarta stagione
     <div class="carousel-item"><img src="images/intothewilds/s4/milano/m2.jpg"></div>
     <div class="carousel-item"><img src="images/intothewilds/s4/milano/m3.jpg"></div>
     <div class="carousel-item"><img src="images/intothewilds/s4/milano/m5.jpg"></div>
-    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m6.jpg"></div>
-    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m7.jpg"></div>
     <div class="carousel-item"><img src="images/intothewilds/s4/milano/m8.jpg"></div>
-    <div class="carousel-item"><img src="images/intothewilds/s4/milano/m10.jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
     <span class="indicator"></span>
     <span class="indicator"></span>
     <span class="indicator"></span>
@@ -71,10 +65,8 @@ La quarta stagione
     <div class="carousel-item"><img src="images/intothewilds/s4/barberino/b2.jpg"></div>
     <div class="carousel-item"><img src="images/intothewilds/s4/barberino/b3.jpg"></div>
     <div class="carousel-item"><img src="images/intothewilds/s4/barberino/b4.jpg"></div>
-    <div class="carousel-item"><img src="images/intothewilds/s4/barberino/b5.jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
-    <span class="indicator"></span>
     <span class="indicator"></span>
     <span class="indicator"></span>
     <span class="indicator"></span>
@@ -83,17 +75,15 @@ La quarta stagione
 
 <hr id="s3">
 
-### S3 - Into the Wilds, the Sequel
+### S3 - Into the Wilds 2
 
-La terza stagione è iniziata a Febbraio 2024 e non ha ancora un nome.
+La terza stagione è iniziata a Febbraio 2024 ed è un sequel diretto di Into the Wilds, con episodi che ripercorrono parti della prima stagione, ma con sfide più lunghe e difficili.
 
 <details> <summary> Monte della Scoperta </summary>
   <span class="opacity"> Giugno | Montepiano </span> <hr>
   <div class="grid-images">
     <img src="https://pbs.twimg.com/media/GRoOxzAW4AEL9XB?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GRoOxy-WgAEv36L?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/GRoOxzJXkAAfWjD?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GRoO9GOXYAEEFpY?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/GRoO30_XwAALZqz?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/GRoO9GKW4AEvOX2?format=jpg&name=small">
   </div>

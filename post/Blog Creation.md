@@ -1,5 +1,5 @@
 ---
-permalink: "/blog-creation"
+permalink: "/bc"
 ---
 
 # Genesi della creazione di un blog personale

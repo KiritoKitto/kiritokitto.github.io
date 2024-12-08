@@ -20,6 +20,18 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 ---
 
+## Premi
+
+- <a href="#s4">Game of the Year Award</a>
+- <a href="#s3">Great Experience</a>
+- <a href="#s2">Soundtrack</a>
+- <a href="#s1">Music Memory</a>
+- <a href="#s4">Above Expectation</a>
+- <a href="#s3">Below Expectation</a>
+- <a href="#s2">Multiplayer Award</a>
+- <a href="#s1">Moment Memory Award</a>
+- <a href="#s4">Honorable Mention</a>
+
 <script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
 <code> # Titoli Completati </code>
 <div class="chart" id="completed-games"></div>
