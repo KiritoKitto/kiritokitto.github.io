@@ -1,7 +1,6 @@
 ---
-permalink: "/year-in-videogames-24t"
+permalink: "/year-in-videogames-24"
 ---
-
 
 ## Year in Videogames 2024
 
