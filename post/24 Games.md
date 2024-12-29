@@ -27,6 +27,7 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 - <a href="#moment">Moment Memory</a>
 - <a href="#soundtrack">Soundtrack</a>
 - <a href="#music">Music Memory</a>
+- <a href="#photo">Photo Mode</a>
 - <a href="#above">Above Expectation</a>
 - <a href="#below">Below Expectation</a>
 - <a href="#multiplayer">Multiplayer Award</a>
@@ -38,6 +39,15 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 **Game of the Year Award.** Titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
 * Elden Ring: Shadow of the Erdtree
 * Nine Sols
+
+<hr id="photo">
+
+**Photo Mode Award.** Titolo con una photo mode con cui mi sono divertito a realizzare screen.
+* Elden Ring: Shadow of the Erdtree
+* Ghost of Tsushima
+* Albatroz
+* Dark Souls III
+* Wild Hearts
 
 <hr id="great">
 
@@ -55,7 +65,6 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 * Horizon: Forbidden West
 * The Legend of Zelda: Link's Awakening
 * The Legend of Zelda: Echoes of Wisdom
-* Ghost of Tsushima
 * Pacific Drive
 * Balatro
 * Factorio
@@ -78,7 +87,7 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 **Music Memory Award.** Titoli che non hanno vinto il “Soundtrack Award” ma presentano una o più OST memorabili.
 * Albatroz
-* Horizon
+* Horizon: Zero Dawn
 
 <hr id="above">
 
