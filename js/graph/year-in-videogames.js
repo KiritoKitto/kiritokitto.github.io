@@ -45,7 +45,7 @@ function drawVisualization() {
 
     var data = google.visualization.arrayToDataTable([
         ['Year', 'Completati', 'Senza Fine', 'In Pausa', 'Abbandonati'],
-        ['2024', 23,4,7,1],
+        ['2024', 27,8,4,2],
         ['2023', 39,6,7,4],
         ['2022', 48,11,8,6]]);
 
