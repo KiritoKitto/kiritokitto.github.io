@@ -13,21 +13,17 @@ La rubrica Year in Videogames nasce per celebrare il medium e i punti più alti 
 
 ---
 
-### Statistiche
-
 <script type="text/javascript" src="js/graph/year-in-videogames.js"></script>
 
-#### Titoli Completati
+### Titoli Completati
 <div class="chart" id="completed-games"></div>
 
-#### % Completamento
+### % Completamento
 <div class="chart" id="percentage"></div>
 
 ---
 
 Tutte le edizioni della rubrica seguono e seguiranno questo regolamento:
-
----
 
 <details><summary>Quali sono i titoli candidabili?</summary>
 <hr>Tutti i titoli che ho giocato nel corso dell'anno, indistintamente dall'anno di uscita.</details>

@@ -16,20 +16,20 @@ function drawVisualization() {
     const Primary = rootStyles.getPropertyValue('--color-primary').trim();
     const Secondary = rootStyles.getPropertyValue('--color-secondary').trim();
     
+    var dynamicHeight = data.getNumberOfRows() * (50 + (3 * data.getNumberOfRows()));
     var data = google.visualization.arrayToDataTable([
         ['Year', 'Completati', 'Non Completati'],
-        ['2024', 23, 12],
+        ['2024', 27, 14],
         ['2023', 39, 17],
         ['2022', 48, 25]]);
-
-    var dynamicHeight = data.getNumberOfRows() * (50 + (3 * data.getNumberOfRows()));
+   
     var options = { width: '100%', height: '100%',title: '',
         vAxis: {textStyle: { fontName: font, color: Secondary }},
         hAxis: {textStyle: { fontName: font, color: Secondary },gridlines: { color: graph01 },minorGridlines: { count: 0 }},
         legend: {textStyle: { fontName: font, color: Secondary }, position: 'bottom', alignment: 'start', maxLines: 10},
         series: {
             0: { color: highlight },
-            1: { color: graph01 }
+            1: { color: graph02 }
         },
         backgroundColor: { fill: 'transparent' },
         isStacked: true,
