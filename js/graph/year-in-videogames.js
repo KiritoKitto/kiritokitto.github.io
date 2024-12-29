@@ -16,30 +16,63 @@ function drawVisualization() {
     const Primary = rootStyles.getPropertyValue('--color-primary').trim();
     const Secondary = rootStyles.getPropertyValue('--color-secondary').trim();
     
-    const Completati = [
-        ["Stato", "Numero"],
-        ["Finiti", 8],  // Cambia i valori con i tuoi dati
-        ["Non Finiti", 5],
-    ];
+    var data = google.visualization.arrayToDataTable([
+        ['Year', 'Completati', 'Non Completati'],
+        ['2024', 23, 12],
+        ['2023', 39, 17],
+        ['2022', 48, 25]]);
 
-    const data = google.visualization.arrayToDataTable(Completati);
-    const options = {
-        pieHole: 0.6,
-        colors: [highlight, graph03], // Verde per finiti, rosso per non finiti
-        pieSliceText: "none",
-        legend: "none",
-        tooltip: { trigger: "none" },
-        chartArea: { width: "100%", height: "100%" },
+    var dynamicHeight = data.getNumberOfRows() * (50 + (3 * data.getNumberOfRows()));
+    var options = { width: '100%', height: '100%',title: '',
+        vAxis: {textStyle: { fontName: font, color: Secondary }},
+        hAxis: {textStyle: { fontName: font, color: Secondary },gridlines: { color: graph01 },minorGridlines: { count: 0 }},
+        legend: {textStyle: { fontName: font, color: Secondary }, position: 'bottom', alignment: 'start', maxLines: 10},
+        series: {
+            0: { color: highlight },
+            1: { color: graph01 }
+        },
         backgroundColor: { fill: 'transparent' },
-        isStacked: 'percent',
-    }
+        isStacked: true,
+        chartArea: {width: '100%',height: '100%',
+            bottom: 60,
+            left: 35,
+    }};
 
-    const chart = new google.visualization.PieChart(document.getElementById("donut_chart"));
+    document.getElementById('completed-games').style.height = `${dynamicHeight}px`;
+    var chart = new google.visualization.BarChart(document.getElementById('completed-games'));
     chart.draw(data, options);
 
-    // Aggiungi la percentuale al centro
-    const total = Completati[1][1] + Completati[2][1];
-    const percentComplete = ((Completati[1][1] / total) * 100).toFixed(1);
+    // ----------------------
+    // DIVISORE -------------
+    // ----------------------
 
-    document.getElementById("percentage").innerHTML = `${percentComplete}%`;
+    var data = google.visualization.arrayToDataTable([
+        ['Year', 'Completati', 'Senza Fine', 'In Pausa', 'Abbandonati'],
+        ['2024', 23,4,7,1],
+        ['2023', 39,6,7,4],
+        ['2022', 48,11,8,6]]);
+
+    var dynamicHeight = data.getNumberOfRows() * (50 + (3 * data.getNumberOfRows()));
+    var options = { width: '100%', height: '100%',title: '',
+        vAxis: {textStyle: { fontName: font, color: Secondary }},
+        hAxis: {textStyle: { fontName: font, color: Secondary },gridlines: { color: graph01 },minorGridlines: { count: 0 }},
+        legend: {textStyle: { fontName: font, color: Secondary }, position: 'bottom', alignment: 'start', maxLines: 10},
+        series: {
+            0: { color: highlight },
+            1: { color: graph01 },
+            2: { color: graph02 },
+            3: { color: graph03 }
+        },
+        backgroundColor: { fill: 'transparent' },
+        isStacked: 'percent',
+        chartArea: {width: '100%',height: '100%',
+            bottom: 60,
+            left: 35,
+    }};
+
+    document.getElementById('percentage').style.height = `${dynamicHeight}px`;
+    var chart = new google.visualization.BarChart(document.getElementById('percentage'));
+    chart.draw(data, options);
 }
+window.addEventListener('resize', drawVisualization);
+document.getElementById("theme-link-switcher").addEventListener("click", drawVisualization);
