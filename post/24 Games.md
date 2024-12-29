@@ -14,7 +14,7 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 ## Statistiche:
 
 * Titoli giocati: 41
-* Titoli completati: 27~(68%)~
+* Titoli completati: 27<sub>(68%)</sub>
 * Media titoli completati: 7.6
 
 ---
