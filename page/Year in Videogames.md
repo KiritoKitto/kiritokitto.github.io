@@ -11,6 +11,18 @@ La rubrica Year in Videogames nasce per celebrare il medium e i punti più alti 
 * [Edizione 2022](/year-in-videogames-22)
 * [Edizione 2021](/year-in-videogames-21)
 
+---
+
+## Statistiche
+
+<script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
+<h3># Titoli Completati</h3>
+<div class="chart" id="completed-games"></div>
+<h3>% Completamento</h3>
+<div class="chart" id="percentage"></div>
+
+---
+
 Tutte le edizioni della rubrica seguono e seguiranno questo regolamento:
 
 ---

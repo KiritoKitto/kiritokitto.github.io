@@ -14,16 +14,8 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 ## Statistiche:
 
 * Titoli giocati: 41
-* Titoli completati: 27 (68%)
+* Titoli completati: 27~(68%)~
 * Media titoli completati: 7.6
-
----
-
-<script type="text/javascript" src="js/graph/year-in-videogames-24.js"></script>
-<h3># Titoli Completati</h3>
-<div class="chart" id="completed-games"></div>
-<h3>% Completamento</h3>
-<div class="chart" id="percentage"></div>
 
 ---
 
