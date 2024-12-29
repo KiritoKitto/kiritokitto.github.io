@@ -6,23 +6,20 @@ window.onload = function() {
 function drawVisualization() {
     const rootStyles = getComputedStyle(document.documentElement);
     const font = rootStyles.getPropertyValue('--font').trim();
-
     const graph01 = rootStyles.getPropertyValue('--graph-base01').trim();
     const graph02 = rootStyles.getPropertyValue('--graph-base02').trim();
     const graph03 = rootStyles.getPropertyValue('--graph-base03').trim();
-
     const highlight = rootStyles.getPropertyValue('--graph-highlight').trim();
-
     const Primary = rootStyles.getPropertyValue('--color-primary').trim();
     const Secondary = rootStyles.getPropertyValue('--color-secondary').trim();
     
-    var dynamicHeight = data.getNumberOfRows() * (50 + (3 * data.getNumberOfRows()));
     var data = google.visualization.arrayToDataTable([
         ['Year', 'Completati', 'Non Completati'],
         ['2024', 27, 14],
         ['2023', 39, 17],
         ['2022', 48, 25]]);
    
+    var dynamicHeight = data.getNumberOfRows() * (50 + (3 * data.getNumberOfRows()));
     var options = { width: '100%', height: '100%',title: '',
         vAxis: {textStyle: { fontName: font, color: Secondary }},
         hAxis: {textStyle: { fontName: font, color: Secondary },gridlines: { color: graph01 },minorGridlines: { count: 0 }},
