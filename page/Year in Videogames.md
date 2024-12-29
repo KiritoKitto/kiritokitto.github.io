@@ -6,6 +6,7 @@ permalink: "/year-in-videogames"
 
 La rubrica Year in Videogames nasce per celebrare il medium e i punti più alti (e bassi) della mia carriera videoludica.
 
+* [Edizione 2024](/year-in-videogames-24)
 * [Edizione 2023](/year-in-videogames-23)
 * [Edizione 2022](/year-in-videogames-22)
 * [Edizione 2021](/year-in-videogames-21)
@@ -31,12 +32,6 @@ Tutte le edizioni della rubrica seguono e seguiranno questo regolamento:
 
 <details><summary>Vincere una categoria ne preclude la vincita in altre?</summary>
 <hr>In alcuni casi sì. Questi casi sono citati nella descrizione del premio.</details>
-
----
-
-#### Modifiche...
-
-Il regolamento, le categorie e i singoli premi potrebbero cambiare nel tempo. Le categorie possono anche variare tra le edizioni e lo stesso vale per il regolamento.
 
 ---
 
