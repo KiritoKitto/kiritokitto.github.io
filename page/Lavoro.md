@@ -6,12 +6,13 @@ permalink: "/job"
 
 Attualmente lavoro come Data Analyst e mi occupo di ingegnerizzazione e manutenzione di metriche.
 
-In passato ho anche fatto da trainer sia in italiano che in inglese, mi sono occupato del rebranding di documenti a seguito di uno split tra due aziende e altro ancora.
-
----
+### 2025
+- Trainer (Support for new Employee)
+- Trainer (Speaker)
+- Metrics Engineer
 
 ### 2024
-- **Metrics Engineer**
+- Metrics Engineer
 
 ### 2023
 - Trainer (Support for new Employee)
@@ -28,4 +29,4 @@ In passato ho anche fatto da trainer sia in italiano che in inglese, mi sono occ
 
 ---
 
-*Ultimo aggiornamento: Settembre 2024*
+*Ultimo aggiornamento: Dicembre 2024*

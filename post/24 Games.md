@@ -19,6 +19,18 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 ---
 
+<details><summary>Screenshots</summary><hr>
+<div class="carousel" id="carousel20"><div class="carousel-inner">
+    <div class="carousel-item"><img src="images/banners/into-the-wilds.jpg"></div>
+    <div class="carousel-item"><img src="images/banners/year-in-videogames-23.jpg"></div>
+  </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
+  <div class="indicators">
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+</div> </details>
+
+---
+
 ## Premi
 
 - <a href="#goty">Game of the Year</a>
