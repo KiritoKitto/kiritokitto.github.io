@@ -7,7 +7,7 @@ permalink: "/year-in-videogames-23"
 Benvenuti nella terza edizione della rubrica <b>Year in Videogames</b>, un recap annuale dei titoli giocati nel corso dell'anno per ricordare i punti più alti (e bassi) della mia carriera videoludica.
 
 
-Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-videogames).
+- [Regolamento delle premiazioni](/year-in-videogames)
 
 ---
 
@@ -51,7 +51,6 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 **Above Expectation:** titoli che mi hanno divertito molto più del previsto.
 * AI The Somnium Files
 * Lil Gator Game
-* Wild Hearts
 * Grow Home
 * Griefhelm
 
@@ -71,7 +70,6 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 * The Last of Us
 * A Highland Song
 * Baldur's Gate 3
-* Wild Hearts
 
 ---
 

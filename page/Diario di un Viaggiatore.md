@@ -4,11 +4,7 @@ permalink: "/into-the-wilds"
 
 <img src="images/banners/into-the-wilds.jpg">
 
-# Into the Wilds
-
-Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta di pensieri diareschi scritti durante o subito dopo un viaggio.
-
-Potete leggere i post passati e commentare le future avventure nel [Diario di Kirito Kitto](https://t.me/+eYDpkG161AY4YzI0).
+Il **Diario di un Viaggiatore** è una raccolta di pensieri diareschi scritti durante o subito dopo un viaggio. Potete leggere i post passati e commentare le future avventure nel [Diario di Kirito Kitto](https://t.me/+eYDpkG161AY4YzI0).
 
 ---
 
