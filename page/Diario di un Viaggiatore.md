@@ -51,7 +51,6 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
     <span class="indicator"></span>
     <span class="indicator"></span>
     <span class="indicator"></span>
-    <span class="indicator"></span>
 </div> </details>
 
 <details><summary>Barberino di Mugello</summary><span class="opacity">Lago di Bilancino</span><hr>
@@ -72,15 +71,19 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
 
 ### S3 - Into the Wilds 2
 
-<details> <summary> Monte della Scoperta </summary>
-  <span class="opacity"> Giugno | Montepiano </span> <hr>
-  <div class="grid-images">
-    <img src="https://pbs.twimg.com/media/GRoOxzAW4AEL9XB?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GRoOxzJXkAAfWjD?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GRoO30_XwAALZqz?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GRoO9GKW4AEvOX2?format=jpg&name=small">
-  </div>
-</details>
+<details><summary>Monte della Scoperta</summary><span class="opacity">Giugno | Montepiano</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+    <div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoOxzAW4AEL9XB?format=jpg&name=orig"></div>
+    <div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoOxzJXkAAfWjD?format=jpg&name=orig"></div>
+    <div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoO30_XwAALZqz?format=jpg&name=orig"></div>
+    <div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoO9GKW4AEvOX2?format=jpg&name=orig"></div>
+  </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
+  <div class="indicators">
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+</div> </details>
 
 <details> <summary> Regno dei Cavalli </summary>
   <span class="opacity"> Aprile | Sofignano </span><hr>  
