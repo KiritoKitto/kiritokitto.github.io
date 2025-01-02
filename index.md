@@ -6,13 +6,11 @@ Se volete fare un saluto o chiedere qualcosa potete scrivermi su [Telegram](http
 
 ---
 
-I videogioci sono la mia passione principale. Potete vedere i titoli che sto giocando e che ho giocato su [Backloggd](https://www.backloggd.com/u/KiritoKitto/).
-
----
-
-* [Into the Wilds](/into-the-wilds)
 * [Year in Videogames](/year-in-videogames)
+* [Into the Wilds](/into-the-wilds)
 * [Lavoro](/job)
+
+* [Backloggd Profile](https://www.backloggd.com/u/KiritoKitto/).
 
 ---
 

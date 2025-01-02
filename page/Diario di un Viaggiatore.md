@@ -139,38 +139,55 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
 <span class="indicator"></span>
 </div> </details>
 
-<details> <summary> Monte Iavello </summary>
-<span class="opacity"> Luglio | Figline </span> 
-  <hr> <div class="grid-images">
-    <img src="https://pbs.twimg.com/media/F_3mk8DXYAAEjdj?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3mmFaWwAAGfQj?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3mwkFXIAE1ko2?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3mwkEWcAAISGA?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3mwjAWMAAcZZF?format=jpg&name=small">
-  </div>
-</details>
-
-<details> <summary> Verghereto </summary>
-<span class="opacity"> Luglio | Carmignano </span> 
-  <hr> <div class="grid-images">
-  <img src="https://pbs.twimg.com/media/F_4SrJDWUAAdQoy?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4Sr_GXUAAqd1I?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4T2X_XsAAppDS?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4T2XxXEAA0JF7?format=jpg&name=small">
+<details><summary>Monte Iavello</summary><span class="opacity">Luglio | Figline</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mk8DXYAAEjdj?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mmFaWwAAGfQj?format=jpg&name=orig""></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mwkFXIAE1ko2?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mwkEWcAAISGA?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mwjAWMAAcZZF?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
 </div> </details>
 
-<details> <summary> Gardens of Florence </summary>
-<span class="opacity"> Luglio | Firenze </span> 
-  <hr> <div class="grid-images">
-  <img src="https://pbs.twimg.com/media/F_4WXJbW4AABRnW?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4WXJXWEAAKfAG?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4WXJZXoAACSuT?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4WaqKXsAATjhv?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4WaqfXUAE7XHX?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4WiPuXQAA_dmH?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4WiQeWEAAh5TO?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4WiQaXcAAP4l_?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4WiQjWYAAxpDW?format=jpg&name=small">
+<details><summary>Verghereto</summary><span class="opacity">Luglio | Carmignano</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4SrJDWUAAdQoy?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4Sr_GXUAAqd1I?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4T2X_XsAAppDS?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4T2XxXEAA0JF7?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+</div> </details>
+
+<details><summary>Gardens of Florence</summary><span class="opacity">Luglio | Firenze</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WXJbW4AABRnW?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WXJXWEAAKfAG?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WXJZXoAACSuT?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WaqKXsAATjhv?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WaqfXUAE7XHX?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WiPuXQAA_dmH?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WiQeWEAAh5TO?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WiQaXcAAP4l_?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WiQjWYAAxpDW?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
 </div> </details>
 
 #### Primavera 2023
