@@ -91,10 +91,8 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNoD_XMAAyb_4?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNoH2XoAAxHmZ?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNu9WWsAAGuOB?format=jpg&name=orig"></div>
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNoQEXEAA5jJc?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNu2XW0AAk0c5?format=jpg&name=orig"></div>
 </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
-<span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
@@ -105,14 +103,12 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
 
 <details><summary>Croce di Cantagrilli</summary><span class="opacity">Febbraio | Prato</span><hr>
 <div class="carousel" id="carousel30"><div class="carousel-inner">
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/GGke3m-WsAAgfyu?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/GGke3kRXQAA1wP1?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/GGkexrMXsAA5yez?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/GGkexhwX0AAm3K9?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/GGkexliWEAExViV?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/GGkex9gWMAAZHY0?format=jpg&name=orig"></div>
 </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
-<span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
@@ -126,17 +122,22 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
 
 #### Estate 2023
 
-<details> <summary> Punta Sofia </summary>
-<span class="opacity"> Settembre | Pistoia </span> 
-  <hr> <div class="grid-images">
-    <img src="https://pbs.twimg.com/media/F_3fZ04XYAAXLhO?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3flDOWkAApNlH?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3fukEXsAA5VMD?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3fukEXUAAP-v0?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3fuj9WQAA6BLk?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3fuktXIAAG414?format=jpg&name=small">
-  </div>
-</details>
+<details><summary>Punta Sofia</summary><span class="opacity">Settembre | Pistoia</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fZ04XYAAXLhO?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3flDOWkAApNlH?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fukEXsAA5VMD?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fukEXUAAP-v0?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fuj9WQAA6BLk?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fuktXIAAG414?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+</div> </details>
 
 <details> <summary> Monte Iavello </summary>
 <span class="opacity"> Luglio | Figline </span> 
