@@ -8,7 +8,7 @@ permalink: "/into-the-wilds"
 
 Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta di pensieri diareschi scritti durante o subito dopo un viaggio.
 
-È divisa in stagioni, ognuna diversa dalla precedente. Potete leggere i post passati e commentare le future avventure nel [Diario di Kirito Kitto](https://t.me/+eYDpkG161AY4YzI0).
+Potete leggere i post passati e commentare le future avventure nel [Diario di Kirito Kitto](https://t.me/+eYDpkG161AY4YzI0).
 
 ---
 
@@ -124,15 +124,11 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
 
 <details><summary>Punta Sofia</summary><span class="opacity">Settembre | Pistoia</span><hr>
 <div class="carousel" id="carousel30"><div class="carousel-inner">
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fZ04XYAAXLhO?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fuj9WQAA6BLk?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fukEXUAAP-v0?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3flDOWkAApNlH?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fukEXsAA5VMD?format=jpg&name=orig"></div>
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fukEXUAAP-v0?format=jpg&name=orig"></div>
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fuj9WQAA6BLk?format=jpg&name=orig"></div>
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3fuktXIAAG414?format=jpg&name=orig"></div>
 </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
-<span class="indicator"></span>
-<span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
@@ -142,7 +138,7 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
 <details><summary>Monte Iavello</summary><span class="opacity">Luglio | Figline</span><hr>
 <div class="carousel" id="carousel30"><div class="carousel-inner">
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mk8DXYAAEjdj?format=jpg&name=orig"></div>
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mmFaWwAAGfQj?format=jpg&name=orig""></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mmFaWwAAGfQj?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mwkFXIAE1ko2?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mwkEWcAAISGA?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mwjAWMAAcZZF?format=jpg&name=orig"></div>
@@ -192,60 +188,91 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
 
 #### Primavera 2023
 
-<details> <summary> Rifugio di Spedaletto </summary>
-<span class="opacity"> Giugno | Tobbiana </span> 
-  <hr> <div class="grid-images">
-  <img src="https://pbs.twimg.com/media/F_-QNZLWQAAOa9k?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-QNZIWgAAkTTs?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-QNZNWwAAoLcI?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-QO1TWAAE7pJQ?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-QO1LXUAAkSuK?format=jpg&name=small">
+<details><summary>Rifugio di Spedaletto</summary><span class="opacity">Giugno | Tobbiana</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-QNZLWQAAOa9k?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-QNZIWgAAkTTs?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-QNZNWwAAoLcI?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-QO1TWAAE7pJQ?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-QO1LXUAAkSuK?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
 </div> </details>
 
-<details> <summary> Monte Maggiore </summary>
-<span class="opacity"> Aprile | Vaiano </span> 
-  <hr> <div class="grid-images">
-  <img src="https://pbs.twimg.com/media/F_-NvXEWYAAe6EZ?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-Nvg-WEAAwDBY?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-NvwCWcAAzTzT?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-NwS1WAAAUerv?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-NyQxWUAAkgBv?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-NyP4XwAAVOU4?format=jpg&name=small">
+<details><summary>Monte Maggiore</summary><span class="opacity">Aprile | Vaiano</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-NvXEWYAAe6EZ?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-Nvg-WEAAwDBY?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-NvwCWcAAzTzT?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-NwS1WAAAUerv?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-NyQxWUAAkgBv?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-NyP4XwAAVOU4?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
 </div> </details>
 
-<details> <summary> Giardini di Boboli </summary>
-<span class="opacity"> Aprile | Firenze </span> 
-  <hr> <div class="grid-images">
-  <img src="https://pbs.twimg.com/media/F_-Kpf6X0AAGbSi?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-KpgIWsAAHdoh?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-Kt5vXAAA_WiZ?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-Kt7AXkAAe0Nd?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-Kt5kW0AAxXyx?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-LB7bXcAA255y?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-LB7KW8AAGOd_?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-LB68XIAAC65G?format=jpg&name=small">
+<details><summary>Giardini di Boboli</summary><span class="opacity">Aprile | Firenze</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-Kpf6X0AAGbSi?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-KpgIWsAAHdoh?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-Kt5vXAAA_WiZ?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-Kt7AXkAAe0Nd?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-Kt5kW0AAxXyx?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-LB7bXcAA255y?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-LB7KW8AAGOd_?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-LB68XIAAC65G?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
 </div> </details>
 
-<details> <summary> Poggio dell'Aia </summary>
-<span class="opacity"> Marzo | Sesto Fiorentino </span> 
-  <hr> <div class="grid-images">
-  <img src="https://pbs.twimg.com/media/F_-IzkFW8AATKps?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-I2zKXQAA8sUS?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-I336XoAAVBzF?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-I4UzWgAAxT04?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-I_RyW0AAyK31?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-I_SwWMAAWu-y?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-I_SWWoAEIrRN?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-I_ShWQAAO1nV?format=jpg&name=small">
+<details><summary>Poggio dell'Aia</summary><span class="opacity">Marzo | Sesto Fiorentino</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-IzkFW8AATKps?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I2zKXQAA8sUS?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I336XoAAVBzF?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I4UzWgAAxT04?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I_RyW0AAyK31?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I_SwWMAAWu-y?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I_SWWoAEIrRN?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I_ShWQAAO1nV?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
 </div> </details>
 
-<details> <summary> Croce della Retaia </summary>
-<span class="opacity"> Marzo | Prato </span> 
-  <hr> <div class="grid-images">
-  <img src="https://pbs.twimg.com/media/F_-HZjxWEAAflfc?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-HZj4XsAAp_Zu?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-HZjyWAAA-HXz?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-HZjzX0AAjeih?format=jpg&name=small">
+<details><summary>Croce della Retaia</summary><span class="opacity">Marzo | Prato</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-HZjxWEAAflfc?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-HZj4XsAAp_Zu?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-HZjyWAAA-HXz?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-HZjzX0AAjeih?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
 </div> </details>
 
 ---

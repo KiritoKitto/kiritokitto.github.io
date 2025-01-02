@@ -41,7 +41,7 @@
 
 .carousel-item {
   min-width: 100%;
-  max-height: 500px;
+  max-height: 700px;
   text-align: center;
 }
 
@@ -57,7 +57,7 @@ button {
   top: 50%;
   transform: translateY(-50%);
   background-color: rgba(255, 255, 255, 0.5);
-  color: grey;
+  color: rgb(95, 95, 95);
   border: none;
   padding: 1px; /* Riduci il padding per un bottone più piccolo */
   height: 15px; /* Riduci l'altezza del bottone */
@@ -90,11 +90,10 @@ button {
   border-radius: 50%; /* Rende i puntini circolari */
   background-color: var(--color-highlight); /* Colore dei puntini non attivi */
   margin: 0 5px; /* Spazio tra i puntini */
-  cursor: pointer; /* Cambia il cursore se vuoi farli cliccabili */
   opacity: 0.3;
 }
 
 .indicator.active {
-  background-color: var(--color-highlight); /* Colore per il puntino attivo */
-  opacity: 1; /* Puntino attivo a opacità piena */
+  background-color: var(--color-highlight);
+  opacity: 1;
 }
