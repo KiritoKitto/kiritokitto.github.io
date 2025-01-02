@@ -23,51 +23,6 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 ---
 
-<details><summary>Screenshots</summary><hr>
-<div class="carousel" id="carousel20"><div class="carousel-inner">
-    <div class="carousel-item"><img src="images/games/2024/0.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/1.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/2.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/3.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/4.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/5.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/6.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/7.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/8.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/9.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/10.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/11.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/12.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/13.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/14.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/15.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/16.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/17.jpg"></div>
-    <div class="carousel-item"><img src="images/games/2024/18.jpg"></div>
-  </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
-  <div class="indicators">
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-</div> </details>
-
----
-
 ## Premi
 
 - <a href="#goty">Game of the Year</a>
@@ -101,6 +56,29 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 * Ghost of Tsushima
 * Albatroz
 * Black Myth Wukong
+
+<details><summary>Screenshots</summary><hr>
+<div class="carousel" id="carousel20"><div class="carousel-inner">
+    <div class="carousel-item"><img src="images/games/2024/0.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/1.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/2.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/3.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/4.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/5.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/6.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/7.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/8.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/9.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/10.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/11.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/12.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/13.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/14.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/15.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/16.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/17.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024/18.jpg"></div>
+  </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div></details>
 
 <hr id="soundtrack">
 
