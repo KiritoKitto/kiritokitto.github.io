@@ -24,8 +24,8 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 - <a href="#great">Great Experience</a>
 - <a href="#photo">Photo Mode</a>
-- <a href="#above">Above Expectation</a>
-- <a href="#below">Below Expectation</a>
+- <a href="#above">Above Expectations</a>
+- <a href="#below">Below Expectations</a>
 - <a href="#music">Music Memory</a>
 - <a href="#multiplayer">Multiplayer Award</a>
 - <a href="#mention">Honorable Mention</a>
@@ -74,7 +74,7 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 <hr id="above">
 
-**Above Expectation.** Titoli che mi hanno divertito molto più del previsto.
+**Above Expectations.** Titoli che mi hanno divertito molto più del previsto.
 * Nine Sols
 * MotoGP 24
 * New Star GP
@@ -84,7 +84,7 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 <hr id="below">
 
-**Below Expectation.** Titoli che non hanno raggiunto le mie aspettative (forse ingiustamente troppo alte).
+**Below Expectations.** Titoli che non hanno raggiunto le mie aspettative (forse ingiustamente troppo alte).
 * Hellblade 2
 * Persona 3 Reload
 * Animal Well
