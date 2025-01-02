@@ -73,42 +73,52 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
 
 <details><summary>Monte della Scoperta</summary><span class="opacity">Giugno | Montepiano</span><hr>
 <div class="carousel" id="carousel30"><div class="carousel-inner">
-    <div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoOxzAW4AEL9XB?format=jpg&name=orig"></div>
-    <div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoOxzJXkAAfWjD?format=jpg&name=orig"></div>
-    <div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoO30_XwAALZqz?format=jpg&name=orig"></div>
-    <div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoO9GKW4AEvOX2?format=jpg&name=orig"></div>
-  </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
-  <div class="indicators">
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
-    <span class="indicator"></span>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoOxzAW4AEL9XB?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoOxzJXkAAfWjD?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoO30_XwAALZqz?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GRoO9GKW4AEvOX2?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
 </div> </details>
 
-<details> <summary> Regno dei Cavalli </summary>
-  <span class="opacity"> Aprile | Sofignano </span><hr>  
-  <div class="grid-images">
-    <img src="https://pbs.twimg.com/media/GKoNcoJXQAEOp5a?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GKoNiFGW0AAEoyC?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GKoNoD_XMAAyb_4?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GKoNoH2XoAAxHmZ?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GKoNu9WWsAAGuOB?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GKoNoQEXEAA5jJc?format=jpg&name=small">  
-    <img src="https://pbs.twimg.com/media/GKoNu2XW0AAk0c5?format=jpg&name=small">
-  </div>
-</details>
+<details><summary>Regno dei Cavalli</summary><span class="opacity">Aprile | Sofignano</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNcoJXQAEOp5a?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNiFGW0AAEoyC?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNoD_XMAAyb_4?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNoH2XoAAxHmZ?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNu9WWsAAGuOB?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNoQEXEAA5jJc?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GKoNu2XW0AAk0c5?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+</div> </details>
 
-<details> <summary> Croce di Cantagrilli </summary>
-  <span class="opacity"> Febbraio | Prato </span> <hr> 
-  <div class="grid-images">
-    <img src="https://pbs.twimg.com/media/GGke3m-WsAAgfyu?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GGke3kRXQAA1wP1?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GGkexrMXsAA5yez?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GGkexhwX0AAm3K9?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GGkexliWEAExViV?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GGkex9gWMAAZHY0?format=jpg&name=small">
-  </div>
-</details>
+<details><summary>Croce di Cantagrilli</summary><span class="opacity">Febbraio | Prato</span><hr>
+<div class="carousel" id="carousel30"><div class="carousel-inner">
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GGke3m-WsAAgfyu?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GGke3kRXQAA1wP1?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GGkexrMXsAA5yez?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GGkexhwX0AAm3K9?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GGkexliWEAExViV?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/GGkex9gWMAAZHY0?format=jpg&name=orig"></div>
+</div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+<span class="indicator"></span>
+</div> </details>
 
 <hr id="s2">
 
