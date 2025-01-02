@@ -19,9 +19,7 @@ Il **Diario di un Viaggiatore**, serie nata nel corso del 2022, è una raccolta 
 
 <hr id="s4">
 
-### S4 - Tour
-
-La quarta stagione è stato un breve paragrafo in compagnia di 3 città italiane: Barberino di Mugello (Firenze), Roma e Milano.
+### S4 - RainFall
 
 <details><summary>Milano</summary><span class="opacity">Capitale dell'Economia</span><hr>
 <div class="carousel" id="carousel20"><div class="carousel-inner">
@@ -41,12 +39,11 @@ La quarta stagione è stato un breve paragrafo in compagnia di 3 città italiane
 
 <details><summary>Roma</summary><span class="opacity">Città Eterna</span><hr>
 <div class="carousel" id="carousel21"><div class="carousel-inner">
-    <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma01.jpg"></div>
     <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma02.jpg"></div>
     <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma03.jpg"></div>
     <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma04.jpg"></div>
     <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma05.jpg"></div>
-    <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma06.jpg"></div>
+    <div class="carousel-item"><img src="images/intothewilds/s4/roma/Roma01.jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
     <span class="indicator"></span>
@@ -56,8 +53,6 @@ La quarta stagione è stato un breve paragrafo in compagnia di 3 città italiane
     <span class="indicator"></span>
     <span class="indicator"></span>
 </div> </details>
-
-
 
 <details><summary>Barberino di Mugello</summary><span class="opacity">Lago di Bilancino</span><hr>
 <div class="carousel" id="carousel20"><div class="carousel-inner">
@@ -77,8 +72,6 @@ La quarta stagione è stato un breve paragrafo in compagnia di 3 città italiane
 
 ### S3 - Into the Wilds 2
 
-La terza stagione è iniziata a Febbraio 2024 ed è un sequel diretto di Into the Wilds, con episodi che ripercorrono parti della prima stagione, ma con sfide più lunghe e difficili.
-
 <details> <summary> Monte della Scoperta </summary>
   <span class="opacity"> Giugno | Montepiano </span> <hr>
   <div class="grid-images">
@@ -93,7 +86,6 @@ La terza stagione è iniziata a Febbraio 2024 ed è un sequel diretto di Into th
   <span class="opacity"> Aprile | Sofignano </span><hr>  
   <div class="grid-images">
     <img src="https://pbs.twimg.com/media/GKoNcoJXQAEOp5a?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/GKoNcwCWcAAIJad?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/GKoNiFGW0AAEoyC?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/GKoNoD_XMAAyb_4?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/GKoNoH2XoAAxHmZ?format=jpg&name=small">
@@ -119,17 +111,13 @@ La terza stagione è iniziata a Febbraio 2024 ed è un sequel diretto di Into th
 
 ### S2 - Into the Wilds
 
-La seconda stagione comprende 9 episodi in solitaria e si è conclusa nel corso di Settembre 2023.
-
 #### Estate 2023
 
 <details> <summary> Punta Sofia </summary>
 <span class="opacity"> Settembre | Pistoia </span> 
   <hr> <div class="grid-images">
     <img src="https://pbs.twimg.com/media/F_3fZ04XYAAXLhO?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3fZH6WMAAp4HK?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/F_3flDOWkAApNlH?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3fl15XsAASMOR?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/F_3fukEXsAA5VMD?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/F_3fukEXUAAP-v0?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/F_3fuj9WQAA6BLk?format=jpg&name=small">
@@ -140,9 +128,7 @@ La seconda stagione comprende 9 episodi in solitaria e si è conclusa nel corso 
 <details> <summary> Monte Iavello </summary>
 <span class="opacity"> Luglio | Figline </span> 
   <hr> <div class="grid-images">
-    <img src="https://pbs.twimg.com/media/F_3mkt4WMAA1oz-?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/F_3mk8DXYAAEjdj?format=jpg&name=small">
-    <img src="https://pbs.twimg.com/media/F_3ml4OWAAAohdQ?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/F_3mmFaWwAAGfQj?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/F_3mwkFXIAE1ko2?format=jpg&name=small">
     <img src="https://pbs.twimg.com/media/F_3mwkEWcAAISGA?format=jpg&name=small">
@@ -153,12 +139,9 @@ La seconda stagione comprende 9 episodi in solitaria e si è conclusa nel corso 
 <details> <summary> Verghereto </summary>
 <span class="opacity"> Luglio | Carmignano </span> 
   <hr> <div class="grid-images">
-  <img src="https://pbs.twimg.com/media/F_4SqxVWkAAGHx5?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_4SrJDWUAAdQoy?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_4Sr_GXUAAqd1I?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4T2YSWkAA1GSo?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_4T2X_XsAAppDS?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4SzhtWAAATG2f?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_4T2XxXEAA0JF7?format=jpg&name=small">
 </div> </details>
 
@@ -168,9 +151,7 @@ La seconda stagione comprende 9 episodi in solitaria e si è conclusa nel corso 
   <img src="https://pbs.twimg.com/media/F_4WXJbW4AABRnW?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_4WXJXWEAAKfAG?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_4WXJZXoAACSuT?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4WaqAW0AAT3Lr?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_4WaqKXsAATjhv?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_4WaqjWUAApGwd?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_4WaqfXUAE7XHX?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_4WiPuXQAA_dmH?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_4WiQeWEAAh5TO?format=jpg&name=small">
@@ -185,11 +166,8 @@ La seconda stagione comprende 9 episodi in solitaria e si è conclusa nel corso 
   <hr> <div class="grid-images">
   <img src="https://pbs.twimg.com/media/F_-QNZLWQAAOa9k?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_-QNZIWgAAkTTs?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-QNZKX0AAYdvb?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_-QNZNWwAAoLcI?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-QO10WQAA56Pl?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_-QO1TWAAE7pJQ?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/F_-QO1VW0AAENiJ?format=jpg&name=small">
   <img src="https://pbs.twimg.com/media/F_-QO1LXUAAkSuK?format=jpg&name=small">
 </div> </details>
 
@@ -245,25 +223,14 @@ La seconda stagione comprende 9 episodi in solitaria e si è conclusa nel corso 
 
 ### S1 - Oltre il Firmamento
 
-La prima stagione comprende 7 episodi in compagnia ed è in corso dal 2022.
-
 #### 2024
 
-<details> <summary> La dualità della Sacra Città Celeste</summary>
-<span class="opacity"> Aprile | Siena </span>  <hr>
-  <div class="grid-images">
-  <img src="https://pbs.twimg.com/media/GLwZVGIXcAAZ8DK?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/GLwZSHnWkAEqOer?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/GLwZSA-XcAAixKP?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/GLwZR9cX0AAcoEG?format=jpg&name=small">
-  <img src="https://pbs.twimg.com/media/GLwZR0VXgAAkyg5?format=jpg&name=small">
-  </div>
-</details>
+<details> <summary>La dualità della Sacra Città Celeste</summary><span class="opacity">Aprile | Siena</span></details>
 
 #### 2023
 
-<details> <summary> L'Esotica Città dell'Oro </summary><span class="opacity"> Aprile | Arezzo </span></details>
-<details> <summary> Le 7 + 2 Meraviglie di Cavour </summary><span class="opacity"> Gennaio | Bologna </span></details>
+<details> <summary> L'Esotica Città dell'Oro </summary><span class="opacity">Aprile | Arezzo</span></details>
+<details> <summary> Le 7 + 2 Meraviglie di Cavour </summary><span class="opacity">Gennaio | Bologna</span></details>
 
 #### 2022
 
