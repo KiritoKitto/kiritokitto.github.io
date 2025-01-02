@@ -31,31 +31,25 @@
 
 .carousel {
   position: relative;
-  overflow: hidden; /* Nasconde le immagini in eccesso */
-  width: 100%;
-  margin: 0 auto; /* Centra il carosello orizzontalmente */
-  /* aspect-ratio: 9/16; */
-  border-radius: var(--radius);
-  max-width: 400px;
-  align-content: center;
+  overflow: hidden;
 }
 
 .carousel-inner {
-  display: flex; /* Flexbox per disporre le immagini in una riga */
-  transition: transform 0.5s ease; /* Aggiungi una transizione per il movimento */
+  display: flex;
+  transition: transform 0.5s ease;
 }
 
 .carousel-item {
-  min-width: 100%; /* Ogni immagine occupa il 100% della larghezza del carosello */
-  box-sizing: border-box; /* Assicura che il padding non influisca sulla larghezza */
+  min-width: 100%;
+  max-height: 500px;
+  text-align: center;
 }
 
 .carousel img {
-  width: 100%; /* Assicura che le immagini occupino l'intera larghezza */
-  height: auto; /* Altezza automatica */
-  object-fit: cover; /* Copre l'area senza distorcere l'immagine */
-  margin: 0; /* Rimuovi eventuali margini */
-  object-position: center; /* Centra l'immagine verticalmente e orizzontalmente */
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: 0;
 }
 
 button {
