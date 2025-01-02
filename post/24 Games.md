@@ -11,6 +11,10 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 ---
 
+<img src="images/banners/year-in-videogames-24.jpg">
+
+---
+
 ## Statistiche:
 
 * Titoli giocati: 41
@@ -21,8 +25,15 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 <details><summary>Screenshots</summary><hr>
 <div class="carousel" id="carousel20"><div class="carousel-inner">
-    <div class="carousel-item"><img src="images/banners/into-the-wilds.jpg"></div>
-    <div class="carousel-item"><img src="images/banners/year-in-videogames-23.jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024(0).jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024(1).jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024(2).jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024(3).jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024(4).jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024(5).jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024(6).jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024(7).jpg"></div>
+    <div class="carousel-item"><img src="images/games/2024(8).jpg"></div>
   </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div>
   <div class="indicators">
     <span class="indicator"></span>

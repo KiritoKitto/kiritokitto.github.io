@@ -10,6 +10,10 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 ---
 
+<img src="images/banners/year-in-videogames-22.jpg">
+
+---
+
 **Game of the Year Award:** titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
 * Elden Ring
 * Death Stranding
