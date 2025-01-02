@@ -18,7 +18,7 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 * Titoli giocati: 41
 * Titoli completati: 27
-* Media titoli completati: 7.45
+* Media voti titoli completati: 7.45
 
 ## Premi
 
@@ -79,6 +79,7 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 * MotoGP 24
 * New Star GP
 * Eldest Souls
+* Wild Hearts
 * Clone Drone in the Danger Zone
 
 <hr id="below">
@@ -120,6 +121,6 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 <hr id="other">
 
-***Titoli che non ho finito e con valutazione rimandata:*** *Immortals Fenyx Rising, Rain World, Age of Calamity DLC, Metaphor: Re Fantazio, Factorio*
+***Titoli che non ho finito e con valutazione rimandata:*** *Immortals Fenyx Rising, Rain World, Factorio Age of Calamity DLC, Metaphor: Re Fantazio.*
 
-***Altri titoli che ho giocato ma che non hanno vinto un premio:*** *Mouthwashing, Pacific Drive, Duck Detective: Secret Salami, Chasing the Unseen, Animal Well, Professor Layton and the Last Specter, The Talos Principle, Microsoft Flight Simulator 2024, Call of Duty: Black Ops 6, Paper Mario: The Thousand-Year Door*
+***Altri titoli che ho giocato ma che non hanno vinto un premio:*** *Mouthwashing, Pacific Drive, Duck Detective: Secret Salami, Chasing the Unseen, Animal Well, Professor Layton and the Last Specter, The Talos Principle, Microsoft Flight Simulator 2024, Call of Duty: Black Ops 6, Paper Mario: The Thousand-Year Door.*
