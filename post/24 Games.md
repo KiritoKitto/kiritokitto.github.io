@@ -35,10 +35,9 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 - <a href="#goty">Game of the Year</a>
 - <a href="#great">Great Experience</a>
-- <a href="#moment">Moment Memory</a>
+- <a href="#photo">Photo Mode</a>
 - <a href="#soundtrack">Soundtrack</a>
 - <a href="#music">Music Memory</a>
-- <a href="#photo">Photo Mode</a>
 - <a href="#above">Above Expectation</a>
 - <a href="#below">Below Expectation</a>
 - <a href="#multiplayer">Multiplayer Award</a>
@@ -49,45 +48,22 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 **Game of the Year Award.** Titoli con una qualità realizzativa eccellente o il cui viaggio in loro compagnia è stato memorabile.
 * Elden Ring: Shadow of the Erdtree
-* Nine Sols
-
-<hr id="photo">
-
-**Photo Mode Award.** Titolo con una photo mode con cui mi sono divertito a realizzare screen.
-* Elden Ring: Shadow of the Erdtree
-* Ghost of Tsushima
-* Albatroz
-* Dark Souls III
-* Wild Hearts
 
 <hr id="great">
 
-**Great Experience Award.** Titoli che non hanno vinto il premio "Game of the Year" ma che ritengo memorabili per qualità realizzative o impatto emotivo.
-* Albatroz
+**Great Experience Award.** Titoli che non hanno vinto il premio "Game of the Year" ma che ritengo memorabili per qualità o impatto emotivo.
+* Nine Sols
 * Silent Hill 2
 * Dark Souls III
 
-<hr id="mention">
+<hr id="photo">
 
-**Honorable Mentions.** Titoli che non sono riusciti a vincere un premio, comunque meritevoli di una mezione.
-
-* Detroit: Become Human
-* Horizon: Zero Dawn
-* Horizon: Forbidden West
-* The Legend of Zelda: Link's Awakening
-* The Legend of Zelda: Echoes of Wisdom
-* Pacific Drive
-* Balatro
-* Factorio
-* Voices of the Void
-* Blasphemous
-
-<hr id="moment">
-
-**Moment Memory Award.** Titoli che non hanno vinto il premio "Game of the Year o "Great Game Award" ma che presentano una scena o una meccanica particolarmente memorabile.
-* Black Myth Wukong
+**Photo Mode Award.**
+* Elden Ring: Shadow of the Erdtree
 * Wild Hearts
-* Detroit: Become Human
+* Ghost of Tsushima
+* Albatroz
+* Black Myth Wukong
 
 <hr id="soundtrack">
 
@@ -111,7 +87,7 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 
 <hr id="below">
 
-**Below Expectation.** Titoli che non hanno raggiunto le mie aspettative, forse ingiustamente troppo alte.
+**Below Expectation.** Titoli che non hanno raggiunto le mie aspettative (forse ingiustamente troppo alte).
 * Hellblade 2
 * Persona 3 Reload
 * Animal Well
@@ -121,8 +97,22 @@ Come sempre, ricordatevi di leggere il [regolamento delle premiazioni](/year-in-
 **Multiplayer Award**
 * Inazuma Eleven: Victory Road
 
+<hr id="mention">
+
+**Honorable Mentions.** Titoli che non sono riusciti a vincere un premio ma meritevoli di una mezione.
+
+* Detroit: Become Human
+* Horizon: Zero Dawn
+* Horizon: Forbidden West
+* The Legend of Zelda: Link's Awakening
+* The Legend of Zelda: Echoes of Wisdom
+* Balatro
+* Factorio
+* Blasphemous
+* Another Crab's Treasure
+
 <hr id="other">
 
-***Titoli che non ho finito e con valutazione rimandata:*** *Immortals Fenyx Rising, Rain World, Age of Calamity DLC*
+***Titoli che non ho finito e con valutazione rimandata:*** *Immortals Fenyx Rising, Rain World, Age of Calamity DLC, Metaphor: Re Fantazio*
 
-***Altri titoli che ho giocato ma che non hanno vinto un premio:*** *Mouthwashing, Duck Detective: Secret Salami, Chasing the Unseen, Animal Well, Professor Layton and the Last Specter, The Talos Principle, Microsoft Flight Simulator 2024*
+***Altri titoli che ho giocato ma che non hanno vinto un premio:*** *Mouthwashing, Pacific Drive, Duck Detective: Secret Salami, Chasing the Unseen, Animal Well, Professor Layton and the Last Specter, The Talos Principle, Microsoft Flight Simulator 2024, Call of Duty: Black Ops 6, Paper Mario: The Thousand-Year Door*

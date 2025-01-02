@@ -137,10 +137,10 @@ Potete leggere i post passati e commentare le future avventure nel [Diario di Ki
 
 <details><summary>Monte Iavello</summary><span class="opacity">Luglio | Figline</span><hr>
 <div class="carousel" id="carousel30"><div class="carousel-inner">
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mk8DXYAAEjdj?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mmFaWwAAGfQj?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mwkFXIAE1ko2?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mwkEWcAAISGA?format=jpg&name=orig"></div>
+<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mk8DXYAAEjdj?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_3mwjAWMAAcZZF?format=jpg&name=orig"></div>
 </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
 <span class="indicator"></span>
@@ -154,10 +154,8 @@ Potete leggere i post passati e commentare le future avventure nel [Diario di Ki
 <div class="carousel" id="carousel30"><div class="carousel-inner">
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4SrJDWUAAdQoy?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4Sr_GXUAAqd1I?format=jpg&name=orig"></div>
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4T2X_XsAAppDS?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4T2XxXEAA0JF7?format=jpg&name=orig"></div>
 </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
-<span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
@@ -165,7 +163,6 @@ Potete leggere i post passati e commentare le future avventure nel [Diario di Ki
 
 <details><summary>Gardens of Florence</summary><span class="opacity">Luglio | Firenze</span><hr>
 <div class="carousel" id="carousel30"><div class="carousel-inner">
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WXJbW4AABRnW?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WXJXWEAAKfAG?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WXJZXoAACSuT?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WaqKXsAATjhv?format=jpg&name=orig"></div>
@@ -175,7 +172,6 @@ Potete leggere i post passati e commentare le future avventure nel [Diario di Ki
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WiQaXcAAP4l_?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_4WiQjWYAAxpDW?format=jpg&name=orig"></div>
 </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
-<span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
@@ -245,14 +241,12 @@ Potete leggere i post passati e commentare le future avventure nel [Diario di Ki
 <div class="carousel" id="carousel30"><div class="carousel-inner">
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-IzkFW8AATKps?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I2zKXQAA8sUS?format=jpg&name=orig"></div>
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I336XoAAVBzF?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I4UzWgAAxT04?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I_RyW0AAyK31?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I_SwWMAAWu-y?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I_SWWoAEIrRN?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-I_ShWQAAO1nV?format=jpg&name=orig"></div>
 </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
-<span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
@@ -267,9 +261,7 @@ Potete leggere i post passati e commentare le future avventure nel [Diario di Ki
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-HZjxWEAAflfc?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-HZj4XsAAp_Zu?format=jpg&name=orig"></div>
 <div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-HZjyWAAA-HXz?format=jpg&name=orig"></div>
-<div class="carousel-item"><img src="https://pbs.twimg.com/media/F_-HZjzX0AAjeih?format=jpg&name=orig"></div>
 </div><button class="prev" id="backButton">&#10094;</button><button class="next" id="nextButton">&#10095;</button></div><div class="indicators">
-<span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
 <span class="indicator"></span>
