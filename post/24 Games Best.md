@@ -20,7 +20,7 @@ Benvenuti nella quarta edizione della rubrica <b>Year in Videogames</b>, un reca
 
 --- 
 
-<div class="w3-light-grey w3-round-xlarge"> <div class="w3-container w3-blue w3-round-xlarge" style="width:50%"> 25% </div> </div>
+<div class="card"> ciao </div>
 
 ---
 
