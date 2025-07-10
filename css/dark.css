@@ -1,9 +1,9 @@
 :root {
-    --font: "Roboto Flex", sans-serif;
-    --font-title: "Roboto Flex", sans-serif;
+    --font: "Cascadia Code", sans-serif;
+    --font-title: "Cascadia Code", sans-serif;
 
-    --color-background: rgb(18, 18, 18);
-    --color-background-secondary: rgba(80, 80, 85, 0.2);
+    --color-background: rgb(0, 0, 0);
+    --color-background-secondary: rgba(0, 0, 0, 0.2);
   
     --color-primary: rgb(236, 236, 236);
     --color-secondary: rgb(189, 192, 194);
@@ -22,16 +22,16 @@
     --font: "Roboto Flex", sans-serif;
     --font-title: "Roboto Flex", sans-serif;
 
-    --color-background: hsl(0, 0%, 7%);
+    --color-background: rgb(18, 18, 18);
     --color-background-secondary: rgba(80, 80, 85, 0.2);
   
     --color-primary: rgb(236, 236, 236);
     --color-secondary: rgb(189, 192, 194);
     --color-tertiary: rgb(103, 103, 103);
     
-    --color-highlight: rgb(98,158,251);
+    --color-highlight: #CFA800;
 
-    --graph-highlight: rgb(46, 128, 250);
+    --graph-highlight: #CFA800;
     --graph-base01: rgb(74, 74, 79);
     --graph-base02: rgb(54, 54, 58);
     --graph-base03: rgb(37, 37, 39);
