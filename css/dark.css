@@ -5,9 +5,9 @@
     --color-background: rgb(0, 0, 0);
     --color-background-secondary: rgba(0, 0, 0, 0.2);
   
-    --color-primary: rgb(236, 236, 236);
-    --color-secondary: rgb(189, 192, 194);
-    --color-tertiary: rgb(103, 103, 103);
+    --color-primary: rgb(255, 255, 255);
+    --color-secondary: rgb(255, 255, 255);
+    --color-tertiary: rgb(255, 255, 255);
     
     --color-highlight: #CFA800;
 
