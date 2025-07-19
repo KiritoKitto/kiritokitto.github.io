@@ -99,9 +99,9 @@ button.disabled, button:disabled { opacity: 0.4; }
 
 ## All-Tracker
 
-**All-Tracker** è una lista di Giochi, Anime, Film e Serie TV che ho iniziato. 
+**All-Tracker** è un recap di tutti i Giochi, Anime, Film e Serie TV che ho iniziato. 
 
-Questa pagina è ancora in fase di test.
+Questa pagina e la lista stessa sono ancora in sviluppo e non definitivi. Alcuni dati potrebbero essere placeholder.
 
 ---
 
