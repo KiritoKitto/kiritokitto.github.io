@@ -99,7 +99,9 @@ button.disabled, button:disabled { opacity: 0.4; }
 
 ## All-Tracker
 
-**All-Tracker** è una lista di Giochi, Anime, Film e Serie TV che ho iniziato.
+**All-Tracker** è una lista di Giochi, Anime, Film e Serie TV che ho iniziato. 
+
+Questa pagina è ancora in fase di test.
 
 *Ultima aggiornamento: Luglio 2025*
 
@@ -130,7 +132,7 @@ button.disabled, button:disabled { opacity: 0.4; }
 <button class="track-fav-btn active" data-fav="Favorites">Favorites</button>
 </div>
 
-<div style="display:flex;">
+<div style="display:none;">
 
   <div style="width:50%;">
     <p id="counter">0</p>

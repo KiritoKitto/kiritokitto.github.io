@@ -5,12 +5,13 @@ permalink: "/job"
 
 # Lavoro
 
-Attualmente lavoro come Data Analyst e mi occupo di ingegnerizzazione e manutenzione di metriche.
+Attualmente lavoro come Data Analyst: ingegnerizzazione e manutenzione di metriche:
 
-### 2025
 - Excel Solutions Engineer
 - Onboarding Specialist
 - Metrics Engineer
+
+---
 
 #### 2024
 - Trainer & Speaker
