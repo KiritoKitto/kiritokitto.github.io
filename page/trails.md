@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/tracker"
+permalink: "/dl"
 ---
 
 <style>
@@ -130,21 +130,6 @@ button.disabled, button:disabled { opacity: 0.4; }
 <button class="track-fav-btn active" data-fav="Favorites">Favorites</button>
 </div>
 
-<div style="display:flex;">
-
-  <div style="width:50%;">
-    <p id="counter">0</p>
-    <p>Titoli presenti</p>
-  </div>
-
-  <div style="width:50%;">
-    <p id="average">0</p>
-    <p>Average voti</p>
-  </div>
-
-</div>
-
-<div id="track-summary" style="margin: 1rem 0; font-size: calc(0.7*var(--font-size)); color: var(--color-secondary);"></div>
 <div class="track-grid" id="track-grid"></div>
 <script src= "{{ '/js/tracker-list.js' | relative_url }}"></script>
 
@@ -204,6 +189,9 @@ function updateButtonStates() {
 }
 
 function renderCards() {
+  console.log("Filters:", currentStatus, currentYear, currentType, currentFav);
+  console.log("Games count before filter:", games.length);
+
   grid.innerHTML = '';
   const filtered = games
     .filter(game =>
@@ -214,28 +202,10 @@ function renderCards() {
     )
     .sort((a, b) => parseInt(b.order) - parseInt(a.order));
 
-  // Aggiorna conteggio e media
-  const summaryDiv = document.getElementById("track-summary");
-  const counter = document.getElementById("counter");
-  const totalCount = filtered.length;
-
-  const completedWithScore = filtered.filter(g =>
-    g.status === "Completed" &&
-    typeof g.score !== 'undefined' &&
-    g.score !== "" &&
-    !isNaN(parseFloat(g.score))
-  );
-
-  const avgScore = completedWithScore.length
-    ? (completedWithScore.reduce((acc, g) => acc + parseFloat(g.score), 0) / completedWithScore.length).toFixed(2)
-    : "-";
-
-  counter.innerHTML = `${totalCount}`
-  average.innerHTML = `${avgScore}`
+  console.log("Filtered games count:", filtered.length);
 
   if (filtered.length === 0) {
-    grid.innerHTML = '<div style="padding:1rem; color:#999;">//</div>';
-    return;
+    grid.innerHTML = '<div style="padding:1rem; color:#999;">No items match the filters.</div>';
   }
 
   filtered.forEach(g => {
@@ -244,18 +214,16 @@ function renderCards() {
     card.innerHTML = `
       <div class="image-wrapper">
         <img class="trackcard-image${g.fav === "TRUE" ? ' favorite' : ''}" src="${g.banner}" alt="${g.title}">
-        <div class="image-overlay">${g.title}${g.score && g.status === "Completed" && g.type === "Game" ? `<br><br>★ ${g.score}` : ""}</div>
+        <div class="image-overlay">${g.title}</div>
       </div>
-      <div class="card-content">
-        ${g.last}, ${g.year}
-      </div>`;
+      <div class="card-content">${g.last}, ${g.year}</div>`;
     grid.appendChild(card);
   });
 
   updateButtonStates();
 }
 
-
+// I tuoi event listener restano come li hai scritti, ma assicurati che dataset siano giusti:
 statusButtons.forEach(button => {
   button.addEventListener('click', () => {
     statusButtons.forEach(b => b.classList.remove('active'));
