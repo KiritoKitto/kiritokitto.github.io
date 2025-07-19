@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/home"
+permalink: "/"
 ---
 
 ## Scalatore di montagne all'alba,<br>videogiocatore nella notte.

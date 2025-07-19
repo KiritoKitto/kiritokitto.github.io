@@ -8,26 +8,27 @@ permalink: "/job"
 Attualmente lavoro come Data Analyst e mi occupo di ingegnerizzazione e manutenzione di metriche.
 
 ### 2025
-- Trainer (Support for new Employee)
-- Trainer (Speaker)
+- Excel Solutions Engineer
+- Onboarding Specialist
 - Metrics Engineer
 
-### 2024
+#### 2024
+- Trainer & Speaker
 - Metrics Engineer
 
-### 2023
-- Trainer (Support for new Employee)
+#### 2023
+- New Employee Technical Coach
 - Data Analyst
 
-### 2022
+#### 2022
 - Trainer (Script Development & Speaker)
-- Rebranding Support
 - Excel Expert
+- Rebranding Support
 
-### 2021
+#### 2021
 
 - Microsoft Office Support
 
 ---
 
-*Ultimo aggiornamento: Dicembre 2024*
+*Ultimo aggiornamento: Luglio 2025*
