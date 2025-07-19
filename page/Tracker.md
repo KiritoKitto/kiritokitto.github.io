@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/tracker"
+permalink: "/test2518109"
 ---
 
 <style>
@@ -103,8 +103,6 @@ button.disabled, button:disabled { opacity: 0.4; }
 
 Questa pagina è ancora in fase di test.
 
-*Ultima aggiornamento: Luglio 2025*
-
 ---
 
 <div class="track-filters">
@@ -149,6 +147,10 @@ Questa pagina è ancora in fase di test.
 <div id="track-summary" style="margin: 1rem 0; font-size: calc(0.7*var(--font-size)); color: var(--color-secondary);"></div>
 <div class="track-grid" id="track-grid"></div>
 <script src= "{{ '/js/tracker-list.js' | relative_url }}"></script>
+
+---
+
+*Ultimo aggiornamento: Luglio 2025*
 
 <script>
 const grid = document.getElementById("track-grid");

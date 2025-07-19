@@ -103,8 +103,6 @@ button.disabled, button:disabled { opacity: 0.4; }
 
 Questa pagina è ancora in fase di test.
 
-*Ultima aggiornamento: Luglio 2025*
-
 ---
 
 <div class="track-filters">
@@ -152,7 +150,7 @@ Questa pagina è ancora in fase di test.
 
 ---
 
-*Ultima aggiornamento: Luglio 2025*
+*Ultimo aggiornamento: Luglio 2025*
 
 <script>
 const grid = document.getElementById("track-grid");
