@@ -32,7 +32,7 @@ permalink: "/test01"
   opacity: 0.15;
 }
 
-.trackcard-image.favorite { border-color: var(--color-highlight); }
+.trackcard-image.favorite { border: 2px solid var(--color-highlight); }
 
 .card-content { font-size: calc(0.7*var(--font-size)); }
 
@@ -62,9 +62,7 @@ permalink: "/test01"
   color: var(--color-secondary);
 }
 
-.track-filters button.active {
-  font-weight: bold;
-}
+.track-filters button.active { font-weight: bold; }
 
 button.disabled, button:disabled { opacity: 0.4; }
 
@@ -83,7 +81,7 @@ button.disabled, button:disabled { opacity: 0.4; }
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1.2; /* riduce lo spazio verticale tra righe */
+  line-height: 1.2;
   opacity: 0;
   font-weight: bold;
   font-size: 0.75rem;
