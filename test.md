@@ -20,7 +20,7 @@ permalink: "/test01"
 
 .trackcard-image {
   width: 100%;
-  border: 2px solid var(--color-background-secondary);
+  border: 1px solid var(--color-background-tertiary);
   border-radius: 5px;
   object-fit: cover;
   aspect-ratio: 0.75;
@@ -60,6 +60,10 @@ permalink: "/test01"
 .track-filters button.active, .track-filters button:hover {
   background-color: var(--color-background-secondary);
   color: var(--color-secondary);
+}
+
+.track-filters button.active {
+  font-weight: bold;
 }
 
 button.disabled, button:disabled { opacity: 0.4; }
