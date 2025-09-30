@@ -13,8 +13,11 @@
   --screen-margin: 15px;
   --radius: 8px;
 
-  --font: "Roboto Flex", sans-serif;
-  --font-title: "Roboto Flex", sans-serif;
+  /* --font: "Roboto Flex", sans-serif;
+  --font-title: "Roboto Flex", sans-serif;*/ 
+
+  --font:  "Noto Sans Mono", monospace;
+  --font-title:  "Noto Sans Mono", monospace;
 
   --color-background: rgb(18, 18, 18);
   --color-background-secondary: rgba(80, 80, 85, 0.2);
