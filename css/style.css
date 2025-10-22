@@ -4,9 +4,9 @@
 :root {
     --width: 710px;
 
-    --font-size: 18px;
-    --font-line: 26px;
-    --font-line-title: 1.15;
+  --font-size: 18px;
+  --font-line: 26px;
+  --font-line-title: 1.15;
 
     --margin: 30px;
     --margin-light: 12px;
@@ -14,8 +14,8 @@
     --screen-margin: 15px;
     --radius: 8px;
 
-    --font: "Roboto Flex", sans-serif;
-    --font-title: "Roboto Flex", sans-serif;
+  --font: "Roboto Flex", sans-serif;
+  --font-title: "Roboto Flex", sans-serif;
 
     --color-background: rgb(18, 18, 18);
     --color-background-secondary: rgba(80, 80, 85, 0.2);
