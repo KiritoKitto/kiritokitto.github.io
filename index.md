@@ -11,12 +11,12 @@ Se volete fare un saluto o chiedere qualcosa potete scrivermi su [Telegram](http
 
 ---
 
-<!-- * [Year in Videogames](/year-in-videogames) -->
-<!-- * [Into the Wilds](/into-the-wilds) -->
-* [Tracker](/test2518109)
+* [Year in Videogames](/year-in-videogames)
+* [Into the Wilds](/into-the-wilds)
+* [Tracker](/tracker)
 * [Lavoro](/job)
 * [Backloggd Profile](https://www.backloggd.com/u/KiritoKitto/)
 
 ---
 
-*Con affetto, Kirito Kitto.*
+*Con affetto, Kirito Kitto*

@@ -1,151 +1,178 @@
 @import url('instagram.css');
+@import url('tracker.css');
 
 :root {
-  --width: 710px;
+    --width: 710px;
 
-  --font-size: 18px;
-  --font-line: 26px;
-  --font-line-title: 1.15;
+    --font-size: 18px;
+    --font-line: 26px;
+    --font-line-title: 1.15;
 
-  --margin: 30px;
-  --margin-light: 12px;
-  --padding: 15px;
-  --screen-margin: 15px;
-  --radius: 8px;
+    --margin: 30px;
+    --margin-light: 12px;
+    --padding: 15px;
+    --screen-margin: 15px;
+    --radius: 8px;
 
-  --font: "Roboto Flex", sans-serif;
-  --font-title: "Roboto Flex", sans-serif;
+    --font: "Roboto Flex", sans-serif;
+    --font-title: "Roboto Flex", sans-serif;
 
-  --color-background: rgb(18, 18, 18);
-  --color-background-secondary: rgba(80, 80, 85, 0.2);
-  --color-background-tertiary: rgba(80, 80, 85, 0.9);
+    --color-background: rgb(18, 18, 18);
+    --color-background-secondary: rgba(80, 80, 85, 0.2);
+    --color-background-tertiary: rgba(80, 80, 85, 0.9);
 
-  --color-primary: rgb(236, 236, 236);
-  --color-secondary: rgb(189, 192, 194);
-  --color-tertiary: rgb(103, 103, 103);
-  
-  --color-highlight: #CFA800;
+    --color-primary: rgb(236, 236, 236);
+    --color-secondary: rgb(189, 192, 194);
+    --color-tertiary: rgb(103, 103, 103);
 
-  --graph-highlight: #CFA800;
-  --graph-base01: rgb(74, 74, 79);
-  --graph-base02: rgb(54, 54, 58);
-  --graph-base03: rgb(37, 37, 39);
+    --color-highlight: #CFA800;
+
+    --graph-highlight: #CFA800;
+    --graph-base01: rgb(74, 74, 79);
+    --graph-base02: rgb(54, 54, 58);
+    --graph-base03: rgb(37, 37, 39);
 }
 
 .chart {
-  max-width: 100vw; /* Limita la larghezza alla larghezza della viewport */
-  width: 100%; /* Occupa tutto lo spazio disponibile */
-  height: auto; /* Mantiene le proporzioni */
-  overflow: hidden; /* Nasconde qualsiasi contenuto che esca dai limiti */
-  box-sizing: border-box; /* Considera padding e bordi nelle dimensioni */
-  font-family: var(--font);
+    max-width: 100vw;
+    /* Limita la larghezza alla larghezza della viewport */
+    width: 100%;
+    /* Occupa tutto lo spazio disponibile */
+    height: auto;
+    /* Mantiene le proporzioni */
+    overflow: hidden;
+    /* Nasconde qualsiasi contenuto che esca dai limiti */
+    box-sizing: border-box;
+    /* Considera padding e bordi nelle dimensioni */
+    font-family: var(--font);
 }
 
 /* Line Height determina quanto spazio c'è tra le varie linee */
 main {
-  line-height: var(--font-line);
-  text-wrap: pretty;
+    line-height: var(--font-line);
+    text-wrap: pretty;
 }
 
 /* Margine della linea divisoria. Piena in verticale, 0 in orizzontale */
 hr {
-  margin: var(--margin) 0px;
-  opacity: 50%;
-  border: 0px;
-  border-top: 1px solid var(--color-tertiary);
+    margin: var(--margin) 0px;
+    opacity: 50%;
+    border: 0px;
+    border-top: 1px solid var(--color-tertiary);
 }
 
 details hr {
-  margin: var(--margin-light) 0px;
+    margin: var(--margin-light) 0px;
 }
 
 body {
-  max-width: var(--width);
-  font-family: var(--font);
-  font-size: var(--font-size);
-  line-height: var(--font-line);
-  color: var(--color-secondary);
-  padding: var(--screen-margin);
-  background: var(--color-background);
-  margin: auto;
-  text-align: left;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+    max-width: var(--width);
+    font-family: var(--font);
+    font-size: var(--font-size);
+    line-height: var(--font-line);
+    color: var(--color-secondary);
+    padding: var(--screen-margin);
+    background: var(--color-background);
+    margin: auto;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 p {
-  margin-bottom: var(--margin-light);
-  margin-top: var(--margin-light);
+    margin-bottom: var(--margin-light);
+    margin-top: var(--margin-light);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--color-primary);
-  margin: 0px;
-  line-height: var(--font-line-title);
-  margin-bottom: var(--margin-light);
-  margin-top: var(--margin);
-  font-weight: 600;
-  font-family: var(--font-title);
-  letter-spacing: -0.5px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-primary);
+    margin: 0px;
+    line-height: var(--font-line-title);
+    margin-bottom: var(--margin-light);
+    margin-top: var(--margin);
+    font-weight: 600;
+    font-family: var(--font-title);
+    letter-spacing: -0.5px;
 }
 
-code { font-family: var(--font-title); }
+code {
+    font-family: var(--font-title);
+}
 
 h1 {
-  font-size: calc(var(--font-size)*1.8);
+    font-size: calc(var(--font-size)*1.8);
 }
 
 h2 {
-  font-size: calc(var(--font-size)*1.5);
+    font-size: calc(var(--font-size)*1.5);
 }
 
 h3 {
-  font-size: calc(var(--font-size)*1.3);
+    font-size: calc(var(--font-size)*1.3);
 }
 
 h4 {
-  font-size: calc(var(--font-size)*1.2);
-  color: var(--color-tertiary)
+    font-size: calc(var(--font-size)*1.2);
+    color: var(--color-tertiary)
 }
 
 /* basic bold */
 h5 {
-  font-size: calc(var(--font-size)*1.0);
+    font-size: calc(var(--font-size)*1.0);
 }
 
 /* Testo Esplicativo */
 h6 {
-  font-size: calc(var(--font-size)*1.0);
-  color: var(--color-tertiary);
+    font-size: calc(var(--font-size)*1.0);
+    color: var(--color-tertiary);
 }
 
 details {
-  border-radius: var(--radius);
-  border: 1px;
-  border-color: var(--color-tertiary);
-  border-style: solid;
-  background-color: var(--color-background-secondary);
-  line-height: 1.3;
-  padding: var(--padding) calc(var(--padding)*1.5);
-  color: var(--color-secondary);
-  margin: var(--margin-light) 0px;
+    border-radius: var(--radius);
+    border: 1px;
+    border-color: var(--color-tertiary);
+    border-style: solid;
+    background-color: var(--color-background-secondary);
+    line-height: 1.3;
+    padding: var(--padding) calc(var(--padding)*1.5);
+    color: var(--color-secondary);
+    margin: var(--margin-light) 0px;
 }
 
-details>summary { list-style: none; }
-details>hr { margin: var(--padding) 0px;}
-summary::-webkit-details-marker { display: none }
-summary::after { content: ' >'; }
-details[open] summary:after { content: "  ˅";}
+details > summary {
+    list-style: none;
+}
+
+details > hr {
+    margin: var(--padding) 0px;
+}
+
+summary::-webkit-details-marker {
+    display: none
+}
+
+summary::after {
+    content: ' >';
+}
+
+details[open] summary:after {
+    content: "  ˅";
+}
 
 summary {
-  font-size: var(--font-size);
-  font-weight: 500;
-  color: var(--color-primary);
+    font-size: var(--font-size);
+    font-weight: 500;
+    color: var(--color-primary);
 }
 
 mark {
-  color: var(--color-highlight);
-  background-color: transparent;
+    color: var(--color-highlight);
+    background-color: transparent;
 }
 
 
@@ -154,26 +181,28 @@ mark {
 /* ---------------------------------- */
 
 blockquote {
-  border-radius: 0px;
-  border: 0px;
-  border-left-width: 3px;
-  border-color: var(--color-highlight);
-  background-color: var(--color-background-primary);
-  border-style: solid;
+    border-radius: 0px;
+    border: 0px;
+    border-left-width: 3px;
+    border-color: var(--color-highlight);
+    background-color: var(--color-background-primary);
+    border-style: solid;
 
-  line-height: 1.2;
-  padding: var(--padding);
-  color: var(--color-secondary);
-  margin: var(--margin-light) 0px;
-  font-size: var(--font-size-light);
+    line-height: 1.2;
+    padding: var(--padding);
+    color: var(--color-secondary);
+    margin: var(--margin-light) 0px;
+    font-size: var(--font-size-light);
 }
 
-blockquote p { margin: 0px; }
+blockquote p {
+    margin: 0px;
+}
 
 img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 /*nav {
@@ -183,18 +212,32 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }*/
 
-strong, a, b { font-weight: 600; }
-a { cursor: pointer; text-decoration: none; color: var(--color-highlight); }
-a:hover { text-decoration: underline; }
+strong,
+a,
+b {
+    font-weight: 600;
+}
 
-nav a { margin-right: 8px; }
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color-highlight);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    margin-right: 8px;
+}
 
 em {
-  color: var(--color-tertiary);
-  font-style: normal;
+    color: var(--color-tertiary);
+    font-style: normal;
 }
 
 .card {
-  border-radius: var(--radius);
-  background-color: var(--color-background-secondary);
+    border-radius: var(--radius);
+    background-color: var(--color-background-secondary);
 }

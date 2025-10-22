@@ -1,15 +1,41 @@
----
-layout: default
-permalink: "/tracker"
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Kirito Kitto">
 
-## All-Tracker
+    <title>Kirito Kitto</title>
+    <!-- <link rel="icon" href="percorso/della/tuafavicon.ico" type="image/x-icon"> -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 
-**All-Tracker** è una lista di Giochi, Anime, Film e Serie TV che ho iniziato.
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <link id="theme" rel="stylesheet" href="/css/style.css">
+    <!-- <link id="theme-link" rel="stylesheet" href="/css/dark.css"> -->
+</head>
+<body>
+  <header>
+    <nav><p>
+        <a href="/">Home</a>
+        <!-- <a href="/job">Lavoro</a> -->
+        <a href="https://t.me/kiritokitto">Contact</a>
+        <!-- <a href="#" id="theme-link-switcher">Switch Theme</a> -->
+      </p></nav>
+  </header>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <!-- <script src= "/js/theme-switcher.js"></script> -->
+  <main>
+    <h2 id="all-tracker">All-Tracker</h2>
 
-*Ultima aggiornamento: Luglio 2025*
+<p><strong>All-Tracker</strong> è una lista di Giochi, Anime, Film e Serie TV che ho iniziato.</p>
 
----
+<p><em>Ultima aggiornamento: Luglio 2025</em></p>
+
+<hr />
 
 <div class="track-filters">
 <button class="track-type-btn active" data-type="All">All</button>
@@ -53,5 +79,13 @@ permalink: "/tracker"
 
 <div id="track-summary" style="margin: 1rem 0; font-size: calc(0.7*var(--font-size)); color: var(--color-secondary);"></div>
 <div class="track-grid" id="track-grid"></div>
-<script src= "{{ '/js/tracker-list.js' | relative_url }}"></script>
-<script src= "{{ '/js/tracker-script.js' | relative_url }}"></script>
+<script src="/js/tracker-list.js"></script>
+
+<script src="/js/tracker-script.js"></script>
+
+
+  </main>
+  <script src= "/js/carousel.js"></script>
+  <script src= "/js/summary.js"></script>
+</body>
+</html>
