@@ -4,15 +4,9 @@
 :root {
     --width: 710px;
 
-<<<<<<< HEAD
-    --font-size: 18px;
-    --font-line: 26px;
-    --font-line-title: 1.15;
-=======
-  --font-size: 10px;
+  --font-size: 18px;
   --font-line: 26px;
-  --font-line-title: 1;
->>>>>>> 493fb2627450bde0f026bf53f3af28a348dbf2ca
+  --font-line-title: 1.15;
 
     --margin: 30px;
     --margin-light: 12px;
@@ -20,16 +14,8 @@
     --screen-margin: 15px;
     --radius: 8px;
 
-<<<<<<< HEAD
-    --font: "Roboto Flex", sans-serif;
-    --font-title: "Roboto Flex", sans-serif;
-=======
-  /* --font: "Roboto Flex", sans-serif;
-  --font-title: "Roboto Flex", sans-serif;*/ 
-
-  --font:  "Noto Sans Mono", monospace;
-  --font-title:  "Inter", sans-serif;
->>>>>>> 493fb2627450bde0f026bf53f3af28a348dbf2ca
+  --font: "Roboto Flex", sans-serif;
+  --font-title: "Roboto Flex", sans-serif;
 
     --color-background: rgb(18, 18, 18);
     --color-background-secondary: rgba(80, 80, 85, 0.2);
