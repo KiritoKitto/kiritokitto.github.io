@@ -3,7 +3,7 @@ layout: default
 permalink: "/"
 ---
 
-## Scalatore di montagne all'alba,<br>videogiocatore nella notte.
+## Kirito Kitto
 
 Se volete fare un saluto o chiedere qualcosa potete scrivermi su [Telegram](https://t.me/kiritokitto), dove tengo un diario per raccontare aneddoti, pensieri o commenti sui giochi, film e anime che inizio.
 

@@ -1,0 +1,9 @@
+/_site/
+/.jekyll-cache/
+/.vscode/
+/images/
+/docs/
+/_config.yml
+/.phcode.json
+/Gemfile
+/Gemfile.lock
