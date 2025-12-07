@@ -1,6 +1,6 @@
 ---
 layout: "default"
-permalink: "/PhotoMode"
+permalink: "/in-game-photography"
 ---
 
 Il **Diario di un Viaggiatore** è una raccolta di pensieri diareschi scritti durante o subito dopo un viaggio. Potete leggere i post passati e commentare le future avventure nel [Diario di Kirito Kitto](https://t.me/+eYDpkG161AY4YzI0).
