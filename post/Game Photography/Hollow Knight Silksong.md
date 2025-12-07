@@ -1,6 +1,6 @@
 ---
 layout: "default"
-permalink: "/PhotoMode/Hollow Knight Silksong"
+permalink: "/Game Photography/Hollow Knight Silksong"
 ---
 
 # Metal Gear Solid Delta: Snake Eater

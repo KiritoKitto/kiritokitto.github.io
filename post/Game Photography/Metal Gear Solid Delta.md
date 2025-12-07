@@ -1,6 +1,6 @@
 ---
 layout: "default"
-permalink: "/PhotoMode/Metal Gear Solid Delta"
+permalink: "/Game Photography/Metal Gear Solid Delta"
 ---
 
 # Metal Gear Solid Delta: Snake Eater
