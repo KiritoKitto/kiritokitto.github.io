@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Kirito Kitto">
+
+    <title>Kirito Kitto</title>
+    <!-- <link rel="icon" href="percorso/della/tuafavicon.ico" type="image/x-icon"> -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@62.5..100,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    
+    <link id="theme" rel="stylesheet" href="/css/style.css">
+    <!-- <link id="theme-link" rel="stylesheet" href="/css/dark.css"> -->
+</head>
+<body>
+  <header>
+    <nav><p>
+        <a href="/">Home</a>
+        <!-- <a href="/job">Lavoro</a> -->
+        <a href="https://t.me/kiritokitto">Contact</a>
+        <!-- <a href="#" id="theme-link-switcher">Switch Theme</a> -->
+      </p></nav>
+  </header>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <!-- <script src= "/js/theme-switcher.js"></script> -->
+  <main>
+    <p><img src="images/banners/into-the-wilds.jpg" /></p>
+
+<p>Il <strong>Diario di un Viaggiatore</strong> è una raccolta di pensieri diareschi scritti durante o subito dopo un viaggio. Potete leggere i post passati e commentare le future avventure nel <a href="https://t.me/+eYDpkG161AY4YzI0">Diario di Kirito Kitto</a>.</p>
+
+<hr />
+
+<ul>
+  <li><a href="#s4">S4 - RainFall</a></li>
+  <li><a href="#s3">S3 - Into the Wilds 2</a></li>
+  <li><a href="#s2">S2 - Into the Wilds</a></li>
+  <li><a href="#s1">S1 - Oltre il Firmamento</a></li>
+</ul>
+
+<hr id="s4" />
+
+<style>
+  .trail-card {
+    background-color: var(--color-background-secondary);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+      transition: transform 0.3s ease, filter 0.3s ease;
+      filter: saturate(0%)
+  }
+
+  .trail-card img {
+    width: 60%;
+    height: 40vmin;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease, filter 0.3s ease; /* animazione fluida */
+}
+    
+    .trail-card:hover  {
+    transform: scale(1.02);
+    filter: saturate(105%);
+}
+
+    .trail-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    }
+    
+    .trail-subtitle {
+    /* margin-bottom: 1rem; */
+    }
+    
+    .trail-date {
+    color: grey;
+    }
+    
+  .trail-info {
+    padding: 0.5rem;
+    text-align: center;
+    flex: 1;
+  }
+
+  @media (max-width: 500px) {
+    .trail-card {
+      flex-direction: column;
+    }
+    .trail-card img {
+      width: 100%;
+      height: 300px;
+    }
+  }
+</style>
+
+<div id="container">
+<script src="/js/list/trails.js"></script>
+<script>
+    
+const container = document.getElementById('container');
+seasons.forEach(season => {
+    const h3 = document.createElement('h3');
+    h3.textContent = season.title;
+    container.appendChild(h3);
+    
+    const seasonDiv = document.createElement('div');
+    seasonDiv.classList.add('season');
+    season.trails.forEach(trail => {
+        
+        const card = document.createElement('div');
+        card.classList.add('trail-card');
+        
+        const img = document.createElement('img');
+        img.src = trail.banner;
+        
+        const info = document.createElement('div');
+        info.classList.add('trail-info');
+        
+        const title = document.createElement('div');
+        title.textContent = trail.title;
+        title.classList.add('trail-title');
+        
+        const subtitle = document.createElement('div');
+        subtitle.textContent = trail.subtitle;
+        subtitle.classList.add('trail-subtitle');
+        
+        const date = document.createElement('div');
+        date.textContent = trail.date;
+        date.classList.add('trail-date');
+        
+        card.appendChild(img);
+        card.appendChild(info);
+        info.appendChild(title);
+        info.appendChild(subtitle);
+        info.appendChild(date);
+        seasonDiv.appendChild(card);
+    });
+    container.appendChild(seasonDiv);
+});
+    
+</script>
+</div>
+<hr />
+
+  </main>
+  <script src= "/js/carousel.js"></script>
+  <script src= "/js/summary.js"></script>
+</body>
+</html>
