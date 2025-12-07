@@ -53,5 +53,5 @@ permalink: "/tracker"
 
 <div id="track-summary" style="margin: 1rem 0; font-size: calc(0.7*var(--font-size)); color: var(--color-secondary);"></div>
 <div class="track-grid" id="track-grid"></div>
-<script src= "{{ '/js/tracker-list.js' | relative_url }}"></script>
+<script src= "{{ '/js/list/games.js' | relative_url }}"></script>
 <script src= "{{ '/js/tracker-script.js' | relative_url }}"></script>
