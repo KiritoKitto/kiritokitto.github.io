@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Kirito Kitto">
+
+    <title>Kirito Kitto</title>
+    <!-- <link rel="icon" href="percorso/della/tuafavicon.ico" type="image/x-icon"> -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@62.5..100,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    
+    <link id="theme" rel="stylesheet" href="/css/style.css">
+    <!-- <link id="theme-link" rel="stylesheet" href="/css/dark.css"> -->
+</head>
+<body>
+  <header>
+    <nav><p>
+        <a href="/">Home</a>
+        <!-- <a href="/job">Lavoro</a> -->
+        <a href="https://t.me/kiritokitto">Contact</a>
+        <!-- <a href="#" id="theme-link-switcher">Switch Theme</a> -->
+      </p></nav>
+  </header>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <!-- <script src= "/js/theme-switcher.js"></script> -->
+  <main>
+    <h1 id="metal-gear-solid-delta-snake-eater">Metal Gear Solid Delta: Snake Eater</h1>
+
+<div id="gallery"></div>
+
+<style>
+#gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 16px 0;
+}
+</style>
+
+<script>
+const API_BASE = "https://folder-list.phonemix-shawn.workers.dev/?folder=";
+const API_PATH = "Website/Photomod/Hollow%20Knight%20Silksong/";
+const API_URL = API_BASE + API_PATH;
+
+fetch(API_URL)
+  .then(res => res.json())
+  .then(images => {
+    const container = document.getElementById("gallery");
+    const folders = {};
+
+    images.forEach(img => {
+      const parts = img.key.split("/");
+      parts.pop();
+      const folder = parts.join("/") + "/";
+
+      if (!folders[folder]) {
+        folders[folder] = [];
+      }
+
+      if (img.url.match(/\.(jpg|jpeg|png|webp)$/i)) {
+        folders[folder].push(img.url);
+      }
+    });
+
+    Object.keys(folders).forEach(folderName => {
+      const section = document.createElement("div");
+      section.className = "folder";
+
+      folders[folderName].forEach(url => {
+        const image = document.createElement("img");
+        image.src = encodeURI(url);
+        image.loading = "lazy";
+        section.appendChild(image);
+      });
+
+      container.appendChild(section);
+    });
+  });
+</script>
+
+<hr />
+
+  </main>
+  <script src= "/js/carousel.js"></script>
+  <script src= "/js/summary.js"></script>
+</body>
+</html>
