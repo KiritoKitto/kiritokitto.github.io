@@ -1,7 +1,7 @@
 ---
 layout: "default"
-title: "Metal Gear Solid: Snake Eater"
-permalink: "/photomode/metal gear solid delta snake eater"
+title: "Control"
+permalink: "/photomode/control"
 ---
 
 # {{ page.title }}

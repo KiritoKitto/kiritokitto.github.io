@@ -3,7 +3,7 @@ layout: "default"
 permalink: "/in-game-photography"
 ---
 
-Il **Diario di un Viaggiatore** è una raccolta di pensieri diareschi scritti durante o subito dopo un viaggio. Potete leggere i post passati e commentare le future avventure nel [Diario di Kirito Kitto](https://t.me/+eYDpkG161AY4YzI0).
+# In-Game Photography
 
 ---
 
@@ -69,6 +69,7 @@ Il **Diario di un Viaggiatore** è una raccolta di pensieri diareschi scritti du
 
 const container = document.getElementById('container');
 seasons.forEach(season => {
+    if (!season.show) return;
 
     const card = document.createElement('div');
     card.classList.add('trail-card');

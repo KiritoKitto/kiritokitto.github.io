@@ -32,7 +32,7 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <!-- <script src= "/js/theme-switcher.js"></script> -->
   <main>
-    <p>Il <strong>Diario di un Viaggiatore</strong> è una raccolta di pensieri diareschi scritti durante o subito dopo un viaggio. Potete leggere i post passati e commentare le future avventure nel <a href="https://t.me/+eYDpkG161AY4YzI0">Diario di Kirito Kitto</a>.</p>
+    <h1 id="in-game-photography">In-Game Photography</h1>
 
 <hr />
 
@@ -98,6 +98,7 @@
 
 const container = document.getElementById('container');
 seasons.forEach(season => {
+    if (!season.show) return;
 
     const card = document.createElement('div');
     card.classList.add('trail-card');

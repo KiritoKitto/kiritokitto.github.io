@@ -12,10 +12,7 @@ Se volete fare un saluto o chiedere qualcosa potete scrivermi su [Telegram](http
 ---
 
 * [Year in Videogames](/year-in-videogames)
-* [Into the Wilds](/into-the-wilds)
-* [Tracker](/tracker)
 * [Lavoro](/job)
-* [In-Game Photography](/in-game-photography)
 * [Backloggd Profile](https://www.backloggd.com/u/KiritoKitto/)
 
 ---
