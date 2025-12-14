@@ -3,15 +3,14 @@ layout: "default"
 permalink: "/job"
 ---
 
-# Lavoro
+# Work Experience
 
-Attualmente lavoro come Data Analyst: ingegnerizzazione e manutenzione di metriche:
+---
+
+#### 2025
 
 - Excel Solutions Engineer
 - Onboarding Specialist
-- Metrics Engineer
-
----
 
 #### 2024
 - Trainer & Speaker
@@ -31,5 +30,3 @@ Attualmente lavoro come Data Analyst: ingegnerizzazione e manutenzione di metric
 - Microsoft Office Support
 
 ---
-
-*Ultimo aggiornamento: Luglio 2025*

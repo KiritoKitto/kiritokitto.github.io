@@ -5,16 +5,16 @@ permalink: "/"
 
 ## Kirito Kitto
 
-Se volete fare un saluto o chiedere qualcosa potete scrivermi su [Telegram](https://t.me/kiritokitto), dove tengo un diario per raccontare aneddoti, pensieri o commenti sui giochi, film e anime che inizio.
+Videogame enthusiast and hiker. I enjoy both in-game and nature photography. I work as a data analysis consultant.
 
-[**Diario di Kirito Kitto >**](https://t.me/+eYDpkG161AY4YzI0)
+If you’d like to say hello or ask something, you can write to me on [Telegram](https://t.me/kiritokitto), where I also keep a diary to share my thoughts about what I play, watch, visit and much more.
+
+[**Diary of Kirito Kitto >**](https://t.me/+eYDpkG161AY4YzI0)
 
 ---
 
-* [Year in Videogames](/year-in-videogames)
-* [Lavoro](/job)
+* [In-game Photography](/in-game-photography)
+* [Work Experience](/job)
 * [Backloggd Profile](https://www.backloggd.com/u/KiritoKitto/)
 
 ---
-
-*Con affetto, Kirito Kitto*

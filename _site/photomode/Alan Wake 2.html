@@ -32,21 +32,19 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <!-- <script src= "/js/theme-switcher.js"></script> -->
   <main>
-    <h2 id="kirito-kitto">Kirito Kitto</h2>
+    <h1 id="alan-wake-ii">Alan Wake II</h1>
 
-<p>Videogame enthusiast and hiker. I enjoy both in-game and nature photography. I work as a data analysis consultant.</p>
+<head><link id="theme" rel="stylesheet" href="/css/photomode.css" /></head>
+<div id="gallery"></div>
 
-<p>If you’d like to say hello or ask something, you can write to me on <a href="https://t.me/kiritokitto">Telegram</a>, where I also keep a diary to share my thoughts about what I play, watch, visit and much more.</p>
+<script>
+const permalink = "/photomode/Alan Wake 2";
+const parts = permalink.split("/");
+const nameFixed = parts.slice(2).join("/");
+const API_URL = "https://folder-list.phonemix-shawn.workers.dev/?folder=Website/Photomod/" + nameFixed;
+</script>
 
-<p><a href="https://t.me/+eYDpkG161AY4YzI0"><strong>Diary of Kirito Kitto &gt;</strong></a></p>
-
-<hr />
-
-<ul>
-  <li><a href="/in-game-photography">In-game Photography</a></li>
-  <li><a href="/job">Work Experience</a></li>
-  <li><a href="https://www.backloggd.com/u/KiritoKitto/">Backloggd Profile</a></li>
-</ul>
+<script src="/js/photomode.js"></script>
 
 <hr />
 
