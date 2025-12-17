@@ -5,7 +5,7 @@ const seasons = [
     date: "December 2025",
     show: true,
     path: "/photomode/Alan Wake 2",
-    banner: "https://pub-6a75fc66f72e4a47a683fa56714dc173.r2.dev/Website/Photomod/Alan Wake 2/Image04.jpg"
+    banner: "https://pub-6a75fc66f72e4a47a683fa56714dc173.r2.dev/Website/Photomod/Alan Wake 2/Image30.jpg"
 },
 
 {

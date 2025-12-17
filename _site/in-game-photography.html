@@ -73,14 +73,26 @@ seasons.forEach(season => {
     card.style.cursor = "pointer";
     card.addEventListener("click", () => {window.location.href = "/" + encodeURIComponent(season.path);});
 });
-    
+
+const tres = 0.7
 const observer = new IntersectionObserver(
-    entries => {entries.forEach(entry => {
-        if (entry.intersectionRatio === 1) { entry.target.classList.add('is-visible');} 
-        else {entry.target.classList.remove('is-visible');}});},
-    {threshold: 1.0}
+  entries => {
+    entries.forEach(entry => {
+      if (entry.intersectionRatio >= tres) {
+        entry.target.classList.add('is-visible');
+      } else {
+        entry.target.classList.remove('is-visible');
+      }
+    });
+  },
+  {
+    threshold: [0, tres, 1]
+  }
 );
-document.querySelectorAll('.trail-card').forEach(card => {observer.observe(card);});
+
+document.querySelectorAll('.trail-card img').forEach(img => {
+  observer.observe(img);
+});
 </script>
 
 <hr />
