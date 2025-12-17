@@ -8,10 +8,9 @@ permalink: "/in-game-photography"
 ---
 
 <style> @import url("css/showroom.css"); </style>
-
-<div id="container"></div>
 <script src= "{{ '/js/list/photomod.js' | relative_url }}"></script>
-    
+<div id="container"></div>
+
 <script>
 const container = document.getElementById('container');
 seasons.forEach(season => {
@@ -41,9 +40,7 @@ seasons.forEach(season => {
     container.appendChild(card);
 
     card.style.cursor = "pointer";
-    card.addEventListener("click", () => {
-        window.location.href = "/" + encodeURIComponent(season.path);
-    });
+    card.addEventListener("click", () => {window.location.href = "/" + encodeURIComponent(season.path);});
 });
     
 const observer = new IntersectionObserver(
