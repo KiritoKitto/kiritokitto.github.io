@@ -9,10 +9,10 @@ permalink: "/in-game-photography"
 
 <style> @import url("css/showroom.css"); </style>
 
-<div id="container">
+<div id="container"></div>
 <script src= "{{ '/js/list/photomod.js' | relative_url }}"></script>
+    
 <script>
-
 const container = document.getElementById('container');
 seasons.forEach(season => {
     if (!season.show) return;
@@ -45,6 +45,13 @@ seasons.forEach(season => {
         window.location.href = "/" + encodeURIComponent(season.path);
     });
 });
+    
+const observer = new IntersectionObserver(
+    entries => {entries.forEach(entry => {
+        if (entry.intersectionRatio === 1) { entry.target.classList.add('is-visible');} 
+        else {entry.target.classList.remove('is-visible');}});},
+    {threshold: 1.0}
+);
+document.querySelectorAll('.trail-card').forEach(card => {observer.observe(card);});
 </script>
-</div>
 ---

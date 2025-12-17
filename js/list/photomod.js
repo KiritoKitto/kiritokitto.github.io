@@ -13,7 +13,7 @@ const seasons = [
     date: "October 2025",
     show: true,
     path: "/photomode/control",
-    banner: "https://pub-6a75fc66f72e4a47a683fa56714dc173.r2.dev/Website/Photomod/control/Image04.jpg"
+    banner: "https://pub-6a75fc66f72e4a47a683fa56714dc173.r2.dev/Website/Photomod/control/Image14.jpg"
 },
 
 {

@@ -18,7 +18,7 @@
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.trail-card:hover  {
+.trail-card.is-visible {
     transform: scale(1.00);
     filter: saturate(105%);
 }
