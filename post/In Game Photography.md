@@ -7,61 +7,7 @@ permalink: "/in-game-photography"
 
 ---
 
-<style>
-  .trail-card {
-    background-color: var(--color-background-secondary);
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-      transition: transform 0.3s ease, filter 0.3s ease;
-      filter: saturate(0%)
-  }
-
-  .trail-card img {
-    width: 60%;
-    height: 40vmin;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.3s ease, filter 0.3s ease; /* animazione fluida */
-}
-
-    .trail-card:hover  {
-    transform: scale(1.00);
-    filter: saturate(105%);
-}
-
-    .trail-title {
-    font-weight: bold;
-    margin-bottom: 1rem;
-    }
-
-    .trail-subtitle {
-    /* margin-bottom: 1rem; */
-    }
-
-    .trail-date {
-    color: grey;
-    }
-
-  .trail-info {
-    padding: 0.5rem;
-    text-align: center;
-    flex: 1;
-  }
-
-  @media (max-width: 500px) {
-    .trail-card {
-      flex-direction: column;
-    }
-    .trail-card img {
-      width: 100%;
-      height: 300px;
-    }
-  }
-</style>
+<style> @import url("css/showroom.css"); </style>
 
 <div id="container">
 <script src= "{{ '/js/list/photomod.js' | relative_url }}"></script>
@@ -99,7 +45,6 @@ seasons.forEach(season => {
         window.location.href = "/" + encodeURIComponent(season.path);
     });
 });
-
 </script>
 </div>
 ---
