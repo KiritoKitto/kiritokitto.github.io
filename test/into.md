@@ -63,6 +63,10 @@ seasons.forEach(season => {
     container.appendChild(seasonDiv);
 });
     
+document.querySelectorAll('img').forEach(img => {
+  observer.observe(img);
+});
+    
 </script>
 </div>
 ---

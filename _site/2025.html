@@ -32,7 +32,28 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <!-- <script src= "/js/theme-switcher.js"></script> -->
   <main>
-    <div class="track-grid" id="track-grid"></div>
+    <h1 id="2025-in-videogames">2025 IN VIDEOGAMES</h1>
+<p>KIRITO KITTO RECAP</p>
+
+<hr />
+
+<div class="track-grid" id="track-grid"></div>
+
+<style>
+hr { margin:35px 0px 0px; }
+.track-grid {
+  display: flex;
+  flex-direction: column;
+}
+.track-section {
+  width: 100%;
+}
+.track-section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 1rem;
+}
+</style>
 
 <script src="/js/list/games.js"></script>
 
@@ -42,10 +63,10 @@ const gameItems = games.filter(g => g.type === "Game").map(g => ({ ...g, scoreNu
 
 function renderCards() {
     grid.innerHTML = '';
-    const sezione1 = gameItems.filter(g => g.year === "2025" && g.scoreNum > 8 && g.fav === "TRUE");
-    const sezione2 = gameItems.filter(g => g.year === "2025" && g.status === "Completed" && ( g.scoreNum > 6 && g.scoreNum < 9 || g.fav === "TRUE" && g.scoreNum < 9));
-    const sezione3 = gameItems.filter(g => g.year === "2025" && g.status === "Completed" && g.scoreNum < 7 && g.fav !== "TRUE");
-    const sezione4 = gameItems.filter(g => g.year === "2025" && g.status !== "Completed" && g.scoreNum < 8 && g.fav !== "TRUE");
+    const sezione1 = gameItems.filter(g => g.year === "2025" && ( g.scoreNum >= 8 || g.fav === "TRUE"));
+    const sezione2 = gameItems.filter(g => g.year === "2025" && g.status === "Completed" && g.scoreNum <= 7 && g.fav !== "TRUE");
+    const sezione3 = gameItems.filter(g => g.year === "2025" );
+    const sezione4 = gameItems.filter(g => g.year === "2025" && g.status !== "Completed" && g.fav !== "TRUE");
 
     function renderSection(title, items) {
         if (!items.length) return;
@@ -75,7 +96,6 @@ function renderCards() {
 
     renderSection("Best of 2025", sezione1.sort((a, b) => b.scoreNum - a.scoreNum));
     renderSection("Other Games", sezione2.sort((a, b) => b.scoreNum - a.scoreNum));
-  renderSection("Other Games", sezione3.sort((a, b) => b.scoreNum - a.scoreNum));
     renderSection("Dropped", sezione4.sort((a, b) => b.scoreNum - a.scoreNum));
 }
 
