@@ -1,0 +1,48 @@
+hr {
+    margin: 30px 40px 25px;
+}
+
+.track-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-section {
+  width: 100%;
+  display: block;
+}
+
+.track-section p {
+  margin-top: 0px;
+}
+
+.track-section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 5px;
+}
+
+.trackcard .image-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+.not-award-title {
+  color: var(--color-tertiary);
+}
+
+.not-award-card img {
+  filter: grayscale(100%);
+}
+
+.award-list a {
+  text-decoration: none;
+  color: var(--color-highlight);
+}
+.award-list a:hover {
+  text-decoration: underline;
+}
+
+.award-list {
+  margin-bottom: 0px;
+}
