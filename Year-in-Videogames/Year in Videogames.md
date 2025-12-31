@@ -5,13 +5,11 @@ permalink: "/year-in-videogames"
 
 # Year in Videogames
 
-La rubrica Year in Videogames nasce per celebrare il medium e i punti più alti (e bassi) della mia carriera videoludica.
+Year in Videogames is an annual series to celebrate and remember all the games I played during the year.
 
-* [Edizione 2024](/year-in-videogames-24)
-* [Edizione 2023](/year-in-videogames-23)
-* [Edizione 2022](/year-in-videogames-22)
-* [Edizione 2021](/year-in-videogames-21)
+* [2025 Edition](/year-recap-2025)
+* [2024 Edition](/year-recap-2024)
 
 ---
 
-*Ultimo aggiornamento: Luglio 2024*
+*Last Update: January 2026*

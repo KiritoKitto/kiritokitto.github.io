@@ -12,8 +12,8 @@ function renderHome() {
   const section = document.createElement("div");
   section.innerHTML = `
     <h2>Year in Videogames ${currentYear}</h2>
-    <p> Benvenuti nell'edizione ${currentYear} della rubrica <b>Year in Videogames</b>, un recap annuale dei titoli giocati nel corso dell’anno per ricordare i punti più alti (e bassi) della mia carriera videoludica.</p>
-    <ul><li><a href="/year-in-videogames">Regolamento delle premiazioni</a></li></ul>
+    <p> Welcome to the ${currentYear} edition of the <b>Year in Videogames</b>: an annual series to celebrate and remember all the games I played during the year.</p>
+    <ul><li><a href="/year-in-videogames">Rules and list of all Editions</a></li></ul>
     <hr style="margin-bottom:0px;">
   `;
   grid.appendChild(section);
@@ -31,11 +31,11 @@ function renderStatistics() {
   const section = document.createElement("div");
   section.className = "track-section";
   section.innerHTML = `
-    <h2>Statistiche</h2>
+    <h2>Stats</h2>
     <ul class="stats-list">
-      <li>Titoli giocati: ${gamesPlayed}</li>
-      <li>Titoli completati: ${gamesCompleted}</li>
-      <li>Media voti titoli completati: ${averageScore}</li>
+      <li>Played Games: ${gamesPlayed}</li>
+      <li>Completed Games: ${gamesCompleted}</li>
+      <li>Score Average of completed games: ${averageScore}</li>
     </ul>
   `;
   grid.appendChild(section);
@@ -45,7 +45,7 @@ function renderStatistics() {
 function renderAwardList() {
   const section = document.createElement("div");
   section.className = "track-section";
-  section.innerHTML = `<h2>Premi</h2>`;
+  section.innerHTML = `<h2>Awards</h2>`;
 
   const ul = document.createElement("ul");
   ul.className = "award-list";

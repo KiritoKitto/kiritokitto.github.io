@@ -13,6 +13,7 @@ If you’d like to say hello or ask something, you can write to me on [Telegram]
 
 ---
 
+* [Year in Videogames](/year-in-videogames)
 * [In-game Photography](/in-game-photography)
 * [Work Experience](/job)
 * [Backloggd Profile](https://www.backloggd.com/u/KiritoKitto/)
