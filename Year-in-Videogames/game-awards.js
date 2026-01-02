@@ -10,14 +10,19 @@ const game_awards = [
     key: "award_replay"
 },
 {
+    title: "Gameplay Award",
+    description: "for the games I had the pleasure to replay, years after I completed or abandoned them.",
+    key: "award_gameplay"
+},
+{
+    title: "Story Award",
+    description: "for the games I had the pleasure to replay, years after I completed or abandoned them.",
+    key: "award_story"
+},
+{
     title: "Above Expectations",
     description: "for games that didn't win the Game of the Year Award, yet exceeded my expectations through quality, creativity, or sheer fun.",
     key: "award_above"
-},
-{
-    title: "Concept Award",
-    description: "for games that didn't win the Game of the Year Award, yet feature a strong or unique narrative or gameplay concept.",
-    key: "award_concept"
 },
 {
     title: "Photo Mode Award",
@@ -25,14 +30,19 @@ const game_awards = [
     key: "award_photo"
 },
 {
+    title: "Soundtrack Award",
+    description: "for outstanding music and sound design.",
+    key: "award_soundtrack"
+},
+{
     title: "Multiplayer",
     description: "for the best multiplayer experiences, both couch co-op and online games.",
     key: "award_multiplayer"
 },
 {
-    title: "Soundtrack Award",
-    description: "for outstanding music and sound design.",
-    key: "award_soundtrack"
+    title: "Concept Award",
+    description: "for games that didn't win the Game of the Year Award, yet feature a strong or unique narrative or gameplay concept.",
+    key: "award_concept"
 },
 {
     title: "Honorable AAA Mentions",
@@ -40,7 +50,7 @@ const game_awards = [
     key: "award_honorable_aaa"
 },
 {
-    title: "Honorable Indie Mentions",
+    title: "Honorable Mentions",
     description: "great indie games without other awards.",
     key: "award_honorable_indie"
 },

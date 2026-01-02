@@ -13,7 +13,7 @@ function renderHome() {
   section.innerHTML = `
     <h2>Year in Videogames ${currentYear}</h2>
     <p> Welcome to the ${currentYear} edition of the <b>Year in Videogames</b>: an annual series to celebrate and remember all the games I played during the year.</p>
-    <ul><li><a href="/year-in-videogames">Rules and list of all Editions</a></li></ul>
+    <ul><li><a href="/year-in-videogames">Rules and list of all editions</a></li></ul>
     <hr style="margin-bottom:0px;">
   `;
   grid.appendChild(section);
