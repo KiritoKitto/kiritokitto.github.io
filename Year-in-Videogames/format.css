@@ -46,3 +46,38 @@ hr {
 .award-list {
   margin-bottom: 0px;
 }
+
+.trackcard {
+  position: relative;
+  overflow: visible;
+  /*margin-bottom: 20px;*/
+}
+
+/*  .badge-container {
+  position: absolute;
+  left: 50%;
+  bottom: -10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+  width: 100%;
+  z-index: 3;
+}
+
+.badge {
+  width: 20%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background: var(--badge-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+}
+
+.badge svg {
+  width: 60%;
+  height: 60%;
+  display: block;
+} */
