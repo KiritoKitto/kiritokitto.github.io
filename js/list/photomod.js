@@ -19,7 +19,7 @@ const seasons = [
 {
     title: "Metal Gear Solid: Delta",
     date: "September 2025",
-    show: true,
+    show: false,
     path: "/photomode/metal gear solid delta snake eater",
     banner: "https://pub-6a75fc66f72e4a47a683fa56714dc173.r2.dev/Website/Photomod/metal%20gear%20solid%20delta%20snake%20eater/Image08.jpg"
 },

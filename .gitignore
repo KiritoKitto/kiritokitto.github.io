@@ -1,8 +1,9 @@
-/_site/
-/.vscode/
-/.jekyll-cache/
-/_config.yml
-/.phcode.json
-/Gemfile
-/Gemfile.lock
+_site/
+.vscode/
+.jekyll-cache/
+
+_config.yml
+.phcode.json
+Gemfile
+Gemfile.lock
 /.gitignore
