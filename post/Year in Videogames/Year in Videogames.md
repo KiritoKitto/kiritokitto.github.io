@@ -1,6 +1,6 @@
 ---
 layout: "default"
-permalink: "/Year-in-Videogames"
+permalink: "/year-in-videogames"
 ---
 
 # Year in Videogames
