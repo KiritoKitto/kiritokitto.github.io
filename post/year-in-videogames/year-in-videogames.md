@@ -14,7 +14,7 @@ Year in Videogames is an annual series to celebrate and remember all the games I
 
 ---
 
-<script src="{{'/post/Year in Videogames/List.js' | relative_url }}"></script>
+<script src="{{'/post/year-in-videogames/list.js' | relative_url }}"></script>
 <style>
 p { margin-top:0px; }
 .kpi-section h2 { margin-top:0px; }
@@ -22,7 +22,7 @@ p { margin-top:0px; }
 .kpi-section { display: flex; flex-direction: column; }
 .kpi-bars { display: flex; flex-direction: column; gap: 0.3rem; }
 
-.kpi-bar { 
+.kpi-bar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -40,9 +40,9 @@ p { margin-top:0px; }
   filter: brightness(0.5); /* ora transita gradualmente */
 }
 .kpi-bar.latest { color: white; font-weight: bold; background-color: var(--color-highlight-bar);}
-    
+
 .kpi-title { display: inline-flex; align-items: center; gap: 0.5rem; }
-    
+
 .kpi-title svg { width: 16px; height: 16px; vertical-align: middle; }
 </style>
 
@@ -53,23 +53,23 @@ document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("kpi-container");
   const years = [...new Set(games.map(g => g.year).filter(y => y >= 2022))].sort((a,b)=>b-a);
   const kpis = [
-    { key: "played", 
-     title: "# Games Played", 
-     desc: "Number of games played in each edition", 
-     calc: year => games.filter(g => g.type === "Game" && g.year == year).length 
+    { key: "played",
+     title: "# Games Played",
+     desc: "Number of games played in each edition",
+     calc: year => games.filter(g => g.type === "Game" && g.year == year).length
     },
-      
+
     { key: "percentCompleted", title: "% Completed", desc: "Percentage of games completed in each edition", calc: year => {
         const all = games.filter(g => g.type === "Game" && g.year == year);
         const completed = all.filter(g => g.status === "Completed").length;
         return all.length ? Math.round((completed / all.length) * 100) : 0;
-      } 
+      }
     },
-      
-    { 
-  key: "scoreAvg", 
-  title: "Score Average", 
-  desc: "Average score of completed games", 
+
+    {
+  key: "scoreAvg",
+  title: "Score Average",
+  desc: "Average score of completed games",
   calc: year => {
     const completed = games.filter(g => g.type === "Game" && g.year == year && g.status === "Completed" && g.score > 0);
     if(!completed.length) return 0;
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const values = years.map(y => kpi.calc(y));
     const maxVal = Math.max(...values);
     const minVal = Math.min(...values);
-    const minWidth = 30; 
+    const minWidth = 30;
     const maxWidth = 80;
 
     const title = document.createElement("h2");
@@ -135,11 +135,11 @@ document.addEventListener("DOMContentLoaded", () => {
     section.appendChild(bars);
     section.appendChild(document.createElement("hr"));
     container.appendChild(section);
-    
+
   });
 });
 
-  
+
 
 </script>
 
