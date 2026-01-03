@@ -54,7 +54,7 @@ const game_awards = [
         badge_color: "#00a407"
     },
     {
-        title: "Soundtrack",
+        title: "Soundtrack Award",
         category: "",
         description: "Awarded to games with outstanding soundtracks that elevate mood, immersion, and emotional impact.",
         key: "award_soundtrack",
