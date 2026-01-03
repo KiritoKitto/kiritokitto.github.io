@@ -8,8 +8,7 @@ permalink: "/in-game-photography"
 ---
 
 <style> @import url("/post/PhotoMode/showroom.css"); </style>
-<script src= "{{ '/post/PhotoMode/GamePhotoList.js' | relative_url }}"></script>
-<script src= "{{ '/post/PhotoMode/GamePhotoScript.js' | relative_url }}"></script>
+<script src= "{{ '/post/PhotoMode/list.js' | relative_url }}"></script>
 <div id="container"></div>
 
 <script>

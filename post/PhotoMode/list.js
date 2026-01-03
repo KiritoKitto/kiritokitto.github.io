@@ -31,7 +31,7 @@ const seasons = [
     path: "/photomode/hollow knight silksong",
     banner: "https://pub-6a75fc66f72e4a47a683fa56714dc173.r2.dev/Website/Photomod/hollow%20knight%20silksong/Image02.jpg"
 },
-    
+
 {
     title: "Clair Obscur: Expedition 33",
     date: "September 2025",
