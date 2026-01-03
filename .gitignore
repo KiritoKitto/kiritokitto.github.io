@@ -1,11 +1,3 @@
-_site/
-.vscode/
-.jekyll-cache/
-
-_config.yml
-.phcode.json
-Gemfile
-Gemfile.lock
 /test/
-/post/old/
-/post/Tracker.md
+/_site/
+/.jekyll-cache/
