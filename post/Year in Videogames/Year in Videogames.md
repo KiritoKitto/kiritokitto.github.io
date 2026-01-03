@@ -1,6 +1,6 @@
 ---
 layout: "default"
-permalink: "/year-in-videogames"
+permalink: "/Year-in-Videogames"
 ---
 
 # Year in Videogames
@@ -14,7 +14,7 @@ Year in Videogames is an annual series to celebrate and remember all the games I
 
 ---
 
-<script src="{{ '/js/list/games.js' | relative_url }}"></script>
+<script src="{{'/post/Year in Videogames/List.js' | relative_url }}"></script>
 <style>
 p { margin-top:0px; }
 .kpi-section h2 { margin-top:0px; }
