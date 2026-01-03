@@ -1,6 +1,6 @@
 ---
 layout: "default"
-permalink: "/into"
+permalink: "/209482904"
 ---
 
 <img src="images/banners/into-the-wilds.jpg">

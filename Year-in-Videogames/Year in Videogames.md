@@ -5,7 +5,7 @@ permalink: "/year-in-videogames"
 
 # Year in Videogames
 
-Year in Videogames is an annual series to celebrate and remember all the games I played during the year.
+Year in Videogames is an annual series to celebrate and remember all the games I played during the years.
 
 -   [2025 Edition](/year-recap-2025)
 -   [2024 Edition](/year-recap-2024)
@@ -39,7 +39,7 @@ p { margin-top:0px; }
 .kpi-bar:hover {
   filter: brightness(0.5); /* ora transita gradualmente */
 }
-.kpi-bar.latest { color: white; font-weight: bold; background-color: var(--color-highlight);}
+.kpi-bar.latest { color: white; font-weight: bold; background-color: var(--color-highlight-bar);}
     
 .kpi-title { display: inline-flex; align-items: center; gap: 0.5rem; }
     
@@ -57,12 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
      title: "# Games Played", 
      desc: "Number of games played in each edition", 
      calc: year => games.filter(g => g.type === "Game" && g.year == year).length 
-    }, 
-      
-    { key: "completed", 
-     title: "# Games Completed", 
-     desc: "Number of games completed in each edition", 
-     calc: year => games.filter(g => g.type === "Game" && g.year == year && g.status === "Completed").length 
     },
       
     { key: "percentCompleted", title: "% Completed", desc: "Percentage of games completed in each edition", calc: year => {
@@ -74,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
       
     { 
   key: "scoreAvg", 
-  title: "Score Average of Completed Games", 
+  title: "Score Average", 
   desc: "Average score of completed games", 
   calc: year => {
     const completed = games.filter(g => g.type === "Game" && g.year == year && g.status === "Completed" && g.score > 0);
@@ -83,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return (Math.round(avg*100)/100).toFixed(2); // arrotondato a 2 decimali
   }
 },
-    { key: "percentReleaseMatch", title: "% Played same year as release", desc: "Percentage of games played in the same year as their release", calc: year => {
+    { key: "percentReleaseMatch", title: "% on release", desc: "Percentage of games played in the same year as their release", calc: year => {
         const all = games.filter(g => g.type === "Game" && g.year == year);
         const match = all.filter(g => g.release == year).length;
         return all.length ? Math.round((match / all.length) * 100) : 0;

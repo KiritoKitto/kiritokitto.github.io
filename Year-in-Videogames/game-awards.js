@@ -1,10 +1,10 @@
 const game_awards = [
     {
-        title: "Games of the Year test",
+        title: "Games of the Year",
         show: "TRUE",
         redundant: "TRUE",
         category: "",
-        description: "For the most memorable adventures of the year, featuring excellent gameplay and / or narrative.",
+        description: "Celebrating the most memorable experiences of the year, featuring a strong direction, gameplay or narrative that left a lasting impression.",
         key: "award_best"
     },
     {
@@ -12,22 +12,22 @@ const game_awards = [
         show: "TRUE",
         redundant: "TRUE",
         category: "",
-        description: "For the games I had the pleasure to replay, years after I completed or abandoned them.",
+        description: "Awarded to games revisited years after their first playthrough.",
         key: "award_replay"
     },
     {
         title: "Gameplay Award",
         category: "",
-        description: "For the games featuring fresh or fun gameplay mechanics.",
+        description: "Awarded to games that stand out for enjoyable gameplay systems that define the overall experience.",
         key: "award_gameplay",
         badge_path:
             "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
         badge_color: "#aa1c00"
     },
     {
-        title: "Story Award",
+        title: "Narrative Award",
         category: "",
-        description: "For the games with great stories.",
+        description: "Awarded to games that deliver compelling narratives, strong characters, and storytelling that enhances player involvement.",
         key: "award_story",
         badge_path:
             "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
@@ -37,7 +37,7 @@ const game_awards = [
     {
         title: "Concept Award",
         category: "",
-        description: "for games with unique or memorable gameplay elements",
+        description: "Awarded to games built around original gameplay or narrarive ideas that set them apart from more familiar game designs.",
         key: "award_concept",
         badge_path:
             "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
@@ -45,9 +45,9 @@ const game_awards = [
     },
 
     {
-        title: "Photo Mode Award",
+        title: "Photo Mode / Art Direction Award",
         category: "",
-        description: "for the games I enjoyed photographing the most.",
+        description: "Awarded to games with strong artistic direction or that actively encourage in-game photography.",
         key: "award_photo",
         badge_path:
             "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
@@ -56,7 +56,7 @@ const game_awards = [
     {
         title: "Soundtrack",
         category: "",
-        description: "for outstanding music and sound design.",
+        description: "Awarded to games with outstanding soundtracks that elevate mood, immersion, and emotional impact.",
         key: "award_soundtrack",
         badge_path:
             "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
@@ -64,9 +64,9 @@ const game_awards = [
     },
 
     {
-        title: "Surprise",
+        title: "Above Expectations",
         category: "",
-        description: "these games launched me into new worlds in unexpected ways.",
+        description: "Awarded to games that exceeded expectations, offering surprising depth, quality, or enjoyment beyond what I initially anticipated.",
         key: "award_above",
         badge_path:
             "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
@@ -83,7 +83,7 @@ const game_awards = [
         title: "Below Expectations",
         category: "",
         show: "TRUE",
-        description: "for games that fell short of expectations.",
+        description: "For games that fell short in execution, design, or overall experience, despite initial potential or what I initially anticipated.",
         key: "award_below"
     },
 ];

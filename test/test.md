@@ -1,6 +1,6 @@
 ---
 layout: "default"
-permalink: "/test"
+permalink: "/01920"
 ---
 
 
