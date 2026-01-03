@@ -36,7 +36,6 @@ main {
     text-wrap: pretty;
 }
 
-/* Margine della linea divisoria. Piena in verticale, 0 in orizzontale */
 hr {
     margin: var(--margin);
     opacity: 50%;
