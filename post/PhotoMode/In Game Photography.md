@@ -7,11 +7,11 @@ permalink: "/in-game-photography"
 
 ---
 
-<style> @import url("/post/PhotoMode/showroom.css"); </style>
-<script src= "{{ '/post/PhotoMode/list.js' | relative_url }}"></script>
+<style> @import url("/post/PhotoMode/photomode.css"); </style>
 <div id="container"></div>
-
-<script>
+<script type="module">
+import { seasons } from "{{ '/post/PhotoMode/scriptListGames.js' | relative_url }}";
+const thumbSize = 800;
 const container = document.getElementById('container');
 seasons.forEach(season => {
     if (!season.show) return;
@@ -20,7 +20,7 @@ seasons.forEach(season => {
     card.classList.add('trail-card');
 
     const img = document.createElement('img');
-    img.src = season.banner;
+    img.src = "https://lh3.googleusercontent.com/d/" + season.banner + "=w" + thumbSize;
 
     const info = document.createElement('div');
     info.classList.add('trail-info');

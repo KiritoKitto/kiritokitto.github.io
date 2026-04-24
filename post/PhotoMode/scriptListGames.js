@@ -1,11 +1,27 @@
-const seasons = [
+export const seasons = [
+
+{
+    title: "Pragmata",
+    date: "April 2026",
+    show: true,
+    path: "/photomode/Pragmata",
+    banner: "1xjAr-MiEKMTNkJSWPKNhT_OKIoOEojxI"
+},
+
+{
+    title: "Death Stranding 2",
+    date: "March 2026",
+    show: true,
+    path: "/photomode/Death Stranding 2",
+    banner: "14kwUIXJn_-MbHocGLc--DhvzW6v0UD9c"
+},
 
 {
     title: "Alan Wake II",
     date: "December 2025",
     show: true,
     path: "/photomode/Alan Wake 2",
-    banner: "https://pub-6a75fc66f72e4a47a683fa56714dc173.r2.dev/Website/Photomod/Alan Wake 2/Image30.jpg"
+    banner: "1axerjd8K1W2m0ifuEWbcEMxzudRN7jye"
 },
 
 {
@@ -13,7 +29,7 @@ const seasons = [
     date: "October 2025",
     show: true,
     path: "/photomode/control",
-    banner: "https://pub-6a75fc66f72e4a47a683fa56714dc173.r2.dev/Website/Photomod/control/Image14.jpg"
+    banner: "1JNpp6hQMPzHcY-cDB1vbO_TFBXXsUYI6"
 },
 
 {
@@ -27,7 +43,7 @@ const seasons = [
 {
     title: "Hollow Knight: Silksong",
     date: "September 2025",
-    show: true,
+    show: false,
     path: "/photomode/hollow knight silksong",
     banner: "https://pub-6a75fc66f72e4a47a683fa56714dc173.r2.dev/Website/Photomod/hollow%20knight%20silksong/Image02.jpg"
 },
@@ -35,7 +51,7 @@ const seasons = [
 {
     title: "Clair Obscur: Expedition 33",
     date: "September 2025",
-    show: true,
+    show: false,
     path: "/photomode/clair obscur expedition 33",
     banner: "https://pub-6a75fc66f72e4a47a683fa56714dc173.r2.dev/Website/Photomod/clair obscur expedition 33/Image 01.jpg"
 }

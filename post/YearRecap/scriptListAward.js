@@ -1,4 +1,4 @@
-const game_awards = [
+export const game_awards = [
     {
         title: "Games of the Year",
         show: "TRUE",
@@ -19,58 +19,40 @@ const game_awards = [
         title: "Gameplay Award",
         category: "",
         description: "Awarded to games that stand out for enjoyable gameplay systems that define the overall experience.",
-        key: "award_gameplay",
-        badge_path:
-            "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
-        badge_color: "#aa1c00"
+        key: "award_gameplay"
     },
     {
         title: "Narrative Award",
         category: "",
         description: "Awarded to games that deliver compelling narratives, strong characters, and storytelling that enhances player involvement.",
-        key: "award_story",
-        badge_path:
-            "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
-        badge_color: "#aa8200"
+        key: "award_story"
     },
 
     {
         title: "Concept Award",
         category: "",
         description: "Awarded to games built around original gameplay or narrarive ideas that set them apart from more familiar game designs.",
-        key: "award_concept",
-        badge_path:
-            "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
-        badge_color: "#65009b"
+        key: "award_concept"
     },
 
     {
         title: "Photo Mode / Art Direction Award",
         category: "",
         description: "Awarded to games with strong artistic direction or that actively encourage in-game photography.",
-        key: "award_photo",
-        badge_path:
-            "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
-        badge_color: "#00a407"
+        key: "award_photo"
     },
     {
         title: "Soundtrack Award",
         category: "",
         description: "Awarded to games with outstanding soundtracks that elevate mood, immersion, and emotional impact.",
-        key: "award_soundtrack",
-        badge_path:
-            "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
-        badge_color: "#00509f"
+        key: "award_soundtrack"
     },
 
     {
         title: "Above Expectations",
         category: "",
         description: "Awarded to games that exceeded expectations, offering surprising depth, quality, or enjoyment beyond what I initially anticipated.",
-        key: "award_above",
-        badge_path:
-            "M8.00003 8.1716L3.41424 3.58582L0.585815 6.41424L8.00003 13.8285L15.4142 6.41424L12.5858 3.58582L8.00003 8.1716Z",
-        badge_color: "#a07900"
+        key: "award_above"
     },
     {
         title: "Other Honorable Mentions",

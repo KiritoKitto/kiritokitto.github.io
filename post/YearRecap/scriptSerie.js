@@ -1,3 +1,7 @@
+import { games } from './scriptListGame.js';
+import { game_awards } from './scriptListAward.js';
+const currentYear = document.getElementById('track-grid').dataset.year;
+
 document.addEventListener("DOMContentLoaded", () => {
   const grid = document.getElementById("track-grid");
   const gameItems = games

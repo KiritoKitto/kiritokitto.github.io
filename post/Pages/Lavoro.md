@@ -7,26 +7,30 @@ permalink: "/job"
 
 ---
 
-#### 2025
-
+#### 2026
 - Excel Solutions Engineer
+- Process Automation Engineer
+
+#### 2025
+- Metrics Engineer
+- Dashboard Engineer
+- Automation Developer
 - Onboarding Specialist
 
 #### 2024
-- Trainer & Speaker
 - Metrics Engineer
+- Trainer (Writer & Speaker)
 
 #### 2023
-- New Employee Technical Coach
 - Data Analyst
+- Onboarding Support
 
 #### 2022
-- Trainer (Script Development & Speaker)
-- Excel Expert
+- Advanced Excel Specialist
+- Technical Trainer
 - Rebranding Support
 
 #### 2021
-
-- Microsoft Office Support
+- IT Microsoft Suit Support
 
 ---
