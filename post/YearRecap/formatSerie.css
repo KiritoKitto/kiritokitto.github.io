@@ -1,98 +1,25 @@
-hr {
-    margin: 30px 40px 25px;
-}
+.track-grid {display: flex;flex-direction: column;}
+.track-section {width: 100%;display: block;}
+.track-section p {margin-top: 0;}
+.track-section-grid {display: grid;grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap:5px;}
 
-.track-grid {
-  display: flex;
-  flex-direction: column;
-}
+.not-award-card img {filter: grayscale(100%);}
+.award-list {margin-bottom: 0;}
+.hidden-game img {filter: grayscale(100%);opacity: 0.9;}
 
-.track-section {
-  width: 100%;
-  display: block;
-}
-
-.track-section p {
-  margin-top: 0px;
-}
-
-.track-section-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-    gap: 5px;
-}
-
-.trackcard .image-wrapper img {
-  width: 100%;
-  display: block;
-}
-
-.not-award-title {
-  color: var(--color-tertiary);
-}
-
-.not-award-card img {
-  filter: grayscale(100%);
-}
-
-.award-list a {
-  text-decoration: none;
-  color: var(--color-highlight);
-}
-.award-list a:hover {
-  text-decoration: underline;
-}
-
-.award-list {
-  margin-bottom: 0px;
-}
-
-.trackcard {
-  position: relative;
-  overflow: visible;
-  /*margin-bottom: 20px;*/
-}
-
-/*  .badge-container {
-  position: absolute;
-  left: 50%;
-  bottom: -10%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  gap: 4%;
-  width: 100%;
-  z-index: 3;
-}
-
-.badge {
-  width: 20%;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  background: var(--badge-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.35);
-}
-
-.badge svg {
-  width: 60%;
-  height: 60%;
-  display: block;
-} */
-
+.trackcard {position: relative;overflow: visible;}
+.trackcard .image-wrapper img {width: 100%;display: block;}
+.trackcard.placeholder-card:hover {filter: brightness(1.2);}
 .trackcard.placeholder-card {
-  background: var(--color-background-secondary);
+  background: var(--color-grey-20);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border: 1px solid var(--color-background-tertiary);
+  border: 1px solid var(--color-grey-40);
   border-radius: 5px;
   object-fit: cover;
   aspect-ratio: 0.75;
-  transition: transform 0.2s ease;
   transition: opacity 0.2s ease;
 }
 
@@ -100,7 +27,7 @@ hr {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: var(--color-background-tertiary);
+  background: var(--color-grey-40);
 
   display: flex;
   align-items: center;
@@ -108,15 +35,7 @@ hr {
 
   font-size: 32px;
   font-weight: 800;
-  color: var(--color-tertiary);
+  color: var(--color-grey-80);
   user-select: none;
 }
 
-.trackcard.placeholder-card:hover {
-  filter: brightness(1.2);
-}
-
-.hidden-game img {
-  filter: grayscale(100%);
-  opacity: 0.9;
-}

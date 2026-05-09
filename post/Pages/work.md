@@ -1,6 +1,6 @@
 ---
 layout: "default"
-permalink: "/job"
+permalink: "/work"
 ---
 
 # Work Experience

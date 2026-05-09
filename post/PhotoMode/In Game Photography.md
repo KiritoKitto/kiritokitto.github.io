@@ -5,6 +5,8 @@ permalink: "/in-game-photography"
 
 # In-Game Photography
 
+A new way to love videogames, after more than a decade of playing and exploring this medium and its many worlds.
+
 ---
 
 <style> @import url("/post/PhotoMode/photomode.css"); </style>

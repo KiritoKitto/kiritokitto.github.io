@@ -22,27 +22,29 @@ Year in Videogames is an annual series to celebrate and remember all the games I
     height: 30px;
     border-radius: 4px;
     padding-right: 5px;
-    background-color: var(--color-background-tertiary);
+    background-color: var(--element-chart-bar-secondary);
     color: var(--color-secondary);
     font-weight: bold;
     transition: all 0.2s ease;
-    padding-right: 10px;}
+    padding-right: 10px;
+  }
+  .kpi-bar.latest { color: white; font-weight: bold; background-color: var(--element-chart-bar-primary);}
   p { margin-top:0px; }
   .kpi-section h2 { margin-top:0px; }
   .kpi-container { display: flex; flex-direction: column; }
   .kpi-section { display: flex; flex-direction: column; }
   .kpi-bars { display: flex; flex-direction: column; gap: 0.3rem; }
   .kpi-bar:hover {filter: brightness(0.5);}
-  .kpi-bar.latest { color: white; font-weight: bold; background-color: var(--color-highlight-bar);}
+
   .kpi-title { display: inline-flex; align-items: center; gap: 0.5rem; }
   .kpi-title svg { width: 16px; height: 16px; vertical-align: middle; }
 </style>
 
 <script type="module">
-  import { games } from "{{ 'post/year-in-videogames/scriptListGame.js' | relative_url }}";
+  import { games } from "{{ 'post/YearRecap/scriptListGame.js' | relative_url }}";
   document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("kpi-container");
-    const years = [...new Set(games.map(g => g.year).filter(y => y <= 2025).filter(y => y >= 2022))].sort((a,b)=>b-a);
+    const years = [...new Set(games.map(g => g.year).filter(y => y <= 2026).filter(y => y >= 2022))].sort((a,b)=>b-a);
     const kpis = [
       { key: "played",
        title: "# Games Played",
@@ -90,19 +92,6 @@ Year in Videogames is an annual series to celebrate and remember all the games I
       title.className = "kpi-title";
       title.textContent = kpi.title;
 
-      // SVG icon inline
-      const svgNS = "http://www.w3.org/2000/svg";
-      const svg = document.createElementNS(svgNS,"svg");
-      svg.setAttribute("viewBox","0 0 14 16");
-      svg.setAttribute("fill","currentColor");
-      const path = document.createElementNS(svgNS,"path");
-      path.setAttribute("d","M14 2H5.50003L4.00003 3.5L6.83581 6.33579L0.585815 12.5858L3.41424 15.4142L9.66424 9.16421L12.5 12L14 10.5L14 2Z");
-      const lastVal = values[0], prevVal = values[1] ?? lastVal;
-      path.setAttribute("fill", lastVal > prevVal ? "var(--color-highlight)" : "var(--color-secondary)");
-      if(lastVal <= prevVal) svg.style.transform = "rotate(90deg)";
-      svg.appendChild(path);
-      title.appendChild(svg);
-
       const desc = document.createElement("p");
       desc.textContent = kpi.desc;
 
@@ -130,16 +119,22 @@ Year in Videogames is an annual series to celebrate and remember all the games I
     });
   });
 </script>
-
 <div id="kpi-container" class="kpi-container"></div>
-**What is “redundancy”?** — When a game wins Game of the Year or Replay Award, it is visually muted in other awards to
-showcase a wider range of games played over the years. <br><br> **If a game is started in one year and finished in the
-next, what happens?** — Each game can participate in only one edition. The edition is determined by the last completion
-date. <br><br> **How many games can win the same award?** — Up to 8 games. <br><br> **How many awards can the same game
-win?** — There is no limit.
+
+# Rules
+
+### What is “redundancy”?
+When a game wins Game of the Year or Replay Award, it is visually muted in other awards to showcase a wider range of games played over the years.
+
+### What happens if a game is started in one year and completed in another one?
+Each game can participate to only one edition: the most recent one I played it.
+
+### How many games can win the same award?
+There is no limit.
+
+### How many awards can win the same game?
+There is no limit.
 
 ---
 
-_Awards, categories, and rules may change over time._
-
-_Last update: January 2026_
+Last update: January 2026
