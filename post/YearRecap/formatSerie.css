@@ -6,6 +6,18 @@
 .not-award-card img {filter: grayscale(100%);}
 .award-list {margin-bottom: 0;}
 .hidden-game img {filter: grayscale(100%);opacity: 0.9;}
+.trackcard-image {
+  width: 100%;
+  border: 1px solid var(--color-grey-40);
+  border-radius: 5px;
+  object-fit: cover;
+  aspect-ratio: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.image-wrapper:hover .trackcard-image {
+  opacity: 0.15;
+}
 
 .trackcard {position: relative;overflow: visible;}
 .trackcard .image-wrapper img {width: 100%;display: block;}
@@ -38,4 +50,3 @@
   color: var(--color-grey-80);
   user-select: none;
 }
-

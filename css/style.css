@@ -49,6 +49,7 @@
     --element-color-background: var(--color-black);
 
     --element-color-hr: var(--color-grey-60);
+    --element-color-border: var(--color-grey-40);
     --element-color-button: var(--color-grey-20);
     --element-color-button-hover: var(--color-grey-40);
 }
@@ -140,8 +141,10 @@ em { color: var(--TBD);font-style: normal;}
     padding: 8px 20px;
     margin-top: 8px;
     border-radius: 100px;
-    font: bold; display:inline-block;
+    font: 100;
+    display:inline-block;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .btn:hover {background-color: var(--element-color-button-hover);text-decoration: none;}

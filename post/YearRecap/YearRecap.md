@@ -44,7 +44,7 @@ Year in Videogames is an annual series to celebrate and remember all the games I
   import { games } from "{{ 'post/YearRecap/scriptListGame.js' | relative_url }}";
   document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("kpi-container");
-    const years = [...new Set(games.map(g => g.year).filter(y => y <= 2026).filter(y => y >= 2022))].sort((a,b)=>b-a);
+    const years = [...new Set(games.map(g => g.year).filter(y => y <= 2025).filter(y => y >= 2022))].sort((a,b)=>b-a);
     const kpis = [
       { key: "played",
        title: "# Games Played",
